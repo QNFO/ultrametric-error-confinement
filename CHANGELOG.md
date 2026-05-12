@@ -4,6 +4,27 @@
 
 ---
 
+## [v1.2] — 2026-05-12 — Paper Polish & Plot Fix (P3 + P7)
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| P7: Plot fix | Fixed column name mismatch in `plots.py` — `"min_flips"` → `"barrier"`, `"theoretical"` key resolved |
+| P3: Paper polish | Added arXiv placeholder, version/commit metadata to header. Strengthened reproducibility footer. Fixed ref [12] title. |
+| Unicode math scan | Paper passes scan — no bare Unicode math characters in mathematical contexts |
+| Paper quality scan | 3,877 words, 19 refs, 6 sections, no formatting errors detected |
+| Plot verified | experiment_0b energy barrier plot now generates correctly |
+
+### Files Changed
+
+| File | Change |
+|:-----|:-------|
+| simulations/plots.py | EDIT — fixed column name mismatch in plot_energy_barrier |
+| papers/ultrametric-error-confinement.md | EDIT — header metadata, reproducibility footer, ref [12] title |
+| SPRINT.md | EDIT — marked P3, P7 complete |
+| CHANGELOG.md | EDIT — added v1.2 entry |
+
 ## [v1.1] — 2026-05-12 — Project Audit & Cleanup
 
 ### Completed

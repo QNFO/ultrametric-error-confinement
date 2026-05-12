@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. Contains everything needed to understand the project — what, why, status, constraints, next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-12 | **Session:** Project Audit & Handoff Prep | **Changelog:** CHANGELOG.md
+**Last updated:** 2026-05-12 | **Session:** Paper Polish & Plot Fix (P3+P7) | **Changelog:** CHANGELOG.md (v1.2)
 
 ---
 
@@ -21,7 +21,7 @@ Demonstrates via Python simulation that tree-encoded quantum circuits exhibit pa
 
 | Dimension | Status |
 |:----------|:-------|
-| Paper | Drafted: 6 sections, 19 refs, 366 lines, 27K chars |
+| Paper | Polished: 6 sections, 19 refs, ~3,877 words, arXiv-ready metadata |
 | Simulations | Complete and verified: both 0A and 0B reproduce |
 | Key result | Tree LER=0 at depth 3+ for p_err up to 40% |
 | Publication | Not yet submitted to arXiv/Zenodo |
@@ -76,20 +76,18 @@ Demonstrates via Python simulation that tree-encoded quantum circuits exhibit pa
 
 | Issue | Severity | Status |
 |:------|:---------|:-------|
-| Nested simulations/simulations/ dir | Minor | FIXED |
-| __pycache__ tracked by git | Minor | FIXED |
-| experiment_0b plot skipped | Minor | Column name mismatch — fix later |
+| experiment_0b plot skipped | Minor | ✅ FIXED (v1.2) |
 | No GitHub repo | Blocker | User creates, then push |
-| Paper not submitted | Current | P3 in SPRINT.md |
+| Paper not submitted | Current | P4 in SPRINT.md |
 
 ---
 
 ## 7. NEXT STEPS
 
 1. Create GitHub repo at github.com/QNFO/ultrametric-error-confinement
-2. Push project (git push -u origin master)
-3. Final paper polish (abstract, references, arXiv formatting)
-4. Submit to arXiv and Zenodo
+2. Push project (`git push -u origin main`)
+3. Submit to arXiv and Zenodo
+4. Tier 1 simulations: larger trees, different primes, correlated noise
 
 ---
 
