@@ -57,6 +57,7 @@ Demonstrates via Python simulation that tree-encoded quantum circuits exhibit pa
 | simulations/metrics.py | LER, suppression, CI (6.7 KB) |
 | simulations/experiment_0a.py | Error confinement (7.9 KB) |
 | simulations/experiment_0b.py | Energy barrier (9.9 KB) |
+| simulations/experiment_0c.py | STI verification (3.4 KB) |
 | simulations/plots.py | Visualization (10.6 KB) |
 | simulations/plots/exp0a_error_confinement.png | Key plot (180 KB) |
 
