@@ -25,8 +25,8 @@ Demonstrates via Python simulation that tree-encoded quantum circuits exhibit pa
 | Simulations | Complete and verified: both 0A and 0B reproduce |
 | Key result | Tree LER=0 at depth 3+ for p_err up to 40% |
 | Publication | Published on Zenodo: DOI 10.5281/zenodo.20134944 |
-| Git | 3 commits, clean worktree |
-| GitHub | Repo pending at github.com/QNFO/ultrametric-error-confinement |
+| Git | 8 commits, clean worktree, pushed to GitHub |
+| GitHub | ✅ github.com/QNFO/ultrametric-error-confinement |
 
 ---
 
@@ -77,7 +77,7 @@ Demonstrates via Python simulation that tree-encoded quantum circuits exhibit pa
 | Issue | Severity | Status |
 |:------|:---------|:-------|
 | experiment_0b plot skipped | Minor | ✅ FIXED (v1.2) |
-| No GitHub repo | Blocker | User creates, then push |
+| No GitHub repo | Blocker | ✅ DONE — github.com/QNFO/ultrametric-error-confinement |
 | Promote & share | Minor | P5 in SPRINT.md |
 
 ---

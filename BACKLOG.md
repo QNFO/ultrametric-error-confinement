@@ -10,8 +10,8 @@
 
 | Priority | Item | Description | Status |
 |:---------|:-----|:------------|:-------|
-| **P1** | Create GitHub repo | Repo at github.com/QNFO/ultrametric-error-confinement | NOT STARTED |
-| **P2** | Push to GitHub | git push -u origin master | BLOCKED by P1 |
+| **P1** | ~~Create GitHub repo~~ | ~~Repo at github.com/QNFO/ultrametric-error-confinement~~ | ✅ DONE |
+| **P2** | ~~Push to GitHub~~ | ~~Pushed master + feature/ultrametric-validation~~ | ✅ DONE |
 | **P3** | ~~Final paper polish~~ | ~~Review abstract, check references, ensure arXiv formatting~~ | ✅ DONE (2026-05-12) |
 | **P4** | ~~Submit to Zenodo~~ | ~~DOI: 10.5281/zenodo.20134944~~ | ✅ DONE |
 | **P5** | Promote & share | Social media, communities, citations | NOT STARTED |
