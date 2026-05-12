@@ -15,3 +15,10 @@
 - **Category:** PYTHON
 - **Issue:** Relative path created nested simulations/simulations/plots/.
 - **Solution:** Fixed to simulations/plots/ directly.
+
+### L4: Column name consistency across modules
+- **Category:** PYTHON
+- **Issue:** `experiment_0b.py` stores barrier values under key `"barrier"` but `plots.py` expected `"min_flips"`. Plot generation silently skipped.
+- **Solution:** Unified to `"barrier"` in plot function. Graceful fallback in `print_barrier_table` (`b.get("barrier", b.get("min_flips"))`) should be applied everywhere data crosses module boundaries.
+- **Prevention:** Use consistent dictionary keys across modules. Add assertions or TypedDict for interface contracts.
+- **Cross-Project:** YES
