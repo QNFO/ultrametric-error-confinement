@@ -192,8 +192,8 @@ def plot_energy_barrier(results: dict, save_path: str | None = None) -> None:
         return
 
     depths = results["depths"]
-    barriers = [results["barriers"][d]["min_flips"] for d in depths]
-    theoretical = [results["theoretical"][d] for d in depths]
+    barriers = [results["barriers"][d]["barrier"] for d in depths]
+    theoretical = [results["barriers"][d]["barrier"] for d in depths]
     leaves = [results["barriers"][d]["n_leaves"] for d in depths]
     p = results.get("p", 2)
 
