@@ -5,7 +5,7 @@
 rowan.quni@outlook.com · ORCID: 0009-0002-4317-5604  
 
 **Repository:** [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement)  
-**arXiv:** [quant-ph] (pending submission)  
+**DOI:** [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944)  
 **Version:** 2026-05-12 · Commit `ba4f2f5`
 
 ---
@@ -365,4 +365,4 @@ The author acknowledges the open-source software tools that made this work possi
 
 ---
 
-*Submitted for open-access publication (arXiv / Zenodo). All code, data, and plots are publicly available at [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement). The full simulation suite is reproducible with Python 3.8+ and zero external dependencies (standard library only). Run `python experiment_0a.py` and `python experiment_0b.py` from the `simulations/` directory. This version corresponds to commit `ba4f2f5`.*
+*Published on Zenodo at [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944). All code, data, and plots are publicly available at [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement). The full simulation suite is reproducible with Python 3.8+ and zero external dependencies (standard library only). Run `python experiment_0a.py` and `python experiment_0b.py` from the `simulations/` directory. This version corresponds to commit `ba4f2f5`.*
