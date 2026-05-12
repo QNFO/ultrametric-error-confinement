@@ -31,8 +31,8 @@ Project extracted from QWAV and audited. Paper drafted, simulations verified, do
 | **P1** | Create GitHub repo | github.com/QNFO/ultrametric-error-confinement | NOT STARTED |
 | **P2** | Push to GitHub | git push -u origin master | BLOCKED by P1 |
 | **P3** | ~~Final paper polish~~ | ~~Review abstract, references, arXiv formatting~~ | ✅ DONE (2026-05-12) |
-| **P4** | Submit to arXiv | Requires arXiv account | NOT STARTED |
-| **P5** | Submit to Zenodo | Requires Zenodo account | NOT STARTED |
+| **P4** | ~~Submit to Zenodo~~ | ~~DOI: 10.5281/zenodo.20134944~~ | ✅ DONE |
+| **P5** | Promote & share | Social media, communities, citations | NOT STARTED |
 | **P6** | Tier 1 simulations | Larger trees, different primes, correlated noise | NOT STARTED |
 | **P7** | ~~Fix experiment_0b plot~~ | ~~Column name mismatch in plots.py~~ | ✅ DONE (2026-05-12) |
 

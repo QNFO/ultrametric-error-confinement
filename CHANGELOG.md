@@ -4,6 +4,25 @@
 
 ---
 
+## [v1.2.1] — 2026-05-12 — Zenodo DOI Correction
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| DOI correction | Replaced arXiv placeholder with Zenodo DOI `10.5281/zenodo.20134944` in header and footer |
+| Docs updated | SPRINT.md, BACKLOG.md, PROJECT STATE.md, DECISIONS.md — removed arXiv references, marked P4 (Zenodo) complete |
+
+### Files Changed
+
+| File | Change |
+|:-----|:-------|
+| papers/ultrametric-error-confinement.md | EDIT — arXiv → Zenodo DOI |
+| SPRINT.md | EDIT — removed P4 (arXiv), marked P4 (Zenodo) complete, added P5 (Promote) |
+| BACKLOG.md | EDIT — same as SPRINT |
+| PROJECT STATE.md | EDIT — publication status, known issues |
+| DECISIONS.md | EDIT — D3 updated to Zenodo-only |
+
 ## [v1.2] — 2026-05-12 — Paper Polish & Plot Fix (P3 + P7)
 
 ### Completed
