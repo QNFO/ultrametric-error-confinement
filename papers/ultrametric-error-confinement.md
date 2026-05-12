@@ -4,7 +4,7 @@
 *Independent Researcher*  
 rowan.quni@outlook.com · ORCID: 0009-0002-4317-5604  
 
-**Repository:** [github.com/QNFO/QWAV](https://github.com/QNFO/QWAV)
+**Repository:** [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement)
 
 ---
 
@@ -345,7 +345,7 @@ The author acknowledges the open-source software tools that made this work possi
 
 [11] J.-P. Serre, *Trees*. Springer, 1980.
 
-[12] R. B. Quni-Gudzinas, "QWAV: Ultrametric Quantum Computing & AI — Computational Validation Suite." GitHub repository, 2026. [github.com/QNFO/QWAV](https://github.com/QNFO/QWAV)
+[12] R. B. Quni-Gudzinas, "Computational Validation of Ultrametric Error Confinement & AI — Computational Validation Suite." GitHub repository, 2026. [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement)
 
 [13] F. Q. Gouvêa, *$p$-adic Numbers: An Introduction*, 2nd ed. Springer, 1997.
 
@@ -363,4 +363,4 @@ The author acknowledges the open-source software tools that made this work possi
 
 ---
 
-*Submitted for open-access publication. All code, data, and plots available at [github.com/QNFO/QWAV](https://github.com/QNFO/QWAV). Reproducible with Python 3.8+ and zero external dependencies.*
+*Submitted for open-access publication. All code, data, and plots available at [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement). Reproducible with Python 3.8+ and zero external dependencies.*
