@@ -26,13 +26,13 @@ import os
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from btree import BruhatTitsTree, FlatEncoding
-from encoding import TreeEncoder, FlatEncoder
-from noise import bit_flip_noise, bit_flip_flat
-from metrics import (logical_error_rate, error_propagation_ratio,
+from _0_1_btree import BruhatTitsTree, FlatEncoding
+from _0_1_encoding import TreeEncoder, FlatEncoder
+from _0_1_noise import bit_flip_noise, bit_flip_flat
+from _0_1_metrics import (logical_error_rate, error_propagation_ratio,
                       error_suppression_factor, wilson_confidence_interval,
                       compute_depth_scaling, summarize_trial)
-from plots import plot_error_confinement, print_error_confinement_table
+from _0_1_plots import plot_error_confinement, print_error_confinement_table
 
 
 def run_experiment_0a(
@@ -202,7 +202,7 @@ if __name__ == "__main__":
     try:
         # Determine script directory for reliable save path
         _here = os.path.dirname(os.path.abspath(__file__))
-        _plot_dir = os.path.join(_here, "plots")
+        _plot_dir = os.path.join(_here, "_0_1_plots")
         os.makedirs(_plot_dir, exist_ok=True)
         _save_path = os.path.join(_plot_dir, "exp0a_error_confinement.png")
         plot_error_confinement(results, save_path=_save_path)

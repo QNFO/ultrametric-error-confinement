@@ -19,7 +19,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from btree import BruhatTitsTree
+from _0_1_btree import BruhatTitsTree
 
 
 def run_experiment_0c(

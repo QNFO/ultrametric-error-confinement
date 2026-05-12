@@ -8,9 +8,9 @@
 ## Quick Start
 ```bash
 cd simulations/
-python experiment_0a.py  # Error confinement
-python experiment_0b.py  # Energy barrier scaling
-python experiment_0c.py  # Strong triangle inequality verification
+python _0_1_experiment_0a.py  # Error confinement
+python _0_1_experiment_0b.py  # Energy barrier scaling
+python _0_1_experiment_0c.py  # Strong triangle inequality verification
 ```
 
 ## Key Results

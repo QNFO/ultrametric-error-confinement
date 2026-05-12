@@ -10,7 +10,7 @@ tree-path superpositions with ultrametric error protection.
 """
 
 from __future__ import annotations
-from btree import BruhatTitsTree, FlatEncoding, Node
+from _0_1_btree import BruhatTitsTree, FlatEncoding, Node
 
 
 class TreeEncoder:

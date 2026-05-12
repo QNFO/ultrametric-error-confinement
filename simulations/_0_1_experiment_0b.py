@@ -28,8 +28,8 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from btree import BruhatTitsTree
-from plots import plot_energy_barrier, print_barrier_table
+from _0_1_btree import BruhatTitsTree
+from _0_1_plots import plot_energy_barrier, print_barrier_table
 
 
 def compute_barrier_analytic(p: int, depth: int, tie_breaker: int = 0) -> dict:
@@ -257,7 +257,7 @@ if __name__ == "__main__":
     print_barrier_table(results)
     try:
         _here = os.path.dirname(os.path.abspath(__file__))
-        _plot_dir = os.path.join(_here, "plots")
+        _plot_dir = os.path.join(_here, "_0_1_plots")
         os.makedirs(_plot_dir, exist_ok=True)
         _save_path = os.path.join(_plot_dir, "exp0b_energy_barrier.png")
         plot_energy_barrier(results, save_path=_save_path)

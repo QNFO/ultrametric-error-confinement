@@ -8,8 +8,8 @@ thermal noise models.
 
 from __future__ import annotations
 import random
-from btree import Node
-from encoding import FlatEncoding
+from _0_1_btree import Node
+from _0_1_encoding import FlatEncoding
 
 
 def bit_flip_noise(leaves: list[Node], error_rate: float,

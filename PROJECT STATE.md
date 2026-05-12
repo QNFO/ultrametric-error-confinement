@@ -46,20 +46,20 @@ Demonstrates via Python simulation that tree-encoded quantum circuits exhibit pa
 ### Paper
 | File | Purpose |
 |:-----|:--------|
-| papers/ultrametric-error-confinement.md | Full paper (6 sections, 19 refs) |
+| papers/0.1.md | Full paper (6 sections, 19 refs) |
 
 ### Simulation Suite
 | File | Purpose |
 |:-----|:--------|
-| simulations/btree.py | Bruhat-Tits tree (11.9 KB) |
-| simulations/encoding.py | State encoding (3.4 KB) |
-| simulations/noise.py | Error models (3.6 KB) |
-| simulations/metrics.py | LER, suppression, CI (6.7 KB) |
-| simulations/experiment_0a.py | Error confinement (7.9 KB) |
-| simulations/experiment_0b.py | Energy barrier (9.9 KB) |
-| simulations/experiment_0c.py | STI verification (3.4 KB) |
-| simulations/plots.py | Visualization (10.6 KB) |
-| simulations/plots/exp0a_error_confinement.png | Key plot (180 KB) |
+| simulations/_0_1_btree.py | Bruhat-Tits tree (11.9 KB) |
+| simulations/_0_1_encoding.py | State encoding (3.4 KB) |
+| simulations/_0_1_noise.py | Error models (3.6 KB) |
+| simulations/_0_1_metrics.py | LER, suppression, CI (6.7 KB) |
+| simulations/_0_1_experiment_0a.py | Error confinement (7.9 KB) |
+| simulations/_0_1_experiment_0b.py | Energy barrier (9.9 KB) |
+| simulations/_0_1_experiment_0c.py | STI verification (3.4 KB) |
+| simulations/_0_1_plots.py | Visualization (10.6 KB) |
+| simulations/plots/0.1_fig0a.png | Key plot (180 KB) |
 
 ---
 
