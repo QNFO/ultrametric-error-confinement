@@ -17,10 +17,12 @@ def scan_dir(path, label, max_files=80):
             count += 1
         if count >= max_files:
             break
-    print(f'=== {label} ({len(results)} files shown) ===')
+    lines = [f'=== {label} ({len(results)} files shown) ===']
     for sz, rel in sorted(results, key=lambda x: x[1]):
-        print(f'{sz:>8d}  {rel}')
-    print()
+        lines.append(f'{sz:>8d}  {rel}')
+    return '\n'.join(lines)
 
-scan_dir(releases, 'RELEASES')
-scan_dir(archive, 'ARCHIVE')
+out = scan_dir(releases, 'RELEASES') + '\n\n' + scan_dir(archive, 'ARCHIVE')
+with open('_dir_listing.txt', 'w', encoding='utf-8') as f:
+    f.write(out)
+print('Done. Written to _dir_listing.txt')
