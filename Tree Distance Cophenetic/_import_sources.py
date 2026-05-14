@@ -3,21 +3,17 @@ import os, shutil
 releases_dir = r'G:\My Drive\Obsidian\releases\2025\00'
 project_dir = r'G:\My Drive\projects\Tree Distance Cophenetic'
 
-# Key files most relevant to the Tree Distance Cophenetic project
-relevant_files = [
-    '42 Theses on the Nature of a Pattern-Based Reality.md',
-    'Grammar of Reality.md',
-    'Coherence and Generativity Framework.md',
-    'Comparing Fundamental Frameworks.md',
-    'Autaxic Trilemma.md',
-    '5I.md',
-    'Imperfectly Defining Reality.md',
-    'Exploring Analogous Foundational Principles and Generative Ontologies.md',
-    'Before the Big Bang.md',
-    'Beyond the Tyranny of Math.md',
+# Additional critical files
+more_files = [
+    'Autaxys Defined.md',
+    'Autaxys and its Generative Engine.md',
+    'Ultimate Reality Framework Examination.md',
+    'Illusion of Time.md',
+    'Statistics of Possibility.md',
+    'Ten-Fingered Trap.md',
 ]
 
-for fname in relevant_files:
+for fname in more_files:
     src = os.path.join(releases_dir, fname)
     dst = os.path.join(project_dir, f'src_0.2_{fname}')
     if os.path.exists(src):

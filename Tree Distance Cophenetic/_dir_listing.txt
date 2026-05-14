@@ -1,0 +1,163 @@
+=== RELEASES (80 files shown) ===
+     199  .space\def.json
+    2657  2025\00\2025.md
+   13137  2025\00\42 Theses on the Nature of a Pattern-Based Reality.md
+   10061  2025\00\5I.md
+   23112  2025\00\Autaxic Trilemma.md
+   66964  2025\00\Autaxys Defined.md
+   37879  2025\00\Autaxys and its Generative Engine.md
+    5824  2025\00\Before the Big Bang.md
+    6195  2025\00\Beyond the Tyranny of Math.md
+    5277  2025\00\Bootstrapping Infomatics v3.md
+  162792  2025\00\Breaking the UV Barrier.md
+   16351  2025\00\Co-Evolution of Intelligence.md
+   19399  2025\00\Coherence and Generativity Framework.md
+   11159  2025\00\Comparing Fundamental Frameworks.md
+   22323  2025\00\Consciousness and the Cosmos.md
+   15215  2025\00\Cosmological Constant Crisis.md
+   28768  2025\00\Differential LLM Inference.md
+    5563  2025\00\Einstein was Wrong.md
+   60346  2025\00\Exploring Analogous Foundational Principles and Generative Ontologies.md
+   19662  2025\00\Foundational Incoherence in the Language of Physics.md
+   68581  2025\00\Geometric Physics.md
+   10956  2025\00\Grammar of Reality.md
+   16092  2025\00\Hilbert Godel.md
+    5649  2025\00\Illusion of Randomness.md
+    7468  2025\00\Illusion of Time.md
+   29715  2025\00\Imperfectly Defining Reality.md
+    9039  2025\00\Infomatics.md
+   10811  2025\00\Informational Universe\1 Introduction Toward a New Paradigm.md
+   10610  2025\00\Informational Universe\10 Philosophical Foundations.md
+    9961  2025\00\Informational Universe\11 Ethical Considerations.md
+   10190  2025\00\Informational Universe\12 Historical Context and Future Directions.md
+    9971  2025\00\Informational Universe\2 Defining Information Universally.md
+   11435  2025\00\Informational Universe\3 Global Informational Framework.md
+    4365  2025\00\Informational Universe\3 Global Informational Framework.md.edtz
+   10823  2025\00\Informational Universe\4 Mathematical Formalism.md
+   10631  2025\00\Informational Universe\5 Interaction with Physical Laws.md
+    3981  2025\00\Informational Universe\5 Interaction with Physical Laws.md.edtz
+   10828  2025\00\Informational Universe\6 Information in Non-Biological Systems.md
+   20449  2025\00\Is This Drivel.md
+   64944  2025\00\Mathematical Tricks Postulate.md
+    5347  2025\00\N=1 Problem.md
+   41112  2025\00\Negative Perceptions AI.md
+   88129  2025\00\Operationalizing Infomatics.md
+   10526  2025\00\Orchestrating the Quantum Future.md
+   18109  2025\00\Psychogenic Doctrine of Geopolitical Conflict.md
+    7426  2025\00\Quantum Confusion.md
+   22234  2025\00\Quantum Fraud.md
+    4920  2025\00\Quantum-Clasical Divide.md
+   10898  2025\00\Review of Infomatics.md
+   13914  2025\00\Skeptical Journey through Conventional Reality.md
+   11260  2025\00\Statistics of Possibility.md
+    6393  2025\00\Temporal Fixation.md
+   25123  2025\00\Ten-Fingered Trap.md
+ 1046725  2025\00\The Information Spectrum.zip
+   21795  2025\00\Two-Faced Scientific Methodology.md
+   31150  2025\00\Ultimate Reality Framework Examination.md
+  100827  2025\00\Universal Digital Identity Framework.md
+    6105  2025\00\What is Information Dynamics.md
+    5631  2025\00\Why Models Fail.md
+    9019  2025\00\Wifi Emits Photons.md
+   31842  2025\11\Autonomous Dissipative Quantum Processing.md
+   40698  2025\11\CRYOGENICALLY STABILIZED SYNTHETIC LATTICE ARCHITECTURE FOR FAULT-TOLERANT QUANTUM COMPUTING.md
+   36939  2025\11\Chiral High-Temperature Topological Processing.md
+   18120  2025\11\Commercial Pathways to Room-Temperature Topological Quantum Computation.md
+   84856  2025\11\Emergent Number Theory.md
+   15590  2025\11\Entropic-Operational Paradigm.md
+   73659  2025\11\HYDRODYNAMIC-TOPOLOGICAL CONTINUUM.md
+   30750  2025\11\Hydrodynamic Spacetime.md
+   53509  2025\11\Hydrodynamic Stability Hypothesis.md
+   21828  2025\11\Kinetic Isomorphism.md
+   60752  2025\11\Prime Numbers as Spectral Artifacts.md
+   51511  2025\11\Prime Numbers as Universal Optimization Primitives.md
+   23483  2025\11\Reassessing the Foundations of Quantum Computation.md
+   64935  2025\11\STABILITY.md
+   24676  2025\11\So What of Knowledge.md
+   59525  2025\11\Superfluid Vacuum Theory.md
+   93532  2025\11\TOPOLOGICAL EXTENSION HYPOTHESIS.md
+   10259  2025\11\Thermodynamic Veto.md
+   52830  2025\11\Universal Computational Topos.md
+    7685  2025\_2025.md
+
+=== ARCHIVE (80 files shown) ===
+       0  OMI\OMI_20241214_020241.txt
+       0  OMI\OMI_20241214_023944.txt
+       0  OMI\OMI_20241214_024734.txt
+       0  OMI\OMI_20241214_025702.txt
+       0  OMI\OMI_20241214_032352.txt
+       0  OMI\OMI_20241214_041242.txt
+       0  OMI\OMI_20241214_045713.txt
+       0  OMI\OMI_20241214_061532.txt
+       0  OMI\OMI_20241214_110043.txt
+       0  OMI\OMI_20241214_195621.txt
+       0  OMI\OMI_20241214_200650.txt
+       0  OMI\OMI_20241214_203539 (1).txt
+       0  OMI\OMI_20241214_203539.txt
+       0  OMI\OMI_20241215_004959.txt
+       0  OMI\OMI_20241215_012310.txt
+       0  OMI\OMI_20241215_013235.txt
+       0  OMI\OMI_20241215_022903.txt
+       0  OMI\OMI_20241215_033007 (1).txt
+       0  OMI\OMI_20241215_033007.txt
+       0  OMI\OMI_20241215_033923.txt
+       0  OMI\OMI_20241215_044538.txt
+       0  OMI\OMI_20241215_062006.txt
+       0  OMI\OMI_20241215_064013.txt
+       0  OMI\OMI_20241216_020953.txt
+       0  OMI\OMI_20241216_030145.txt
+       0  OMI\OMI_20241216_034558.txt
+       0  OMI\OMI_20241216_081555.txt
+       0  OMI\OMI_20241216_195551.txt
+       0  OMI\OMI_20241216_200344.txt
+       0  OMI\OMI_20241217_001131.txt
+       0  OMI\OMI_20241217_204229.txt
+       0  OMI\OMI_20241217_204643 (1).txt
+       0  OMI\OMI_20241217_204643.txt
+       0  OMI\OMI_20241217_231754.txt
+       0  OMI\OMI_20241217_233541.txt
+       0  OMI\OMI_20241218_001402.txt
+       0  OMI\OMI_20241218_003045.txt
+       0  OMI\OMI_20241218_004634 (1).txt
+       0  OMI\OMI_20241218_004634.txt
+       0  OMI\OMI_20241218_020515.txt
+       0  OMI\OMI_20241218_023843.txt
+       0  OMI\OMI_20241218_035958.txt
+       0  OMI\OMI_20241218_044512.txt
+       0  OMI\OMI_20241218_045746.txt
+       0  OMI\OMI_20241218_063051.txt
+       0  OMI\OMI_20241218_154210.txt
+       0  OMI\OMI_20241218_165914.txt
+       0  OMI\OMI_20241218_174159.txt
+       0  OMI\OMI_20241218_175941.txt
+       0  OMI\OMI_20241218_191424.txt
+       0  OMI\OMI_20241218_192355.txt
+       0  OMI\OMI_20241218_195857.txt
+       0  OMI\OMI_20241218_200532.txt
+       0  OMI\OMI_20241218_202727.txt
+       0  OMI\OMI_20241218_203720.txt
+       0  OMI\OMI_20241218_205027.txt
+       0  OMI\OMI_20241218_211842.txt
+       0  OMI\OMI_20241218_214542 (1).txt
+       0  OMI\OMI_20241218_214542.txt
+       0  OMI\OMI_20241218_220601.txt
+       0  OMI\OMI_20241218_223022 (1).txt
+       0  OMI\OMI_20241218_223022 (2).txt
+       0  OMI\OMI_20241218_223022.txt
+       0  OMI\OMI_20241218_223805.txt
+       0  OMI\OMI_20241218_234923.txt
+       0  OMI\OMI_20241219_000240.txt
+       0  OMI\OMI_20241219_001835.txt
+       0  OMI\OMI_20241219_003005.txt
+       0  OMI\OMI_20241219_010855.txt
+       0  OMI\OMI_20241219_012513.txt
+       0  OMI\OMI_20241219_053222.txt
+       0  OMI\OMI_20241219_061238.txt
+       0  OMI\OMI_20241219_063357.txt
+       0  OMI\OMI_20241219_075459.txt
+       0  OMI\OMI_20241219_080126.txt
+       0  OMI\OMI_20241219_101811.txt
+       0  OMI\OMI_20241219_103553 (1).txt
+       0  OMI\OMI_20241219_103553.txt
+       0  OMI\OMI_20241219_110435.txt
+     246  desktop.ini
