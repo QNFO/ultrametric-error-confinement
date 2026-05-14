@@ -1,21 +1,40 @@
 # SPRINT — Tree Distance Cophenetic
 
-**Sprint:** Initial documentation setup
+**Sprint:** Subagent review & cross-reference
 **Started:** 2026-05-14
 
 ## Completed
 - [x] Created all 7 mandatory project documentation files
+- [x] Imported 16 relevant release documents from `G:\My Drive\Obsidian\releases`
+- [x] Launched 3 parallel subagents:
+  - Cross-Reference Synthesis (convergence points, tensions, extensions)
+  - Gap Analysis (missing elements, unique contributions, recommendations)
+  - Reader Testing of `0.1.1.md` (clarity, assumptions, consilience assessment)
+- [x] Synthesized subagent findings into `0.2.md`
+- [x] All findings committed to git
 
-## In Progress
-- [ ] Review `0.1.md` for structure, completeness, and math formatting
-- [ ] Integrate `0.1.1.md` convergent outline into `0.1.md` or keep as standalone summary
-- [ ] Add Python verification for key mathematical claims
+## Next Sprint Tasks (from review findings)
+
+### HIGH Priority
+- [ ] Define cophenetic distance explicitly with formula and example
+- [ ] Add at least one concrete worked example (dendrogram with labeled items)
+- [ ] Write the ultrametric inequality explicitly: $d(x,z) \leq \max(d(x,y), d(y,z))$
+- [ ] Add citations (Page & Wootters 1983, Wheeler & DeWitt, Sokal & Rohlf)
+- [ ] Add generative mechanism section (connect tree to Autaxys)
+- [ ] Add methodology section (5I process)
+- [ ] Apply CGF self-evaluation
+
+### MEDIUM Priority
+- [ ] Integrate resolution-dependent time perspective
+- [ ] Framework positioning against alternatives
+- [ ] Linguistic bridge (noun/verb → tree topology/traversal)
+- [ ] Address objections and counterarguments
+- [ ] Bound consilience claims (isomorphism vs. analogy)
+
+### LOW Priority
+- [ ] Epistemological limits section
+- [ ] Cosmological extension
+- [ ] Python verification of ultrametric inequality and triadic rigidity
 
 ## Blocked
 - (none)
-
-## Next Steps
-1. Full review of `0.1.md` content
-2. Math formatting audit (Unicode → LaTeX)
-3. Python verification scripts for ultrametric inequality, triadic rigidity, etc.
-4. Reader testing per doc-coauthoring workflow
