@@ -43,7 +43,6 @@
 | Blocker | Severity | Resolution |
 |:--------|:---------|:-----------|
 | REPO-MISALIGNED (monorepo) | Medium | Needs per-project git init |
-| Branch name misaligned (`pii-scrub-github`) | Low | Create `feature/can-math-prove-physics` |
 | Working tree dirty (deleted sibling dirs) | Low | Clean up or commit |
 
 ## Completed
