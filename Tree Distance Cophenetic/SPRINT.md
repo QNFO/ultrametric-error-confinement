@@ -12,7 +12,7 @@
 
 ### MEDIUM Priority
 - [x] **Empirical test design** — 0.9.md + 0.9.py (2026-05-15). Three test proposals (A/B/C). Test B prototype executed: TRI cleanly separates hierarchical (1.000) from non-hierarchical (0.135) structures. All permutation tests $p < 0.001$.
-- [ ] **CGF weakness mitigation** (§5.2): Draft plan for addressing empirical deficit (what data would test triadic rigidity?), physics minority position (engage with alternatives?), reader accessibility (glossary?).
+- [x] **CGF weakness mitigation** — `0.10.md` (2026-05-15). All 4 weaknesses from §5.2 addressed with 7 concrete actions. Prioritization: A1 (real-data via 0.9.py) > A5 (glossary) > A4 (caveat language) > others.
 
 ### LOW Priority
 - [ ] **Accessible introduction** — Write standalone intro assuming no ultrametrics/cophenetic knowledge. Add glossary.

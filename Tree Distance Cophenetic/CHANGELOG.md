@@ -1,5 +1,19 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — CGF Weakness Mitigation (Sprint 2, Task 4)
+
+### What Changed
+- **Created:** `0.10.md` — CGF Weakness Mitigation Plan. Addresses all 4 weaknesses from 0.8.md §5.2 with 7 concrete actions, prioritization matrix, and success criteria.
+- **Weakness map:** W1 (empirical deficit) → A1 (real-data via 0.9.py) + A2; W2 (physics minority) → A3 (cite alternatives) + A4 (caveat language); W3 (citation gap) → CLOSED; W4 (accessibility) → A5 (glossary) + A6 (intro) + A7 (diagrams).
+- **Priority order:** A1 > A5 > A4 > A3 > A6 > A7 > A2.
+- **Updated:** SPRINT.md (Task 4 marked complete), PROJECT STATE.md, CHANGELOG.md.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Empirical Test Design (Sprint 2, Task 3)
 
 ### What Changed
