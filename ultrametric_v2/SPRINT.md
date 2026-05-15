@@ -10,7 +10,7 @@
 |:--|:-----|:-------|
 | 3.1 | Correlated noise model — spatially clustered bit-flip errors | [x] 2026-05-16 |
 | 3.2 | Tree vs classical comparison under correlated noise | [x] 2026-05-16 |
-| 3.3 | Multi-bit logical encoding (one bit per subtree) | [ ] |
+| 3.3 | Multi-bit logical encoding (one bit per subtree) | [x] 2026-05-16 |
 | 3.4 | Update 0.8.md with correlated noise results | [x] 2026-05-16 |
 
 ## Sprint 3 Key Results (so far)
