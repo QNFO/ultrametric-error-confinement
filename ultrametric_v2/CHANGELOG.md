@@ -1,5 +1,27 @@
 # CHANGELOG -- Ultrametric Error Confinement v2
 
+## [0.8.0] — 2026-05-16 (Session 6 — Correlated Noise)
+
+### What Changed
+- **Correlated noise model:** 0.12_correlated_noise.py — two-stage correlated bit-flip noise
+  - Stage 1: i.i.d. flips with p_err_base; Stage 2: neighbor flips with p_corr
+  - Applies to both tree (DFS-order neighbors) and classical (adjacent bits)
+- **Comprehensive comparison:** 0.12_run_correlated_comparison.py — 1000 trials
+  - Tested p=3 d=3,4 and p=5 d=3 across p_corr = 0.0, 0.25, 0.50, 0.75
+  - **Key finding:** Tree outperforms classical under correlated noise
+  - At p_corr=0.75: tree wins at p_err_base >= 0.20 for all tested (p,d)
+  - Three scaling trends: higher p_corr, higher d, higher p all favor tree
+- **0.8.md §7.6.1 added:** Crossover table, physical interpretation
+
+### Files Changed
+- ultrametric_v2/0.12_correlated_noise.py — CREATE
+- ultrametric_v2/0.12_run_correlated_comparison.py — CREATE
+- ultrametric_v2/0.12_correlated_results.json — CREATE
+- ultrametric_v2/0.8.md — EDIT (§7.6.1 added)
+- ultrametric_v2/SPRINT.md — EDIT (Sprint 3 created, tasks 3.1-3.4)
+- ultrametric_v2/PROJECT STATE.md — EDIT (Phase 2d added)
+- ultrametric_v2/CHANGELOG.md — EDIT (this entry)
+
 ## [0.7.0] — 2026-05-16 (Session 6 — Classical Baseline)
 
 ### What Changed

@@ -1,0 +1,2048 @@
+{
+  "p3_d3": {
+    "0.0": {
+      "tree": {
+        "p_corr": 0.0,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 1.322,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 2.702,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 4.064,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 5.475,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 10,
+            "n_trials": 1000,
+            "ler": 0.01,
+            "avg_physical_errors": 6.756,
+            "ci_lower": 0.981690334694608,
+            "ci_upper": 0.9945593046907295
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 31,
+            "n_trials": 1000,
+            "ler": 0.031,
+            "avg_physical_errors": 8.068,
+            "ci_lower": 0.956334233864468,
+            "ci_upper": 0.9780761352614977
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 98,
+            "n_trials": 1000,
+            "ler": 0.098,
+            "avg_physical_errors": 9.441,
+            "ci_lower": 0.8820049011851514,
+            "ci_upper": 0.9189182723513907
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.0,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 1.322,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 2.702,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 4.064,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 5.475,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 6.756,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 8,
+            "n_trials": 1000,
+            "ler": 0.008,
+            "avg_physical_errors": 8.068,
+            "ci_lower": 0.9842934787948114,
+            "ci_upper": 0.9959408529961804
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 50,
+            "n_trials": 1000,
+            "ler": 0.05,
+            "avg_physical_errors": 9.441,
+            "ci_lower": 0.9346858639155304,
+            "ci_upper": 0.9618699273567182
+          }
+        ]
+      }
+    },
+    "0.25": {
+      "tree": {
+        "p_corr": 0.25,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 2.535,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 19,
+            "n_trials": 1000,
+            "ler": 0.019,
+            "avg_physical_errors": 4.954,
+            "ci_lower": 0.9705153112972965,
+            "ci_upper": 0.9878032122625958
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 72,
+            "n_trials": 1000,
+            "ler": 0.072,
+            "avg_physical_errors": 7.18,
+            "ci_lower": 0.9102878591617453,
+            "ci_upper": 0.9424363156483045
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 187,
+            "n_trials": 1000,
+            "ler": 0.187,
+            "avg_physical_errors": 9.303,
+            "ci_lower": 0.787651777226964,
+            "ci_upper": 0.8359525842579556
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 317,
+            "n_trials": 1000,
+            "ler": 0.317,
+            "avg_physical_errors": 11.127,
+            "ci_lower": 0.6535063434106659,
+            "ci_upper": 0.7110930117067152
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 472,
+            "n_trials": 1000,
+            "ler": 0.472,
+            "avg_physical_errors": 12.849,
+            "ci_lower": 0.49701023296209834,
+            "ci_upper": 0.5587754607170637
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 626,
+            "n_trials": 1000,
+            "ler": 0.626,
+            "avg_physical_errors": 14.536,
+            "ci_lower": 0.34454556765087635,
+            "ci_upper": 0.40441881079289416
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.25,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 2.535,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 4,
+            "n_trials": 1000,
+            "ler": 0.004,
+            "avg_physical_errors": 4.954,
+            "ci_lower": 0.9897602795701941,
+            "ci_upper": 0.9984434370321067
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 36,
+            "n_trials": 1000,
+            "ler": 0.036,
+            "avg_physical_errors": 7.18,
+            "ci_lower": 0.9505640561361824,
+            "ci_upper": 0.9738845819756471
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 128,
+            "n_trials": 1000,
+            "ler": 0.128,
+            "avg_physical_errors": 9.303,
+            "ci_lower": 0.8498599807293441,
+            "ci_upper": 0.8912928067223815
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 268,
+            "n_trials": 1000,
+            "ler": 0.268,
+            "avg_physical_errors": 11.127,
+            "ci_lower": 0.7036980405782712,
+            "ci_upper": 0.7585262784776435
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 434,
+            "n_trials": 1000,
+            "ler": 0.434,
+            "avg_physical_errors": 12.849,
+            "ci_lower": 0.5350860732775359,
+            "ci_upper": 0.5964087761090605
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 610,
+            "n_trials": 1000,
+            "ler": 0.61,
+            "avg_physical_errors": 14.536,
+            "ci_lower": 0.36024486930243227,
+            "ci_upper": 0.42059704838657375
+          }
+        ]
+      }
+    },
+    "0.5": {
+      "tree": {
+        "p_corr": 0.5,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 18,
+            "n_trials": 1000,
+            "ler": 0.018,
+            "avg_physical_errors": 3.659,
+            "ci_lower": 0.9717265156214581,
+            "ci_upper": 0.9885843541412616
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 104,
+            "n_trials": 1000,
+            "ler": 0.104,
+            "avg_physical_errors": 6.992,
+            "ci_lower": 0.8755398308973383,
+            "ci_upper": 0.9134292654222405
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 262,
+            "n_trials": 1000,
+            "ler": 0.262,
+            "avg_physical_errors": 9.932,
+            "ci_lower": 0.709871862427285,
+            "ci_upper": 0.7643065338455931
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 476,
+            "n_trials": 1000,
+            "ler": 0.476,
+            "avg_physical_errors": 12.553,
+            "ci_lower": 0.4930127051149756,
+            "ci_upper": 0.5548036037528778
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 639,
+            "n_trials": 1000,
+            "ler": 0.639,
+            "avg_physical_errors": 14.703,
+            "ci_lower": 0.3318154771691927,
+            "ci_upper": 0.39124840063782396
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 775,
+            "n_trials": 1000,
+            "ler": 0.775,
+            "avg_physical_errors": 16.605,
+            "ci_lower": 0.20019851963259613,
+            "ci_upper": 0.25190627458991877
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 871,
+            "n_trials": 1000,
+            "ler": 0.871,
+            "avg_physical_errors": 18.39,
+            "ci_lower": 0.10963511503514137,
+            "ci_upper": 0.15120444371596045
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.5,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 3.659,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 64,
+            "n_trials": 1000,
+            "ler": 0.064,
+            "avg_physical_errors": 6.992,
+            "ci_lower": 0.9190989242389269,
+            "ci_upper": 0.9495640201937408
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 198,
+            "n_trials": 1000,
+            "ler": 0.198,
+            "avg_physical_errors": 9.932,
+            "ci_lower": 0.7761657052655129,
+            "ci_upper": 0.8255228479883074
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 425,
+            "n_trials": 1000,
+            "ler": 0.425,
+            "avg_physical_errors": 12.553,
+            "ci_lower": 0.5441306229679281,
+            "ci_upper": 0.6052953422441132
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 632,
+            "n_trials": 1000,
+            "ler": 0.632,
+            "avg_physical_errors": 14.703,
+            "ci_lower": 0.3386672562042704,
+            "ci_upper": 0.3983430450225368
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 788,
+            "n_trials": 1000,
+            "ler": 0.788,
+            "avg_physical_errors": 16.605,
+            "ci_lower": 0.18779362850750644,
+            "ci_upper": 0.2384106650782545
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 899,
+            "n_trials": 1000,
+            "ler": 0.899,
+            "avg_physical_errors": 18.39,
+            "ci_lower": 0.08382372191011535,
+            "ci_upper": 0.12123014316182433
+          }
+        ]
+      }
+    },
+    "0.75": {
+      "tree": {
+        "p_corr": 0.75,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 56,
+            "n_trials": 1000,
+            "ler": 0.056,
+            "avg_physical_errors": 4.719,
+            "ci_lower": 0.9279763237468875,
+            "ci_upper": 0.9566253903083978
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 236,
+            "n_trials": 1000,
+            "ler": 0.236,
+            "avg_physical_errors": 8.892,
+            "ci_lower": 0.7367023285873138,
+            "ci_upper": 0.789277068959072
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 453,
+            "n_trials": 1000,
+            "ler": 0.453,
+            "avg_physical_errors": 12.378,
+            "ci_lower": 0.5160256008817754,
+            "ci_upper": 0.5776146706511041
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 669,
+            "n_trials": 1000,
+            "ler": 0.669,
+            "avg_physical_errors": 15.378,
+            "ci_lower": 0.30252900425429646,
+            "ci_upper": 0.3607644874679036
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 806,
+            "n_trials": 1000,
+            "ler": 0.806,
+            "avg_physical_errors": 17.64,
+            "ci_lower": 0.17068102312568378,
+            "ci_upper": 0.21966103880918725
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 901,
+            "n_trials": 1000,
+            "ler": 0.901,
+            "avg_physical_errors": 19.588,
+            "ci_lower": 0.08199515586127223,
+            "ci_upper": 0.119074016805013
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 952,
+            "n_trials": 1000,
+            "ler": 0.952,
+            "avg_physical_errors": 21.271,
+            "ci_lower": 0.036393116113688354,
+            "ci_upper": 0.06306640020840869
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.75,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 20,
+            "n_trials": 1000,
+            "ler": 0.02,
+            "avg_physical_errors": 4.719,
+            "ci_lower": 0.9693097584861028,
+            "ci_upper": 0.9870164188709625
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 173,
+            "n_trials": 1000,
+            "ler": 0.173,
+            "avg_physical_errors": 8.892,
+            "ci_lower": 0.8023160584363541,
+            "ci_upper": 0.8491811498881464
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 421,
+            "n_trials": 1000,
+            "ler": 0.421,
+            "avg_physical_errors": 12.378,
+            "ci_lower": 0.5481537333387585,
+            "ci_upper": 0.6092416166845918
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 664,
+            "n_trials": 1000,
+            "ler": 0.664,
+            "avg_physical_errors": 15.378,
+            "ci_lower": 0.3074010775632927,
+            "ci_upper": 0.3658541451730435
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 823,
+            "n_trials": 1000,
+            "ler": 0.823,
+            "avg_physical_errors": 17.64,
+            "ci_lower": 0.15459299077028155,
+            "ci_upper": 0.20187918571652674
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 926,
+            "n_trials": 1000,
+            "ler": 0.926,
+            "avg_physical_errors": 19.588,
+            "ci_lower": 0.05935475135620055,
+            "ci_upper": 0.09190576623940419
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 976,
+            "n_trials": 1000,
+            "ler": 0.976,
+            "avg_physical_errors": 21.271,
+            "ci_lower": 0.016180052367186296,
+            "ci_upper": 0.03546315508705749
+          }
+        ]
+      }
+    }
+  },
+  "p3_d4": {
+    "0.0": {
+      "tree": {
+        "p_corr": 0.0,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 4.065,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 8.181,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 12.217,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 16.255,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 20.283,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 24.259,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 30,
+            "n_trials": 1000,
+            "ler": 0.03,
+            "avg_physical_errors": 28.34,
+            "ci_lower": 0.95749631851849,
+            "ci_upper": 0.978906396810303
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.0,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 4.065,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 8.181,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 12.217,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 16.255,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 20.283,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 24.259,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 1,
+            "n_trials": 1000,
+            "ler": 0.001,
+            "avg_physical_errors": 28.34,
+            "ci_lower": 0.9943572970398398,
+            "ci_upper": 0.9998234581709429
+          }
+        ]
+      }
+    },
+    "0.25": {
+      "tree": {
+        "p_corr": 0.25,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 7.887,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 1,
+            "n_trials": 1000,
+            "ler": 0.001,
+            "avg_physical_errors": 15.334,
+            "ci_lower": 0.9943572970398398,
+            "ci_upper": 0.9998234581709429
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 20,
+            "n_trials": 1000,
+            "ler": 0.02,
+            "avg_physical_errors": 22.041,
+            "ci_lower": 0.9693097584861028,
+            "ci_upper": 0.9870164188709625
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 99,
+            "n_trials": 1000,
+            "ler": 0.099,
+            "avg_physical_errors": 28.191,
+            "ci_lower": 0.8809259831949872,
+            "ci_upper": 0.9180048441387278
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 281,
+            "n_trials": 1000,
+            "ler": 0.281,
+            "avg_physical_errors": 34.031,
+            "ci_lower": 0.690343117724889,
+            "ci_upper": 0.7459807006942719
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 489,
+            "n_trials": 1000,
+            "ler": 0.489,
+            "avg_physical_errors": 39.279,
+            "ci_lower": 0.4800343958421962,
+            "ci_upper": 0.5418814123889033
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 718,
+            "n_trials": 1000,
+            "ler": 0.718,
+            "avg_physical_errors": 44.384,
+            "ci_lower": 0.2549855455295956,
+            "ci_upper": 0.31068298225407065
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.25,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 7.887,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 15.334,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 22.041,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 32,
+            "n_trials": 1000,
+            "ler": 0.032,
+            "avg_physical_errors": 28.191,
+            "ci_lower": 0.9551749890510055,
+            "ci_upper": 0.977243033872133
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 153,
+            "n_trials": 1000,
+            "ler": 0.153,
+            "avg_physical_errors": 34.031,
+            "ci_lower": 0.8233629868076504,
+            "ci_upper": 0.8679811455733946
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 408,
+            "n_trials": 1000,
+            "ler": 0.408,
+            "avg_physical_errors": 39.279,
+            "ci_lower": 0.5612430287912437,
+            "ci_upper": 0.6220528218688605
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 726,
+            "n_trials": 1000,
+            "ler": 0.726,
+            "avg_physical_errors": 44.384,
+            "ci_lower": 0.24726035064363416,
+            "ci_upper": 0.30246940751741447
+          }
+        ]
+      }
+    },
+    "0.5": {
+      "tree": {
+        "p_corr": 0.5,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 3,
+            "n_trials": 1000,
+            "ler": 0.003,
+            "avg_physical_errors": 11.511,
+            "ci_lower": 0.9912168282105721,
+            "ci_upper": 0.9989792345945557
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 41,
+            "n_trials": 1000,
+            "ler": 0.041,
+            "avg_physical_errors": 21.807,
+            "ci_lower": 0.9448517110985959,
+            "ci_upper": 0.9696351959990976
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 188,
+            "n_trials": 1000,
+            "ler": 0.188,
+            "avg_physical_errors": 30.618,
+            "ci_lower": 0.7866063248258259,
+            "ci_upper": 0.8350056904562666
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 466,
+            "n_trials": 1000,
+            "ler": 0.466,
+            "avg_physical_errors": 38.346,
+            "ci_lower": 0.5030102405760234,
+            "ci_upper": 0.5647295303201022
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 742,
+            "n_trials": 1000,
+            "ler": 0.742,
+            "avg_physical_errors": 45.296,
+            "ci_lower": 0.231843571975014,
+            "ci_upper": 0.28600864694079914
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 904,
+            "n_trials": 1000,
+            "ler": 0.904,
+            "avg_physical_errors": 51.089,
+            "ci_lower": 0.0792566195200465,
+            "ci_upper": 0.11583551453775706
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 968,
+            "n_trials": 1000,
+            "ler": 0.968,
+            "avg_physical_errors": 56.271,
+            "ci_lower": 0.022756966127867012,
+            "ci_upper": 0.04482501094899452
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.5,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 11.511,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 4,
+            "n_trials": 1000,
+            "ler": 0.004,
+            "avg_physical_errors": 21.807,
+            "ci_lower": 0.9897602795701941,
+            "ci_upper": 0.9984434370321067
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 105,
+            "n_trials": 1000,
+            "ler": 0.105,
+            "avg_physical_errors": 30.618,
+            "ci_lower": 0.8744642376371892,
+            "ci_upper": 0.9125125124795623
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 397,
+            "n_trials": 1000,
+            "ler": 0.397,
+            "avg_physical_errors": 38.346,
+            "ci_lower": 0.5723357047362359,
+            "ci_upper": 0.6328759541549678
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 754,
+            "n_trials": 1000,
+            "ler": 0.754,
+            "avg_physical_errors": 45.296,
+            "ci_lower": 0.22031170020858673,
+            "ci_upper": 0.2736323642732997
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 935,
+            "n_trials": 1000,
+            "ler": 0.935,
+            "avg_physical_errors": 51.089,
+            "ci_lower": 0.05132354738787931,
+            "ci_upper": 0.08200585438228047
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 986,
+            "n_trials": 1000,
+            "ler": 0.986,
+            "avg_physical_errors": 56.271,
+            "ci_lower": 0.008357497449441328,
+            "ci_upper": 0.023362247976530262
+          }
+        ]
+      }
+    },
+    "0.75": {
+      "tree": {
+        "p_corr": 0.75,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 8,
+            "n_trials": 1000,
+            "ler": 0.008,
+            "avg_physical_errors": 14.93,
+            "ci_lower": 0.9842934787948114,
+            "ci_upper": 0.9959408529961804
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 158,
+            "n_trials": 1000,
+            "ler": 0.158,
+            "avg_physical_errors": 27.645,
+            "ci_lower": 0.8180896910880748,
+            "ci_upper": 0.8632927102788341
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 458,
+            "n_trials": 1000,
+            "ler": 0.458,
+            "avg_physical_errors": 38.098,
+            "ci_lower": 0.5110172029772966,
+            "ci_upper": 0.5726613375414467
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 748,
+            "n_trials": 1000,
+            "ler": 0.748,
+            "avg_physical_errors": 46.77,
+            "ci_lower": 0.22607425342832418,
+            "ci_upper": 0.2798238882705255
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 917,
+            "n_trials": 1000,
+            "ler": 0.917,
+            "avg_physical_errors": 54.136,
+            "ci_lower": 0.06745476337992819,
+            "ci_upper": 0.10173687004112154
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 983,
+            "n_trials": 1000,
+            "ler": 0.983,
+            "avg_physical_errors": 60.033,
+            "ci_lower": 0.010640599663218201,
+            "ci_upper": 0.027056184371235047
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 997,
+            "n_trials": 1000,
+            "ler": 0.997,
+            "avg_physical_errors": 64.926,
+            "ci_lower": 0.0010207654054443255,
+            "ci_upper": 0.008783171789427854
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.75,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 2,
+            "n_trials": 1000,
+            "ler": 0.002,
+            "avg_physical_errors": 14.93,
+            "ci_lower": 0.9927370411104123,
+            "ci_upper": 0.9994513678975429
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 78,
+            "n_trials": 1000,
+            "ler": 0.078,
+            "avg_physical_errors": 27.645,
+            "ci_lower": 0.9037170163353195,
+            "ci_upper": 0.937053081257767
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 405,
+            "n_trials": 1000,
+            "ler": 0.405,
+            "avg_physical_errors": 38.098,
+            "ci_lower": 0.5642667383571589,
+            "ci_upper": 0.6250061509114269
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 773,
+            "n_trials": 1000,
+            "ler": 0.773,
+            "avg_physical_errors": 46.77,
+            "ci_lower": 0.2021101870147211,
+            "ci_upper": 0.2539792996134482
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 963,
+            "n_trials": 1000,
+            "ler": 0.963,
+            "avg_physical_errors": 54.136,
+            "ci_lower": 0.02696102468045289,
+            "ci_upper": 0.05058268341054474
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 997,
+            "n_trials": 1000,
+            "ler": 0.997,
+            "avg_physical_errors": 60.033,
+            "ci_lower": 0.0010207654054443255,
+            "ci_upper": 0.008783171789427854
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 1000,
+            "n_trials": 1000,
+            "ler": 1.0,
+            "avg_physical_errors": 64.926,
+            "ci_lower": 0.0,
+            "ci_upper": 0.003826898586390522
+          }
+        ]
+      }
+    }
+  },
+  "p5_d3": {
+    "0.0": {
+      "tree": {
+        "p_corr": 0.0,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 6.341,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 12.7,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 18.946,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 25.188,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 31.424,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 1,
+            "n_trials": 1000,
+            "ler": 0.001,
+            "avg_physical_errors": 37.679,
+            "ci_lower": 0.9943572970398398,
+            "ci_upper": 0.9998234581709429
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 7,
+            "n_trials": 1000,
+            "ler": 0.007,
+            "avg_physical_errors": 43.916,
+            "ci_lower": 0.9856215030730511,
+            "ci_upper": 0.996605174920768
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.0,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 6.341,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 12.7,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 18.946,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 25.188,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 31.424,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 37.679,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.0,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 43.916,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          }
+        ]
+      }
+    },
+    "0.25": {
+      "tree": {
+        "p_corr": 0.25,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 12.125,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 23.472,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 4,
+            "n_trials": 1000,
+            "ler": 0.004,
+            "avg_physical_errors": 33.805,
+            "ci_lower": 0.9897602795701941,
+            "ci_upper": 0.9984434370321067
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 39,
+            "n_trials": 1000,
+            "ler": 0.039,
+            "avg_physical_errors": 43.49,
+            "ci_lower": 0.9471303986994359,
+            "ci_upper": 0.971341200803912
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 199,
+            "n_trials": 1000,
+            "ler": 0.199,
+            "avg_physical_errors": 52.49,
+            "ci_lower": 0.7751230014375367,
+            "ci_upper": 0.8245732056134564
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 476,
+            "n_trials": 1000,
+            "ler": 0.476,
+            "avg_physical_errors": 60.837,
+            "ci_lower": 0.4930127051149756,
+            "ci_upper": 0.5548036037528778
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 765,
+            "n_trials": 1000,
+            "ler": 0.765,
+            "avg_physical_errors": 68.485,
+            "ci_lower": 0.20976514435033908,
+            "ci_upper": 0.26226311190044793
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.25,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 12.125,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 23.472,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 1,
+            "n_trials": 1000,
+            "ler": 0.001,
+            "avg_physical_errors": 33.805,
+            "ci_lower": 0.9943572970398398,
+            "ci_upper": 0.9998234581709429
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 4,
+            "n_trials": 1000,
+            "ler": 0.004,
+            "avg_physical_errors": 43.49,
+            "ci_lower": 0.9897602795701941,
+            "ci_upper": 0.9984434370321067
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 111,
+            "n_trials": 1000,
+            "ler": 0.111,
+            "avg_physical_errors": 52.49,
+            "ci_lower": 0.8680215790175441,
+            "ci_upper": 0.9070010938822441
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 406,
+            "n_trials": 1000,
+            "ler": 0.406,
+            "avg_physical_errors": 60.837,
+            "ci_lower": 0.5632587051601864,
+            "ci_upper": 0.6240218379055721
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.25,
+            "k": 2,
+            "errors": 779,
+            "n_trials": 1000,
+            "ler": 0.779,
+            "avg_physical_errors": 68.485,
+            "ci_lower": 0.1963777255878074,
+            "ci_upper": 0.24775768382339855
+          }
+        ]
+      }
+    },
+    "0.5": {
+      "tree": {
+        "p_corr": 0.5,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 17.797,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 10,
+            "n_trials": 1000,
+            "ler": 0.01,
+            "avg_physical_errors": 33.557,
+            "ci_lower": 0.981690334694608,
+            "ci_upper": 0.9945593046907295
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 140,
+            "n_trials": 1000,
+            "ler": 0.14,
+            "avg_physical_errors": 47.313,
+            "ci_lower": 0.8371128627361262,
+            "ci_upper": 0.8801317702816727
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 495,
+            "n_trials": 1000,
+            "ler": 0.495,
+            "avg_physical_errors": 59.385,
+            "ci_lower": 0.47405144035460534,
+            "ci_upper": 0.5359102906595307
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 797,
+            "n_trials": 1000,
+            "ler": 0.797,
+            "avg_physical_errors": 70.041,
+            "ci_lower": 0.17922776346679883,
+            "ci_upper": 0.22904541429351719
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 935,
+            "n_trials": 1000,
+            "ler": 0.935,
+            "avg_physical_errors": 79.218,
+            "ci_lower": 0.05132354738787931,
+            "ci_upper": 0.08200585438228047
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 991,
+            "n_trials": 1000,
+            "ler": 0.991,
+            "avg_physical_errors": 87.168,
+            "ci_lower": 0.004742006589011481,
+            "ci_upper": 0.017016007822824013
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.5,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 17.797,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 1,
+            "n_trials": 1000,
+            "ler": 0.001,
+            "avg_physical_errors": 33.557,
+            "ci_lower": 0.9943572970398398,
+            "ci_upper": 0.9998234581709429
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 54,
+            "n_trials": 1000,
+            "ler": 0.054,
+            "avg_physical_errors": 47.313,
+            "ci_lower": 0.9302075210460795,
+            "ci_upper": 0.9583788854148602
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 365,
+            "n_trials": 1000,
+            "ler": 0.365,
+            "avg_physical_errors": 59.385,
+            "ci_lower": 0.6046966883157053,
+            "ci_upper": 0.6642700490659693
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 794,
+            "n_trials": 1000,
+            "ler": 0.794,
+            "avg_physical_errors": 70.041,
+            "ci_lower": 0.18208097296652836,
+            "ci_upper": 0.2321692434022693
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 973,
+            "n_trials": 1000,
+            "ler": 0.973,
+            "avg_physical_errors": 79.218,
+            "ci_lower": 0.018621256649289826,
+            "ci_upper": 0.03899898941343562
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.5,
+            "k": 2,
+            "errors": 996,
+            "n_trials": 1000,
+            "ler": 0.996,
+            "avg_physical_errors": 87.168,
+            "ci_lower": 0.0015565629678934295,
+            "ci_upper": 0.010239720429805971
+          }
+        ]
+      }
+    },
+    "0.75": {
+      "tree": {
+        "p_corr": 0.75,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 1,
+            "n_trials": 1000,
+            "ler": 0.001,
+            "avg_physical_errors": 23.226,
+            "ci_lower": 0.9943572970398398,
+            "ci_upper": 0.9998234581709429
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 110,
+            "n_trials": 1000,
+            "ler": 0.11,
+            "avg_physical_errors": 42.946,
+            "ci_lower": 0.869094088952478,
+            "ci_upper": 0.9079209301501375
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 522,
+            "n_trials": 1000,
+            "ler": 0.522,
+            "avg_physical_errors": 59.234,
+            "ci_lower": 0.4471830669360443,
+            "ci_upper": 0.5089853166017569
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 840,
+            "n_trials": 1000,
+            "ler": 0.84,
+            "avg_physical_errors": 72.76,
+            "ci_lower": 0.138584892534484,
+            "ci_upper": 0.1840173985042616
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 970,
+            "n_trials": 1000,
+            "ler": 0.97,
+            "avg_physical_errors": 84.048,
+            "ci_lower": 0.021093603189697094,
+            "ci_upper": 0.04250368148151
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 998,
+            "n_trials": 1000,
+            "ler": 0.998,
+            "avg_physical_errors": 93.348,
+            "ci_lower": 0.000548632102457155,
+            "ci_upper": 0.007262958889587807
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 999,
+            "n_trials": 1000,
+            "ler": 0.999,
+            "avg_physical_errors": 100.604,
+            "ci_lower": 0.00017654182905727173,
+            "ci_upper": 0.00564270296016047
+          }
+        ]
+      },
+      "classical": {
+        "p_corr": 0.75,
+        "k": 2,
+        "n_trials": 1000,
+        "results": [
+          {
+            "p_err_base": 0.05,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 0,
+            "n_trials": 1000,
+            "ler": 0.0,
+            "avg_physical_errors": 23.226,
+            "ci_lower": 0.9961731014136095,
+            "ci_upper": 1.0
+          },
+          {
+            "p_err_base": 0.1,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 40,
+            "n_trials": 1000,
+            "ler": 0.04,
+            "avg_physical_errors": 42.946,
+            "ci_lower": 0.9459900625744302,
+            "ci_upper": 0.9704891907260906
+          },
+          {
+            "p_err_base": 0.15,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 390,
+            "n_trials": 1000,
+            "ler": 0.39,
+            "avg_physical_errors": 59.234,
+            "ci_lower": 0.5794029516134263,
+            "ci_upper": 0.6397551306975677
+          },
+          {
+            "p_err_base": 0.2,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 842,
+            "n_trials": 1000,
+            "ler": 0.842,
+            "avg_physical_errors": 72.76,
+            "ci_lower": 0.1367072897211659,
+            "ci_upper": 0.18191030891192525
+          },
+          {
+            "p_err_base": 0.25,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 984,
+            "n_trials": 1000,
+            "ler": 0.984,
+            "avg_physical_errors": 84.048,
+            "ci_lower": 0.009872155867426246,
+            "ci_upper": 0.025832281964199785
+          },
+          {
+            "p_err_base": 0.3,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 1000,
+            "n_trials": 1000,
+            "ler": 1.0,
+            "avg_physical_errors": 93.348,
+            "ci_lower": 0.0,
+            "ci_upper": 0.003826898586390522
+          },
+          {
+            "p_err_base": 0.35,
+            "p_corr": 0.75,
+            "k": 2,
+            "errors": 1000,
+            "n_trials": 1000,
+            "ler": 1.0,
+            "avg_physical_errors": 100.604,
+            "ci_lower": 0.0,
+            "ci_upper": 0.003826898586390522
+          }
+        ]
+      }
+    }
+  }
+}

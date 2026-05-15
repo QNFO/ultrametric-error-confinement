@@ -13,6 +13,7 @@
 | 2 Experiments d=2..8 (p=3) | COMPLETE | 0.2_results.json |
 | 2b Experiments p=5,7 | COMPLETE | 0.10_p5_results.json, 0.10_p7_results.json |
 | 2c Classical Baseline | COMPLETE | 0.11_classical_repetition.py, 0.11_run_comparison.py |
+| 2d Correlated Noise | COMPLETE | 0.12_correlated_noise.py, 0.12_correlated_results.json |
 | 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py, 0.10_p2_exhaustive.json |
 | 4 Platform Scoping | COMPLETE | 0.6.md |
 | 5 Lean Formalization | DEFERRED (optional) | -- |
