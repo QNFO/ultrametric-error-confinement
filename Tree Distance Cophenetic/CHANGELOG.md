@@ -1,5 +1,17 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Tree Diagrams (Sprint 2, Task 6)
+
+### What Changed
+- **Created:** `0.12.md` — Tree Diagrams: A Visual Supplement. 7 ASCII-art diagrams covering all major visual concepts from 0.8.md §§1-2: dendrogram with height axis, LCA path illustration, triadic rigidity (equal longest sides), Euclidean counterexample (NYC-Philly-Boston), height function schematic, binary decomposition, hierarchical vs. non-hierarchical comparison.
+- **Updated:** SPRINT.md (Task 6 marked complete), PROJECT STATE.md, CHANGELOG.md.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Accessible Introduction + Glossary (Sprint 2, Task 5)
 
 ### What Changed
