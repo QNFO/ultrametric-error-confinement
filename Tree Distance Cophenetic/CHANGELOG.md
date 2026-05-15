@@ -1,5 +1,18 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — T4: Glossary + Diagrams Integrated
+
+### What Changed
+- **Edited:** `0.8.md` — LCA diagram embedded in §1.1 (visual intuition for cophenetic distance concept), dendrogram diagram embedded in §2.2 (height axis with distance matrix), 12-term glossary added as Appendix A before Document Metadata.
+- **Sprint 3:** T3-T4 complete. T1 blocked, T5-T6 remain.
+- **Updated:** SPRINT.md (T3-T4 marked complete), CHANGELOG.md.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — T2: Caveat Strengthened + Sprint 3 Progress
 
 ### What Changed

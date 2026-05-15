@@ -11,8 +11,8 @@
 - [x] **T2: Strengthen §2.6 caveat** — ✅ Complete (2026-05-15). 4-bullet caveat emphasizing framework independence from Page-Wootters correctness.
 
 ### MEDIUM Priority
-- [ ] **T3: Cite alternative physics** — Add §3.4 mapping tree to Barbour's Shape Dynamics, Rovelli's Relational QM, 't Hooft's Cellular Automaton (A3 from 0.10.md). Success: at least 2 alternatives cited with tree mappings.
-- [ ] **T4: Integrate glossary + diagrams** — Add glossary from 0.11.md as Appendix A to 0.8.md; embed key diagrams from 0.12.md in §§1-2 (A5/A7 from 0.10.md).
+- [x] **T3: Cite alternative physics** — ✅ Complete (2026-05-15). Added §3.4 mapping tree to Barbour's Shape Dynamics, Rovelli's Relational QM, 't Hooft's Cellular Automaton. Shows framework is structurally closer to Barbour than Page-Wootters.
+- [x] **T4: Integrate glossary + diagrams** — ✅ Complete (2026-05-15). LCA diagram embedded in §1.1, dendrogram diagram in §2.2, 12-term glossary as Appendix A before Document Metadata.
 
 ### LOW Priority
 - [ ] **T5: Refresh CGF table** — Update §5.2: "Empirical research program not yet designed" → "Designed in 0.9.md; prototype validated; awaiting real data" (C5 from review).
