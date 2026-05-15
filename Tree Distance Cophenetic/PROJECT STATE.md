@@ -1,7 +1,7 @@
 # PROJECT STATE — Tree Distance Cophenetic
 
 **Last Updated:** 2026-05-15 (Session 2 — Final Synthesis)
-**Current Phase:** Sprint 2 — Publication & Empirical Grounding. Tasks 3-4 (empirical test design, CGF mitigation) complete. Tasks 5-7 and blocked tasks (1-2) remain.
+**Current Phase:** Sprint 2 — Tasks 3-5 complete. Tasks 6-7 and blocked tasks (1-2) remain.
 **Active Branch:** `feature/tree-distance-cophenetic`
 
 ## Current State

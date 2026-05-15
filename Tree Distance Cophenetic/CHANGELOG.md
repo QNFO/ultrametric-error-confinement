@@ -1,5 +1,18 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Accessible Introduction + Glossary (Sprint 2, Task 5)
+
+### What Changed
+- **Created:** `0.11.md` — A Gentle Introduction to the Tree Distance Cophenetic. 6-page standalone document: core intuition, 4-item worked example, ultrametric inequality explained, triadic rigidity as signature of hierarchy, why this matters, glossary (12 terms defined).
+- **Design:** Zero QNFO terminology, zero physics references. All terms defined in glossary.
+- **Updated:** SPRINT.md (Task 5 marked complete), PROJECT STATE.md, CHANGELOG.md.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — CGF Weakness Mitigation (Sprint 2, Task 4)
 
 ### What Changed

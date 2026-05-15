@@ -15,7 +15,7 @@
 - [x] **CGF weakness mitigation** — `0.10.md` (2026-05-15). All 4 weaknesses from §5.2 addressed with 7 concrete actions. Prioritization: A1 (real-data via 0.9.py) > A5 (glossary) > A4 (caveat language) > others.
 
 ### LOW Priority
-- [ ] **Accessible introduction** — Write standalone intro assuming no ultrametrics/cophenetic knowledge. Add glossary.
+- [x] **Accessible introduction** — `0.11.md` (2026-05-15). 6-page standalone intro: intuition → 4-item example → ultrametric inequality → triadic rigidity → why it matters → glossary (12 terms). Zero QNFO/physics prerequisites.
 - [ ] **Tree diagrams** — Create visual dendrogram, LCA illustration, height function schematic for §§1-2.
 - [ ] **Python package** — Package `0.3.py` as standalone module with `setup.py`.
 
