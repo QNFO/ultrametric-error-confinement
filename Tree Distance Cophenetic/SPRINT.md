@@ -15,8 +15,8 @@
 - [x] **T4: Integrate glossary + diagrams** — ✅ Complete (2026-05-15). LCA diagram embedded in §1.1, dendrogram diagram in §2.2, 12-term glossary as Appendix A before Document Metadata.
 
 ### LOW Priority
-- [ ] **T5: Refresh CGF table** — Update §5.2: "Empirical research program not yet designed" → "Designed in 0.9.md; prototype validated; awaiting real data" (C5 from review).
-- [ ] **T6: Domain-specific test** — Design one additional empirical test (linguistics, cognitive psych) with hypothesis, method, success criteria (A2 from 0.10.md).
+- [x] **T5: Refresh CGF table** — ✅ Complete (2026-05-15). Updated Generativity weakness to reference 0.9.md TRI benchmark. Updated Scientific Coherence to note §3.4 cites alternatives.
+- [x] **T6: Domain-specific test** — ✅ Complete (2026-05-15). `0.15.md`: two experiments (A: cognitive similarity judgments, B: linguistic lexicostatistics). Full hypotheses, methods, success/failure criteria.
 
 ### Blocked (Carried Forward)
 - [ ] **B1:** Zenodo upload (DOI: 10.5281/zenodo.20200828) — requires author login
