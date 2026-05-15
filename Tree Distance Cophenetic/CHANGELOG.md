@@ -1,5 +1,38 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Sprint 2 Begins: Publication & Empirical Grounding
+
+### What Changed
+- **Sprint 1 closed** — All 20+ tasks complete. Definitive publication draft `0.8.md` verified across all dimensions (math, citations, formatting, reader testing).
+- **Sprint 2 created** — New tasks: Zenodo upload, fresh reader test, empirical test design, CGF weakness mitigation, accessible intro, diagrams, Python package.
+- **Updated:** `SPRINT.md` (full rewrite with Sprint 2 tasks), `BACKLOG.md` (citations/reader testing marked complete, new backlog items), `PROJECT STATE.md` (phase updated to Sprint 2), `CHANGELOG.md` (this entry).
+
+### Sprint 1 Deliverables — All Verified
+| Dimension | Result |
+|:----------|:-------|
+| Math | ✅ 70+ checks `[CODE-EXECUTED]` |
+| Citations | ✅ 5/5 `[VERIFIED]` |
+| Formatting | ✅ 7/7 files CLEAN |
+| Reader testing | ✅ 12 issues (I1-I12) fixed |
+| Documentation | ✅ 7/7 files updated |
+
+### Sprint 2 Tasks
+| Priority | Task | Status |
+|:---------|:-----|:-------|
+| HIGH | Zenodo upload (DOI 10.5281/zenodo.20200828) | [ ] |
+| HIGH | Fresh-Claude reader test | [ ] |
+| MEDIUM | Empirical test design for triadic rigidity | [ ] |
+| MEDIUM | CGF weakness mitigation plan | [ ] |
+| LOW | Accessible intro + glossary | [ ] |
+| LOW | Tree structure diagrams | [ ] |
+| LOW | Python package from 0.3.py | [ ] |
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Reader Testing Passed ✅ (I8-I12 Found & Fixed)
 
 ### What Changed

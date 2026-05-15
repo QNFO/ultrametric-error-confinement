@@ -1,7 +1,7 @@
 # PROJECT STATE — Tree Distance Cophenetic
 
 **Last Updated:** 2026-05-15 (Session 2 — Final Synthesis)
-**Current Phase:** FINAL — All citations verified. Reader testing executed (I8-I12 found and fixed). Publication-ready.
+**Current Phase:** Sprint 2 — Publication & Empirical Grounding. Sprint 1 complete (all deliverables verified). Zenodo upload and empirical test design are the next active tasks.
 **Active Branch:** `feature/tree-distance-cophenetic`
 
 ## Current State
@@ -55,6 +55,6 @@
 
 ### Handoff Notes
 - **Read this first:** `0.8.md` — the definitive publication draft. All other content files are superseded.
-- **Only remaining work:** (1) Reader test 0.8.md via fresh Claude session (optional — I8-I12 found and fixed in critical self-review 2026-05-15), (2) Upload to Zenodo (DOI assigned).
+- **Sprint 2 active tasks:** (1) Zenodo upload (DOI 10.5281/zenodo.20200828), (2) Fresh-Claude reader test, (3) Empirical test design, (4) CGF weakness mitigation.
 - **Branch:** `feature/tree-distance-cophenetic` — all work committed.
-- **Next agent:** Minimal work remaining. The project is publication-ready pending citation verification.
+- **Next agent:** Sprint 2 ready — pick any HIGH or MEDIUM task from SPRINT.md.
