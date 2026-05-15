@@ -12,6 +12,7 @@
 | 1 Tree Code | COMPLETE | 0.1.py (p=3), 0.10.py (general-p) |
 | 2 Experiments d=2..8 (p=3) | COMPLETE | 0.2_results.json |
 | 2b Experiments p=5,7 | COMPLETE | 0.10_p5_results.json, 0.10_p7_results.json |
+| 2c Classical Baseline | COMPLETE | 0.11_classical_repetition.py, 0.11_run_comparison.py |
 | 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py, 0.10_p2_exhaustive.json |
 | 4 Platform Scoping | COMPLETE | 0.6.md |
 | 5 Lean Formalization | DEFERRED (optional) | -- |
@@ -72,6 +73,8 @@
 0.10_run_p7.py — p=7 experiment runner
 0.10_p7_results.json — p=7 experiment data
 0.10_p2_exhaustive.json — p=2 exhaustive asymmetry data
+0.11_classical_repetition.py — Classical repetition code module
+0.11_run_comparison.py — Tree vs classical comparison runner
 
 ## Next Actions (Ranked)
 - P1: Classical repetition code baseline comparison (Task 2.7)

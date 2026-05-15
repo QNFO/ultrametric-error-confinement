@@ -14,7 +14,7 @@
 | 2.4 | p=7 exhaustive barrier verification (d=1, all 128 patterns) | [x] 2026-05-16 |
 | 2.5 | p=7 MC experiments d=2-3 (both bits, 500 trials, LER validation) | [x] 2026-05-16 |
 | 2.6 | Update 0.8.md §3.3 with computational validation data for p=5,7 | [x] 2026-05-16 |
-| 2.7 | Classical repetition code baseline comparison | [ ] |
+| 2.7 | Classical repetition code baseline comparison | [x] 2026-05-16 |
 
 ## Sprint 2 Key Results
 
@@ -23,6 +23,7 @@
 - **p=7 symmetry confirmed:** Both bits produce identical LER at all 16 data points  
 - **p=7 d=3:** 1 error at p_err=0.40, zero errors at p_err <= 0.35 (500 trials, 343 leaves, B=64)
 - **Barrier formula B(d)=ceil(p/2)^d confirmed** for all tested primes
+- **Classical baseline:** Classical repetition code has higher absolute barrier (N/2 vs 2^d) and lower LER at matched qubit counts for most regimes. Tree's value is geometric/theoretical, not raw error-correction efficiency (§7.6).
 - **Regular p=2:** B(b1)=1 (even worse than strict BT B(b1)=2) — confirmed exhaustively d=1-3
 
 ## Sprint 1 (Complete)
