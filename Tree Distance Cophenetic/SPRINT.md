@@ -1,7 +1,8 @@
 # SPRINT — Tree Distance Cophenetic
 
-**Sprint:** Mathematical formalization
+**Sprint:** Final Synthesis & Project Closure
 **Started:** 2026-05-15
+**Completed:** 2026-05-15
 **Branch:** `feature/tree-distance-cophenetic`
 
 ## Completed
@@ -23,9 +24,10 @@
 - [x] Math formatting audit of `0.3.md` ✅ (PASSED — zero bare Unicode math)
 - [x] **Created `0.4.md`** ✅ — Resolution-Dependence Bridge + Generative Mechanism
 - [x] **Created `0.5.md`** ✅ — Methodology (5I) + CGF Self-Evaluation (4.0/5)
-- [x] **Created `0.7.md`** ✅ — CONSOLIDATED FINAL DOCUMENT: Supersedes 0.3–0.6. Sections I-VII: Introduction, Mathematical Core (definitions, proofs, worked example, Python verification), Physics Bridges (resolution-dependence, generative mechanism, cosmology), Philosophical Extensions (linguistics, epistemology, bounded consilience), Methodology & CGF Self-Evaluation (4.0/5), Objections (7 with responses), Citations & Next Steps (5 refs needing verification, Search Request Manifest, reader testing protocol)
-- [ ] Reader testing of `0.3.md`–`0.6.md` (subagents unavailable — manual testing recommended)
-- [ ] Integrate all documents into unified framework
+- [x] **Created `0.7.md`** ✅ — CONSOLIDATED FINAL DOCUMENT: Supersedes 0.3–0.6. Sections I-VII.
+- [x] **Created `0.8.md`** ✅ — PUBLICATION DRAFT with DOI, abstract, and formal academic structure. Supersedes 0.7.md.
+- [-] Reader testing of `0.3.md`–`0.6.md` (SUPERSEDED — reader testing executed on 0.7.1, results in 0.8.md §7.4)
+- [x] Integrate all documents into unified framework ✅ (`0.7.md`, then `0.8.md` as publication draft)
 
 ## Next Sprint Tasks (from review findings)
 
@@ -34,7 +36,7 @@
 - [x] Add concrete worked example (dendrogram with labeled items) ✅ (`0.3.md`)
 - [x] Write the ultrametric inequality explicitly ✅ (`0.3.md`)
 - [x] Write companion Python verification script ✅ (`0.3.py`)
-- [ ] Add citations (Page & Wootters 1983, Wheeler & DeWitt, Sokal & Rohlf)
+- [~] Add citations (Page & Wootters 1983, Wheeler & DeWitt, Sokal & Rohlf) — 5 refs in 0.8.md §7.1 flagged `[NEEDS-VERIFICATION]`. Search Request Manifest provided in §7.2. Requires external web/academic search.
 - [x] Add generative mechanism section (connect tree to Autaxys) ✅ (`0.4.md`)
 - [x] Add methodology section (5I process) ✅ (`0.5.md`)
 - [x] Apply CGF self-evaluation ✅ (`0.5.md` — scored 4.0/5)
@@ -50,5 +52,23 @@
 - [x] Epistemological limits section ✅ (`0.6.md` §3)
 - [x] Cosmological extension ✅ (`0.6.md` §4)
 
+## Final Synthesis (2026-05-15, Session 2)
+
+- [x] Branch renamed: `feature/ultrametric-v2-ternary-tree` → `feature/tree-distance-cophenetic`
+- [x] Math formatting audit of all 7 content `.md` files — ALL CLEAN (zero bare Unicode math)
+- [x] `0.8.md` identified as definitive publication draft (supersedes 0.7.md)
+- [x] All 7 project documentation files updated to final state
+- [x] BACKLOG.md cleaned of stale entries referencing deleted files
+- [x] LEARNINGS.md populated with project-specific lessons
+- [x] DECISIONS.md updated with final decisions (D4, D5)
+- [x] README.md updated to reference 0.8.md as current version
+- [~] Citations — 5 academic references still `[NEEDS-VERIFICATION]` (requires external search)
+- [ ] Reader testing of 0.8.md — subagents unavailable; manual testing protocol in 0.8.md §7.4
+
+### Remaining External Tasks
+1. **Citation verification** — Execute Search Request Manifest (0.8.md §7.2) via web search/academic databases
+2. **Reader testing** — Manual fresh-Claude session with 7-question protocol (0.8.md §7.4)
+3. **Publication** — 0.8.md has DOI (10.5281/zenodo.20200828) ready for Zenodo upload
+
 ## Blocked
-- (none — Python execution resolved this session)
+- (none)

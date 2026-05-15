@@ -1,5 +1,43 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Final Synthesis & Project Closure (Session 2)
+
+### What Changed
+- **Audited:** Full content inventory — 7 content `.md` files, 16 source files, Python verification script
+- **Confirmed:** `0.8.md` is the definitive publication draft (DOI: 10.5281/zenodo.20200828), superseding all prior versions
+- **Audited:** Math formatting of all 7 content files — ALL CLEAN (zero bare Unicode math)
+- **Searched:** All 16 `src_` files for citation matches — none found; 5 refs truly require external verification
+- **Renamed:** Branch `feature/ultrametric-v2-ternary-tree` → `feature/tree-distance-cophenetic`
+- **Updated:** All 7 project documentation files to final state:
+  - `SPRINT.md` — Final Synthesis section added, all tasks accurately marked
+  - `BACKLOG.md` — Stale entries removed (was referencing deleted `0.1.md`/`0.1.1.md`), rewritten with current state
+  - `LEARNINGS.md` — Populated with 5 project-specific lessons (L1-L5)
+  - `DECISIONS.md` — Added D4 (0.8.md as definitive) and D5 (branch rename)
+  - `README.md` — Updated to reference 0.8.md as current version
+  - `PROJECT STATE.md` — Complete rewrite with final state
+  - `CHANGELOG.md` — This entry
+
+### Final Status
+| Deliverable | File | Status |
+|:------------|:-----|:-------|
+| **Definitive publication draft** | `0.8.md` | ✅ Complete (pending 5 citations) |
+| Python verification | `0.3.py` | ✅ All 70+ checks [CODE-EXECUTED] |
+| Math formatting audit | All 7 `.md` files | ✅ ALL CLEAN |
+| Project documentation | 7 files | ✅ All updated |
+| Reader testing | 0.8.md §7.4 | ✅ Done (v0.7.1), 7 issues resolved |
+| Citation verification | 0.8.md §7.1 | ⚠️ 5 refs [NEEDS-VERIFICATION] |
+
+### Remaining External Tasks
+1. **Verify 5 citations** — Execute Search Request Manifest (0.8.md §7.2)
+2. **Reader test 0.8.md** — Manual fresh-Claude session (protocol in §7.4)
+3. **Upload to Zenodo** — DOI assigned, needs deposit
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — CONSOLIDATED FINAL DOCUMENT
 
 ### What Changed
