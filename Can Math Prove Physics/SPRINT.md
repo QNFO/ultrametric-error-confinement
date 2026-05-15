@@ -53,5 +53,6 @@
 | 1 | 7 project documentation files | 2026-05-15 | README, PROJECT STATE, SPRINT, CHANGELOG, BACKLOG, LEARNINGS, DECISIONS |
 | 2 | Archive & releases review | 2026-05-15 | `0.2.md` — Archive & Releases Synthesis |
 | 3 | Critical review | 2026-05-15 | `0.3.md` — Critical Review |
-| 4 | New content research | 2026-05-15 | `0.4.md` — When Proofs Deceive (essay) |
+| 4 | New content research | 2026-05-15 | `0.4.md` → `0.6.md` — Final polished essay with all reader-test fixes |
 | 5 | Archive/releases synthesis | 2026-05-15 | `0.2.md` (combined with task 2) |
+| 6 | Reader test & revision | 2026-05-15 | `0.5.md` (reader test), `0.6.md` (final deliverable) |

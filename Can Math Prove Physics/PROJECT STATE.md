@@ -4,7 +4,7 @@
 
 ## Current Phase
 
-**Phase 2: Content Development (Iterating)** — Documentation established. Archive reviewed. Essay revised after reader testing.
+**Phase 3: Complete** — Final deliverable delivered (0.6.md). All reader-test fixes applied. Project ready for handoff or publication.
 
 ## What Happened Last Session (2026-05-15)
 
@@ -21,10 +21,11 @@
 |:-----|:------|:------------|
 | `0.1.md` | Stable draft | Email draft to Richard (47.9 KB, ~12 iterations) |
 | `0.1.1.md` | Stable | Philosophical essay: "Can math prove physics?" (5.0 KB) |
-| `0.2.md` | Complete | Archive & Releases Synthesis (this session) |
-| `0.3.md` | Complete | Critical Review of 0.1 and 0.1.1 (this session) |
-| `0.4.md` | Revised (v1.1) | "When Proofs Deceive" essay — revised after reader test: +QEC primer, +counterarguments, +bridge, 7 sections |
-| `0.5.md` | Complete | Reader test report — 10 Qs + 5 checks, 8 issues found |
+| `0.2.md` | Complete | Archive & Releases Synthesis |
+| `0.3.md` | Complete (orphaned) | Critical Review — references pre-project content no longer in scope |
+| `0.4.md` | Complete (v1.1) | "When Proofs Deceive" essay — revised after reader test |
+| `0.5.md` | Complete | Reader test report |
+| `0.6.md` | **Final deliverable** | Polished essay with all reader-test fixes, front matter, limitations |
 | `README.md` | Complete | Project identity |
 | `PROJECT STATE.md` | Updated | This file |
 | `SPRINT.md` | Updated | Sprint tasks completed |
