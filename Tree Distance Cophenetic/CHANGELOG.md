@@ -1,5 +1,18 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — T2: Caveat Strengthened + Sprint 3 Progress
+
+### What Changed
+- **Edited:** `0.8.md` §2.6 — Page-Wootters caveat strengthened with 4-bullet structure. Emphasizes: (1) analogy maps logical structure not physical mechanisms, (2) framework independent of Page-Wootters correctness, (3) tree is candidate for timeless structure, (4) explicit list of what framework does NOT produce.
+- **Sprint 3:** T1 (real-data Test B) marked blocked — no web access for phylogenetic data. T2 (caveat) complete. T3-T6 remain.
+- **Updated:** SPRINT.md, CHANGELOG.md, PROJECT STATE.md.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Comprehensive Review + Sprint 3 Plan
 
 ### What Changed

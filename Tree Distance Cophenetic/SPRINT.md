@@ -8,7 +8,7 @@
 
 ### HIGH Priority
 - [ ] **T1: Real-data Test B** — ⚠️ BLOCKED: requires real phylogenetic tree data; no web access to download.
-- [ ] **T2: Strengthen §2.6 caveat** — Rewrite caveat to pre-empt dismissal: emphasize framework independence from Page-Wootters correctness, cite alternative frameworks (A4 from 0.10.md). Success: no reader can claim framework "depends on Page-Wootters."
+- [x] **T2: Strengthen §2.6 caveat** — ✅ Complete (2026-05-15). 4-bullet caveat emphasizing framework independence from Page-Wootters correctness.
 
 ### MEDIUM Priority
 - [ ] **T3: Cite alternative physics** — Add §3.4 mapping tree to Barbour's Shape Dynamics, Rovelli's Relational QM, 't Hooft's Cellular Automaton (A3 from 0.10.md). Success: at least 2 alternatives cited with tree mappings.
