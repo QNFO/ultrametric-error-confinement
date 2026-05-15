@@ -4,14 +4,16 @@
 
 ## Current Phase
 
-**Phase 2: Content Development** — Documentation established. Archive reviewed. Four content files in active development. Sprint tasks 1–5 complete.
+**Phase 2: Content Development (Iterating)** — Documentation established. Archive reviewed. Essay revised after reader testing.
 
 ## What Happened Last Session (2026-05-15)
 
 - **Archive & releases reviewed:** 4 published papers + QWAV archive analyzed for connections to "Can math prove physics?" (see `0.2.md`)
 - **Critical review completed:** Both `0.1.md` (email draft) and `0.1.1.md` (essay) evaluated for logic, clarity, completeness (see `0.3.md`)
-- **New essay written:** "When Proofs Deceive: A Taxonomy of Mathematical Certainty in Physics" (~3,500 words) — proposes a 4-type proof taxonomy, analyzes the assumptions gap, provides historical failure modes, and articulates an operational realism framework (see `0.4.md`)
-- **Subagent workflow tested:** Self-clones produced high-quality text synthesis but cannot do file I/O. Archive synthesis and critical review succeeded; new essay was truncated and completed by parent.
+- **New essay written:** "When Proofs Deceive: A Taxonomy of Mathematical Certainty in Physics" (~3,500 words) — see `0.4.md`
+- **Reader test performed:** Fresh Claude evaluated `0.4.md` with 10 discovery questions + 5 structural checks. Found 8 issues (2 critical, 4 high, 2 low). See `0.5.md` for full report.
+- **Essay revised (v1.1):** Applied 6 of 8 reader-test fixes: QEC primer, bridge paragraph, self-citation caveat, Shor claim qualified, counterarguments section added (Noether/Bell/Dirac), sections renumbered. Essay now 7 sections, ~4,000 words.
+- **Subagent workflow tested:** Self-clones produced high-quality text synthesis but cannot do file I/O. Reader test and critical review succeeded with inline content; long essays may truncate (~32K tokens).
 
 ## Active Files
 
@@ -21,7 +23,8 @@
 | `0.1.1.md` | Stable | Philosophical essay: "Can math prove physics?" (5.0 KB) |
 | `0.2.md` | Complete | Archive & Releases Synthesis (this session) |
 | `0.3.md` | Complete | Critical Review of 0.1 and 0.1.1 (this session) |
-| `0.4.md` | Complete | "When Proofs Deceive" essay (this session) |
+| `0.4.md` | Revised (v1.1) | "When Proofs Deceive" essay — revised after reader test: +QEC primer, +counterarguments, +bridge, 7 sections |
+| `0.5.md` | Complete | Reader test report — 10 Qs + 5 checks, 8 issues found |
 | `README.md` | Complete | Project identity |
 | `PROJECT STATE.md` | Updated | This file |
 | `SPRINT.md` | Updated | Sprint tasks completed |
