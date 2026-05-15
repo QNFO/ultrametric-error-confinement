@@ -1,5 +1,31 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Python Package + Sprint 2 Complete ✅
+
+### What Changed
+- **Created:** `cophenetic/` package — Tree class extracted from `0.3.py` as pip-installable module with `setup.py`, tests, and documentation.
+- **Created:** `0.13.md` — Package documentation with quick-start, API reference, and verification instructions.
+- **Verified:** Package imports, all methods work, TRI = 1.000 confirmed `[CODE-EXECUTED]`.
+- **Sprint 2 COMPLETE** — All 7 tasks delivered (2 blocked externally).
+- **Updated:** SPRINT.md (Task 7 complete), PROJECT STATE.md (Sprint 2 complete), CHANGELOG.md.
+
+### Sprint 2 Deliverables
+| Task | File | Status |
+|:-----|:-----|:-------|
+| Empirical test design | `0.9.md` + `0.9.py` | ✅ `[CODE-EXECUTED]` |
+| CGF weakness mitigation | `0.10.md` | ✅ |
+| Accessible intro + glossary | `0.11.md` | ✅ |
+| Tree diagrams | `0.12.md` | ✅ |
+| Python package | `0.13.md` + `cophenetic/` | ✅ `[CODE-EXECUTED]` |
+| Zenodo upload | — | ⚠️ Blocked |
+| Fresh reader test | — | ⚠️ Blocked |
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Tree Diagrams (Sprint 2, Task 6)
 
 ### What Changed

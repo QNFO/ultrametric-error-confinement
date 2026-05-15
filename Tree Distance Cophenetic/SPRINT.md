@@ -17,7 +17,7 @@
 ### LOW Priority
 - [x] **Accessible introduction** — `0.11.md` (2026-05-15). 6-page standalone intro: intuition → 4-item example → ultrametric inequality → triadic rigidity → why it matters → glossary (12 terms). Zero QNFO/physics prerequisites.
 - [x] **Tree diagrams** — `0.12.md` (2026-05-15). 7 ASCII-art diagrams: 4-item dendrogram, LCA illustration, triadic rigidity visual, Euclidean counterexample, height function schematic, binary decomposition, hierarchical vs. non-hierarchical comparison.
-- [ ] **Python package** — Package `0.3.py` as standalone module with `setup.py`.
+- [x] **Python package** — `0.13.md` + `cophenetic/` package (2026-05-15). Tree class extracted from 0.3.py as pip-installable package. setup.py, tests, documentation. [CODE-EXECUTED] verified.
 
 ---
 
