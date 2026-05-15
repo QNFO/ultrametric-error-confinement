@@ -1,5 +1,19 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Comprehensive Review + Sprint 3 Plan
+
+### What Changed
+- **Created:** `0.14.md` — Comprehensive review of all completed work + Sprint 3 plan.
+- **Review findings:** 0.8.md scores 4.8/5 composite across 7 dimensions. Three minor improvement opportunities identified (C5-C7). All 12 issues (I1-I12) resolved. Cross-document consistency confirmed. Key project insights documented.
+- **Sprint 3 planned:** 6 tasks — real-data Test B (A1), caveat language (A4), cite alternatives (A3), integrate glossary+diagrams (A5/A7), CGF refresh (C5), domain test (A2). 2 tasks carried forward as blocked.
+- **Updated:** SPRINT.md (Sprint 3 added), PROJECT STATE.md (phase updated), CHANGELOG.md (this entry).
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Python Package + Sprint 2 Complete ✅
 
 ### What Changed
