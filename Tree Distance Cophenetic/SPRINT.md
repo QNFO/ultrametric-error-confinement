@@ -23,7 +23,7 @@
 - [x] Math formatting audit of `0.3.md` ✅ (PASSED — zero bare Unicode math)
 - [x] **Created `0.4.md`** ✅ — Resolution-Dependence Bridge + Generative Mechanism
 - [x] **Created `0.5.md`** ✅ — Methodology (5I) + CGF Self-Evaluation (4.0/5)
-- [x] **Created `0.6.md`** ✅ — Linguistic Bridge, 7 Objections, Epistemological Limits, Cosmological Extension, Bounded Consilience
+- [x] **Created `0.7.md`** ✅ — CONSOLIDATED FINAL DOCUMENT: Supersedes 0.3–0.6. Sections I-VII: Introduction, Mathematical Core (definitions, proofs, worked example, Python verification), Physics Bridges (resolution-dependence, generative mechanism, cosmology), Philosophical Extensions (linguistics, epistemology, bounded consilience), Methodology & CGF Self-Evaluation (4.0/5), Objections (7 with responses), Citations & Next Steps (5 refs needing verification, Search Request Manifest, reader testing protocol)
 - [ ] Reader testing of `0.3.md`–`0.6.md` (subagents unavailable — manual testing recommended)
 - [ ] Integrate all documents into unified framework
 

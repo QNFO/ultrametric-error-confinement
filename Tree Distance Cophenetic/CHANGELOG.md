@@ -1,5 +1,37 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — CONSOLIDATED FINAL DOCUMENT
+
+### What Changed
+- **Created:** `0.7.md` — CONSOLIDATED FINAL DOCUMENT. Single document superseding 0.3.md–0.6.md. Seven sections:
+  1. Introduction (core insight, falsifiable thesis, why this matters)
+  2. Mathematical Formalization (definitions, proofs, worked dendrogram, triadic rigidity, gauge invariance, [CODE-EXECUTED] verification)
+  3. Physical Bridges (resolution-dependence = $\varepsilon$, generative mechanism = Autaxys, cosmology = tree as timeline)
+  4. Philosophical Extensions (linguistic bridge, epistemological limits, bounded consilience L1-L8)
+  5. Methodology & Self-Evaluation (5I Process, CGF scored 4.0/5, framework comparison)
+  6. Objections & Counterarguments (7 objections with responses)
+  7. Citations & Next Steps (5 refs needing verification, Search Request Manifest, reader testing protocol)
+- **Updated:** SPRINT.md, CHANGELOG.md, PROJECT STATE.md
+
+### Deliverables Produced
+| Deliverable | File | Status |
+|:------------|:-----|:-------|
+| **Consolidated final document** | `0.7.md` (~850 lines) | ✅ Complete (pending citations) |
+| Python verification | `0.3.py` | ✅ All 70+ checks [CODE-EXECUTED] |
+| Search Request Manifest | `0.7.md` §VII.2 | ✅ 5 queries specified |
+| Reader testing protocol | `0.7.md` §VII.4 | ✅ 7 questions specified |
+
+### Still Needs External Work
+- **5 citations** need source-file verification (R1-R5 in §VII.1)
+- **Reader testing** needs manual fresh-Claude session (§VII.4)
+- **4 CGF weaknesses** need addressing (§V.2)
+
+### Git
+- Branch: `feature/ultrametric-v2-ternary-tree`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Final Bridges & Complete
 
 ### What Changed
