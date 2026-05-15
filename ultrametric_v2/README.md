@@ -1,26 +1,38 @@
-# Ultrametric Error Confinement v2
+# README -- Ultrametric Error Confinement v2 (CLOSED)
 
-**Symmetric, computationally validated ultrametric error confinement architecture using ternary Bruhat-Tits trees ($p=3$), with exponential error suppression and physical implementation pathway.**
+**Symmetric, computationally validated ultrametric error confinement architecture using ternary Bruhat-Tits trees (p=3), with exponential error suppression and physical implementation pathway.**
 
-## Project Identity
+## Project Status: COMPLETE (2026-05-16)
 
-- **Goal:** Produce a symmetric, computationally validated ultrametric error confinement architecture (ternary tree, $p=3$) with clear evidence of exponential error suppression, and map it to a physical implementation pathway.
-- **Approach:** Simulation-first — computational validation before formal proof.
-- **Key Insight:** Ultrametric tree topology provides passive (encoding-based) error suppression through exponential energy barriers without active syndrome measurement or correction cycles.
+All phases complete. Companion paper (0.8.md) finalized. FAQ (0.9.md) for quick reference.
 
-## Thesis
+## Key Result
 
-A regular ternary tree ($p=3$, root degree $=3$, all internal nodes degree $=3$) supporting majority-vote decoding provides **fully symmetric** error confinement: logical 0 and logical 1 experience identical error suppression. The energy barrier scales as $B(d) = 2^d$, yielding exponential suppression of logical errors with tree depth.
+At depth 7 (2,187 leaves, barrier 128): **ZERO logical errors** across 36,000 total trials at all physical error rates up to 40%. Both logical states protected identically. Perfect symmetry confirmed at all 63 data points.
+
+## Definitive Deliverables
+
+| File | Content |
+|:-----|:--------|
+| 0.1.py | Ternary tree module |
+| 0.2_results.json | Complete experiment data (d=2..8) |
+| 0.4_barrier_verify.py | Exhaustive + constructive barrier proof |
+| 0.6.md | Physical platform scoping |
+| 0.7.md | Outreach whitepaper |
+| **0.8.md** | **Definitive companion paper (8 sections + FAQ appendix)** |
+| **0.9.md** | **Quick Reference FAQ** |
+
+## Companion Paper
+
+This project is a companion to: Quni-Gudzinas, "Computational Validation of Ultrametric Error Confinement in Bruhat-Tits Tree Quantum Circuits," Zenodo, 2026. DOI: 10.5281/zenodo.20134944.
+
+- **Fixes:** p=2 asymmetry — B(b=1)=2 constant at all depths (only bit 0 was protected)
+- **Adds:** p=3 symmetric architecture, bidirectional validation (d=2..8), physical pathway (neutral atoms, d=3, 40 atoms)
+- **Explains:** Why primes, why p=3, why not p=5/7 (exhaustive verification + trade-off tables)
 
 ## Constraints
 
-1. **No active error correction:** This is passive/encoding-based confinement, not a QEC code.
-2. **Python only:** Standard library (`random`, `math`, `itertools`) plus `pytest` for testing.
-3. **Symmetric by design:** Binary symmetry between logical 0 and 1 is non-negotiable.
-4. **Simulation-first:** Computational evidence before formal proof (Lean 4 formalization is optional Phase 5).
-
-## Key References
-
-- Alon, Goldreich, Peikashvili (AGP) — error suppression bound shape: $p_L \sim p^{(2^d)}$
-- Heydeman, Marcolli, et al. — ultrametric CFT and $p$-adic AdS/CFT
-- Boettcher et al. — hierarchical percolation and ultrametric renormalization
+- No active error correction (passive encoding)
+- Python standard library only (no external deps)
+- Symmetric by design (both logical states tested independently)
+- Simulation-first (computational evidence before formal proof)
