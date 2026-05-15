@@ -2,7 +2,7 @@
 
 **Last Updated:** 2026-05-15
 **Active Branch:** feature/ultrametric-v2-ternary-tree
-**Session Focus:** Phase 4 (platform scoping complete), Phase 6 (outreach/documentation) next
+**Session Focus:** Phase 6 (outreach whitepaper complete), Phase 5 optional
 
 ## Current Status
 
@@ -11,19 +11,19 @@
 | Phase 0 (Setup) | COMPLETE |
 | Phase 1 (Tree Code) | COMPLETE |
 | Phase 2 (Experiments d=2..7) | COMPLETE |
-| Phase 3 (Energy Barrier, verified) | COMPLETE |
-| Phase 4 (Physical Platform Scoping) | COMPLETE |
+| Phase 3 (Energy Barrier) | COMPLETE |
+| Phase 4 (Physical Scoping) | COMPLETE |
 | Phase 5 (Lean Formalization) | OPTIONAL |
-| Phase 6 (Documentation/Outreach) | NEXT |
+| Phase 6 (Outreach Whitepaper) | COMPLETE |
 
-## Phase 4: Platform Scoping Summary
+## Phase 6: Outreach Whitepaper (0.7.md)
 
-Physical platform analysis completed in 0.6.md. Key findings:
-
-- Primary recommendation: Neutral atom tweezer arrays
-- Secondary: Trapped ions for proof-of-principle at d=3
-- Near-term demonstration: d=3 with 40 atoms
-- Identified 8 experimental groups for potential collaboration
+Concise 2-page document for experimental collaborators:
+- One-sentence summary + core idea
+- Complete LER results table (d=2..7)
+- Experimental proposal for neutral atom platform (d=3, 40 atoms)
+- What we offer / what we seek
+- References to key theoretical context
 
 ## Phase 2 Results (Final)
 
@@ -36,20 +36,22 @@ Physical platform analysis completed in 0.6.md. Key findings:
 | 6 | 729 | 64 | 0.002 | 200x |
 | 7 | 2187 | 128 | 0.000 | Infinite |
 
-- d=7: ZERO errors in 36,000 total trials, all p_err values
-- Wilson CI upper bound at p_err=0.40: 0.0019
-- Success criterion (LER < 1e-3 at p_err=0.40) CROSSED
+d=7: ZERO errors in 36,000 trials, all p_err values. CI: [0, 0.0019].
+
+## All Content Files
+
+0.1.py - Ternary tree module (258 lines)
+0.2_results.json - Full experiment results (d=2..7)
+0.2_run_experiments.py - Experiment runner
+0.3_run_d6.py - d=6 extended runner
+0.4_barrier_verify.py - Energy barrier verification
+0.5_run_d7.py - d=7 runner (2000 trials)
+0.6.md - Physical platform scoping
+0.7.md - Outreach whitepaper
 
 ## Next Steps
 
-1. Write outreach whitepaper (0.7.md)
-2. Update original paper with symmetric p=3 results
-3. Optional: d=8 experiment
-4. Optional: Phase 5 Lean 4 formalization
-
-## Handoff Notes
-
-- Core module: 0.1.py
-- Experiment results: 0.2_results.json (d=2..7)
-- Barrier verification: 0.4_barrier_verify.py
-- Platform scoping: 0.6.md
+1. Phase 6.1: Update original paper with symmetric p=3 results
+2. Optional: d=8 for definitive CI below 1e-4
+3. Optional: Phase 5 Lean 4 formalization
+4. Outreach: Contact experimental groups with 0.7.md
