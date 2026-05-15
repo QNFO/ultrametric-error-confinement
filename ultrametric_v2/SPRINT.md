@@ -1,17 +1,25 @@
 # SPRINT -- Ultrametric Error Confinement v2
 
-**Sprint:** 5 — Dynamic Tree Restructuring
+**Sprint:** 6 — QEC Integration & Hardware Specs
 **Start:** 2026-05-16
 **Status:** ACTIVE
 
-## Sprint 5 Tasks
+## Sprint 6 Tasks
 
 | # | Task | Status |
 |:--|:-----|:-------|
-| 5.1 | Unbalanced tree construction — variable depth per subtree | [ ] |
-| 5.2 | Adaptive depth allocation — deeper for high-noise subtrees | [ ] |
-| 5.3 | Balanced vs unbalanced comparison at matched qubit count | [ ] |
-| 5.4 | Update 0.8.md with dynamic restructuring results | [ ] |
+| 6.1 | QEC concatenation module — tree + inner repetition at leaf level | [x] |
+| 6.2 | Compare concatenated vs pure-tree vs pure-rep at matched qubits | [x] — Rep wins; concatenation is redundant |
+| 6.3 | Update 0.8.md with QEC concatenation results | [x] |
+
+## Sprint 5 (Complete)
+
+| # | Task | Status |
+|:--|:-----|:-------|
+| 5.1 | Unbalanced tree construction | [x] |
+| 5.2 | Adaptive depth allocation | [x] |
+| 5.3 | Balanced vs unbalanced comparison | [x] — BALANCED wins (36-45% more efficient per leaf under i.i.d.) |
+| 5.4 | Update 0.8.md with results | [x] — honest negative result documented |
 
 ## Sprint 4 (Complete)
 
