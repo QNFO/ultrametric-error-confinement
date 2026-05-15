@@ -2,7 +2,7 @@
 
 **Last Updated:** 2026-05-16
 **Active Branch:** feature/tree-distance-cophenetic
-**Project Status:** ACTIVE — Sprint 2 in progress, general-p validation underway
+**Project Status:** ACTIVE — Sprint 3 complete, all BACKLOG P1 items done
 
 ## Phase Status
 
@@ -12,12 +12,27 @@
 | 1 Tree Code | COMPLETE | 0.1.py (p=3), 0.10.py (general-p) |
 | 2 Experiments d=2..8 (p=3) | COMPLETE | 0.2_results.json |
 | 2b Experiments p=5,7 | COMPLETE | 0.10_p5_results.json, 0.10_p7_results.json |
-| 2c Classical Baseline | COMPLETE | 0.11_classical_repetition.py, 0.11_run_comparison.py |
-| 2d Correlated Noise | COMPLETE | 0.12_correlated_noise.py, 0.12_correlated_results.json |
+| 2c Classical Baseline | COMPLETE | 0.11_classical_repetition.py |
+| 2d Correlated Noise | COMPLETE | 0.12_correlated_noise.py |
+| 2e Multi-bit Encoding | COMPLETE | 0.13_multi_bit.py |
 | 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py, 0.10_p2_exhaustive.json |
 | 4 Platform Scoping | COMPLETE | 0.6.md |
 | 5 Lean Formalization | DEFERRED (optional) | -- |
 | 6 Documentation/Outreach | COMPLETE | 0.7.md, 0.8.md, 0.9.md |
+
+## Key Findings Beyond Original Paper
+
+1. **p=5 and p=7 symmetric** (computationally validated, Sprint 2)
+2. **Classical repetition outperforms tree at i.i.d. noise** (honest baseline, Task 2.7)
+3. **Tree outperforms classical under correlated noise** (Sprint 3 — first practical advantage)
+4. **Multi-bit encoding increases throughput** (9 bits at B=8 achieve 7.29x single-bit throughput)
+
+## Next Actions (Ranked)
+- P1: Publish companion to Zenodo (0.8.md ready, needs DOI)
+- P2: Contact experimental groups (see 0.7.md)
+- P3: q-ary alphabet generalization (BACKLOG P1)
+- P4: Run p=5 d=5 (3,125 leaves, B=243)
+- P5: Lean 4 formalization
 
 ## Definitive Results (All CODE-EXECUTED, seed=42)
 
