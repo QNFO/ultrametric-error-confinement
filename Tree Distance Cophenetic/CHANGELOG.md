@@ -1,5 +1,27 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Mathematical formalization
+
+### What Changed
+- **Created:** `0.3.md` — Mathematical Formalization of the Cophenetic Distance Framework. Contains formal definitions, worked dendrogram example with distance matrix, proof of ultrametric inequality from tree LCA property, derivation of triadic rigidity, binary decomposition theorem, gauge invariance discussion, and information-theoretic interpretation.
+- **Created:** `0.3.py` — Companion Python verification script with `Tree` class, all-pairs distance computation, ultrametric/triadic rigidity verification on 4-item and 6-item dendrograms, and Euclidean counterexample.
+- **Reviewed:** Additional releases (`2025/08/`, `2025/11/`) and archive. Found new convergence points (C8-C12) including resolution-dependence bridge (tree depth = epsilon parameter in Illusion of Time). Archive limited — no cophenetic/ultrametric content found, confirming framework novelty.
+
+### Key Findings
+- Cophenetic distance on rooted trees with monotone heights always satisfies ultrametric inequality (proven from LCA property)
+- Triadic rigidity is a necessary consequence — all triangles are acute isosceles
+- Binary decomposition theorem confirms yes/no as atomic operation of hierarchical organization
+- Gauge invariance: branching order is invariant; specific numerical distances are conventional
+
+### Files Changed
+- `0.3.md` (new), `0.3.py` (new), `SPRINT.md` (edit), `CHANGELOG.md` (edit), `PROJECT STATE.md` (edit)
+
+### Git
+- Branch: `feature/ultrametric-v2-ternary-tree`
+- Commit: `7a7dc78`
+
+---
+
 ## 2026-05-14 (Second session)
 
 ### What Changed
