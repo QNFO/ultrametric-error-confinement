@@ -55,6 +55,6 @@
 
 ### Handoff Notes
 - **Read this first:** `0.8.md` — the definitive publication draft. All other content files are superseded.
-- **Sprint 2 active tasks:** (1) Zenodo upload (DOI 10.5281/zenodo.20200828), (2) Fresh-Claude reader test, (3) Empirical test design, (4) CGF weakness mitigation.
+- **Sprint 2 active tasks:** (1) Zenodo upload (DOI 10.5281/zenodo.20208437), (2) Fresh-Claude reader test, (3) Empirical test design, (4) CGF weakness mitigation.
 - **Branch:** `feature/tree-distance-cophenetic` — all work committed.
 - **Next agent:** Sprint 2 ready — pick any HIGH or MEDIUM task from SPRINT.md.
