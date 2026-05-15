@@ -1,5 +1,24 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Bridges and Self-Evaluation
+
+### What Changed
+- **Created:** `0.4.md` — Bridges: Resolution-Dependence and Generative Mechanism. Maps tree depth to Illusion of Time's ε parameter, resolves static/dynamic tension (T1) via block universe reconciliation, integrates Autaxys as symmetry-breaking mechanism.
+- **Created:** `0.5.md` — Methodology and CGF Self-Evaluation. Documents 5I Process application with iteration history, scores framework 4.0/5 across Logical (4.3), Evidential (3.3), Scientific (4.2), Generativity (4.2) dimensions. Includes framework comparison table.
+- **Updated:** SPRINT.md, CHANGELOG.md, PROJECT STATE.md
+
+### Key Findings
+- Resolution-dependence bridge is the strongest convergence (C12): tree depth = ε; cophenetic distance = resolution threshold; root = coarsest ε (Big Bang)
+- Static/dynamic tension resolved: tree = completed output (block universe); Autaxys = the process (traversal). Same object, different standpoints — Page-Wootters applied to ontology
+- Framework strong on mathematical precision (4.3/5) and generativity (4.2/5); weak on empirical evidence (3.3/5)
+- CGF identifies 4 weaknesses: empirical deficit, physics minority position, citation gap, reader accessibility
+
+### Git
+- Branch: `feature/ultrametric-v2-ternary-tree`
+- Commits: `8f1132f` (0.4.md), `e2c9de4` (0.5.md)
+
+---
+
 ## 2026-05-15 — Verification Complete & Content Review
 
 ### What Changed
