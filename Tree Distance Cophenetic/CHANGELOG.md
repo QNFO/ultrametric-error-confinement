@@ -1,5 +1,25 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Verification Complete & Content Review
+
+### What Changed
+- **Executed:** `0.3.py` — All 70+ mathematical checks passed `[CODE-EXECUTED]`:
+  - 4-item dendrogram: 12 ultrametric + 4 triadic rigidity = all passed
+  - 6-item dendrogram: 60 ultrametric + 20 triadic rigidity = all passed
+  - Euclidean counterexample: triadic rigidity confirmed to FAIL (expected)
+- **Fixed:** Unicode emoji encoding issues in `0.3.py` for Windows CP1252 compatibility
+- **Fixed:** Typo in `0.3.md` §3.3 (A,A,C → A,B,C)
+- **Updated:** `0.3.md` §7 — replaced "[VERIFICATION PENDING]" with executed results table and 6-item distance matrix
+- **Updated:** `0.3.md` status from "Draft" to "Verified"
+- **Audit:** Math formatting scan — PASSED (zero bare Unicode math outside code/math blocks)
+- **Cleaned:** Removed temporary audit scripts `_audit_math.py`, `_audit_math2.py`
+
+### Git
+- Branch: `feature/ultrametric-v2-ternary-tree`
+- Commits: `f405190` (0.3.py fix), `cce7f41` (0.3.md fixes)
+
+---
+
 ## 2026-05-15 — Mathematical formalization
 
 ### What Changed

@@ -19,8 +19,9 @@
 - [x] **Created `0.3.py`** — Companion Python verification script with Tree class, all-pairs distance computation, ultrametric/triadic rigidity verification, Euclidean counterexample
 
 ## In Progress
-- [ ] Execute `0.3.py` for [CODE-EXECUTED] verification of all theorems
-- [ ] Reader testing of `0.3.md`
+- [x] Execute `0.3.py` for [CODE-EXECUTED] verification of all theorems ✅ (70+ checks passed)
+- [x] Math formatting audit of `0.3.md` ✅ (PASSED — zero bare Unicode math)
+- [ ] Reader testing of `0.3.md` (subagents unavailable — manual testing questions prepared)
 - [ ] Integrate `0.3.md` findings back into main document
 
 ## Next Sprint Tasks (from review findings)
@@ -47,4 +48,4 @@
 - [ ] Cosmological extension
 
 ## Blocked
-- [ ] Python execution blocked — `0.3.py` drafted but not verified via [CODE-EXECUTED]
+- (none — Python execution resolved this session)
