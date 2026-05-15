@@ -290,16 +290,16 @@ def main():
         for v in violations[:5]:
             print(f"    {v}")
     else:
-        print(f"  ✅ PASSED — All {4 * 3} triples satisfy ultrametric inequality")
+        print(f"  PASSED: All {4 * 3} triples satisfy ultrametric inequality")
 
     print("\nTriadic rigidity verification:")
     violations = t1.verify_triadic_rigidity()
     if violations:
-        print(f"  ❌ FAILED — {len(violations)} violation(s) found:")
+        print(f"  FAILED: {len(violations)} violation(s) found:")
         for v in violations[:5]:
             print(f"    {v}")
     else:
-        print(f"  ✅ PASSED — All 4 triples satisfy triadic rigidity")
+        print(f"  PASSED: All 4 triples satisfy triadic rigidity")
 
     # --- Example 2 ---
     print("\n" + "=" * 70)
@@ -313,22 +313,22 @@ def main():
     print("\nUltrametric inequality verification:")
     violations = t2.verify_ultrametric()
     if violations:
-        print(f"  ❌ FAILED — {len(violations)} violation(s) found:")
+        print(f"  FAILED: {len(violations)} violation(s) found:")
         for v in violations[:5]:
             print(f"    {v}")
     else:
         n_triples = 6 * 5 * 4 // 6  # C(6,3) = 20
-        print(f"  ✅ PASSED — All {n_triples * 3} triples satisfy ultrametric inequality")
+        print(f"  PASSED: All {n_triples * 3} triples satisfy ultrametric inequality")
 
     print("\nTriadic rigidity verification:")
     violations = t2.verify_triadic_rigidity()
     if violations:
-        print(f"  ❌ FAILED — {len(violations)} violation(s) found:")
+        print(f"  FAILED: {len(violations)} violation(s) found:")
         for v in violations[:5]:
             print(f"    {v}")
     else:
         n_triples = 6 * 5 * 4 // 6
-        print(f"  ✅ PASSED — All {n_triples} triples satisfy triadic rigidity")
+        print(f"  PASSED: All {n_triples} triples satisfy triadic rigidity")
 
     # --- Counterexample ---
     print("\n" + "=" * 70)
@@ -340,31 +340,31 @@ def main():
     print(f"  d(NYC, Boston) = {dists[1]:.2f}")
     print(f"  d(Philly, Boston) = {dists[2]:.2f}")
     if dists[1] != dists[2]:
-        print(f"  ❌ Triadic rigidity FAILS — two largest ({dists[1]:.2f}, {dists[2]:.2f}) are unequal")
-        print(f"  → Euclidean space is NOT ultrametric (triangles are scalene, not acute isosceles)")
+        print(f"  Triadic rigidity FAILS: two largest ({dists[1]:.2f}, {dists[2]:.2f}) are unequal")
+        print(f"  -> Euclidean space is NOT ultrametric (triangles are scalene, not acute isosceles)")
     else:
-        print(f"  ✅ Coincidentally passes (specific coordinates)")
+        print(f"  Coincidentally passes (specific coordinates)")
 
     # --- Summary ---
     print("\n" + "=" * 70)
     print("SUMMARY")
     print("=" * 70)
     print("""
-    ✅ Cophenetic distance on rooted trees WITH monotone heights
-       ALWAYS satisfies the ultrametric inequality.
+    [OK] Cophenetic distance on rooted trees WITH monotone heights
+         ALWAYS satisfies the ultrametric inequality.
 
-    ✅ Triadic rigidity (two largest distances equal for any triple)
-       is a NECESSARY CONSEQUENCE of the tree structure.
+    [OK] Triadic rigidity (two largest distances equal for any triple)
+         is a NECESSARY CONSEQUENCE of the tree structure.
 
-    ✅ Euclidean/spatial distances do NOT satisfy triadic rigidity.
-       This distinguishes hierarchical from non-hierarchical organization.
+    [OK] Euclidean/spatial distances do NOT satisfy triadic rigidity.
+         This distinguishes hierarchical from non-hierarchical organization.
 
-    ✅ Binary decomposition: any multi-way branching tree can be
-       reduced to a binary tree preserving all cophenetic distances.
+    [OK] Binary decomposition: any multi-way branching tree can be
+         reduced to a binary tree preserving all cophenetic distances.
 
     CONCLUSION:
     The cophenetic distance framework is mathematically coherent.
-    The ultrametric inequality and triadic rigidity are not asserted —
+    The ultrametric inequality and triadic rigidity are not asserted --
     they are derived properties of any rooted tree with monotone heights.
     """)
 
