@@ -2,56 +2,33 @@
 
 **Last Updated:** 2026-05-15
 **Active Branch:** feature/ultrametric-v2-ternary-tree
-**Session Focus:** Phase 6 (outreach whitepaper complete), Phase 5 optional
 
-## Current Status
+## Phase Status
 
-| Aspect | State |
-|:-------|:------|
-| Phase 0 (Setup) | COMPLETE |
-| Phase 1 (Tree Code) | COMPLETE |
-| Phase 2 (Experiments d=2..7) | COMPLETE |
-| Phase 3 (Energy Barrier) | COMPLETE |
-| Phase 4 (Physical Scoping) | COMPLETE |
-| Phase 5 (Lean Formalization) | OPTIONAL |
-| Phase 6 (Outreach Whitepaper) | COMPLETE |
+| Phase | Status | Key File |
+|:------|:-------|:---------|
+| 0 Setup | COMPLETE | 7 mandatory docs |
+| 1 Tree Code | COMPLETE | 0.1.py |
+| 2 Experiments | COMPLETE d=2..7, d=8 RUNNING | 0.2_results.json |
+| 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py |
+| 4 Platform Scoping | COMPLETE | 0.6.md |
+| 5 Lean Formalization | OPTIONAL | -- |
+| 6.1 Paper | COMPLETE | 0.8.md |
+| 6.2 Whitepaper | COMPLETE | 0.7.md |
 
-## Phase 6: Outreach Whitepaper (0.7.md)
+## d=8 Status: RUNNING (background)
+- 6561 leaves, 9841 nodes, barrier B=256
+- 2000 trials x 9 p_err x 2 bits = 36000 trials
+- Expected time: ~10-12 minutes
 
-Concise 2-page document for experimental collaborators:
-- One-sentence summary + core idea
-- Complete LER results table (d=2..7)
-- Experimental proposal for neutral atom platform (d=3, 40 atoms)
-- What we offer / what we seek
-- References to key theoretical context
-
-## Phase 2 Results (Final)
-
-| Depth | Leaves | Barrier | LER at p_err=0.40 | Suppression |
-|:------|:-------|:--------|:------------------|:------------|
-| 2 | 9 | 4 | 0.248 | 1.6x |
-| 3 | 27 | 8 | 0.182 | 2.2x |
-| 4 | 81 | 16 | 0.106 | 3.8x |
-| 5 | 243 | 32 | 0.010 | 40x |
-| 6 | 729 | 64 | 0.002 | 200x |
-| 7 | 2187 | 128 | 0.000 | Infinite |
-
-d=7: ZERO errors in 36,000 trials, all p_err values. CI: [0, 0.0019].
-
-## All Content Files
-
-0.1.py - Ternary tree module (258 lines)
-0.2_results.json - Full experiment results (d=2..7)
+## Full Content Files
+0.1.py - Ternary tree module
+0.2_results.json - All experiment data (d=2..7, merging d=8)
 0.2_run_experiments.py - Experiment runner
 0.3_run_d6.py - d=6 extended runner
-0.4_barrier_verify.py - Energy barrier verification
-0.5_run_d7.py - d=7 runner (2000 trials)
+0.4_barrier_verify.py - Barrier verification
+0.5_run_d7.py - d=7 runner
 0.6.md - Physical platform scoping
 0.7.md - Outreach whitepaper
-
-## Next Steps
-
-1. Phase 6.1: Update original paper with symmetric p=3 results
-2. Optional: d=8 for definitive CI below 1e-4
-3. Optional: Phase 5 Lean 4 formalization
-4. Outreach: Contact experimental groups with 0.7.md
+0.8.md - REVISED PAPER (symmetric p=3, AGP/Heydeman/Boettcher citations)
+0.8_run_d8.py - d=8 runner
