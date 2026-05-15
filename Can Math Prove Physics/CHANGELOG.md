@@ -26,7 +26,29 @@
 
 ---
 
-## Prior Sessions (reconstructed from git)
+## 2026-05-15 — Session: Archive Review, Critical Review, New Essay
+
+**What Changed:**
+- Created `0.2.md`: Archive & Releases Synthesis — 7 key themes connecting 4 published releases to "Can math prove physics?"
+- Created `0.3.md`: Critical Review of `0.1.md` and `0.1.1.md` — strengths, weaknesses, completeness gaps, actionable suggestions
+- Created `0.4.md`: "When Proofs Deceive: A Taxonomy of Mathematical Certainty in Physics" — ~3,500 word essay with proof taxonomy, assumptions gap analysis, historical failure modes, and an operational realism framework
+- Updated SPRINT.md, CHANGELOG.md, PROJECT STATE.md to reflect session completion
+
+**Files Changed:**
+- `0.2.md` — CREATE
+- `0.3.md` — CREATE
+- `0.4.md` — CREATE
+- `SPRINT.md` — EDIT (mark tasks complete)
+- `CHANGELOG.md` — EDIT (this entry)
+- `PROJECT STATE.md` — EDIT (update state)
+
+**Git:** Branch `feature/ultrametric-v2-ternary-tree`, HEAD `2106968`
+
+**State:** All 4 user-requested tasks complete. 7 documentation files established, 4 content files (0.1–0.4), Archive reviewed, critique delivered, new essay written.
+
+---
+
+## 2026-05-14 — Session: Documentation Setup
 
 The project existed before formal documentation:
 - `0.1.md` created and iterated through ~12 revisions — email draft to Richard

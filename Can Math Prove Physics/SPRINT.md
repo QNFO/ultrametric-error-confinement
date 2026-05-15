@@ -6,11 +6,11 @@
 
 | # | Task | Status | Owner |
 |:--|:-----|:-------|:------|
-| 1 | Create 7 project documentation files | 🔄 In Progress | Agent |
-| 2 | Review Archive and releases for relevant prior work | 🔄 In Progress | Agent |
-| 3 | Critical review of existing content (`0.1.md`, `0.1.1.md`) | ⏳ Queued | Agent (subagent) |
-| 4 | Research & write new content on "Can math prove physics?" | ⏳ Queued | Agent |
-| 5 | Synthesize archive/releases findings | ⏳ Queued | Agent (subagent) |
+| 1 | Create 7 project documentation files | ✅ Complete | Agent |
+| 2 | Review Archive and releases for relevant prior work | ✅ Complete | Agent |
+| 3 | Critical review of existing content (`0.1.md`, `0.1.1.md`) | ✅ Complete | Agent |
+| 4 | Research & write new content on "Can math prove physics?" | ✅ Complete | Agent |
+| 5 | Synthesize archive/releases findings | ✅ Complete | Agent |
 
 ## Task Details
 
@@ -48,6 +48,10 @@
 
 ## Completed
 
-| # | Task | Completed |
-|:--|:-----|:----------|
-| — | (none yet this sprint) | — |
+| # | Task | Completed | Output |
+|:--|:-----|:----------|:-------|
+| 1 | 7 project documentation files | 2026-05-15 | README, PROJECT STATE, SPRINT, CHANGELOG, BACKLOG, LEARNINGS, DECISIONS |
+| 2 | Archive & releases review | 2026-05-15 | `0.2.md` — Archive & Releases Synthesis |
+| 3 | Critical review | 2026-05-15 | `0.3.md` — Critical Review |
+| 4 | New content research | 2026-05-15 | `0.4.md` — When Proofs Deceive (essay) |
+| 5 | Archive/releases synthesis | 2026-05-15 | `0.2.md` (combined with task 2) |
