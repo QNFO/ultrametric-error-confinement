@@ -1,34 +1,43 @@
 # CHANGELOG -- Ultrametric Error Confinement v2
 
-## [0.5.0] — 2026-05-16 (Session 5 — CLOSURE)
+## [0.6.0] — 2026-05-16 (Session 6 — Sprint 2: General-p Validation)
 
 ### What Changed
-- **Companion paper finalized:** 0.8.md v4 — comprehensive p-selection rationale:
-  - §2: Why primes (Bruhat-Tits over Q_p, Z_p DVR requirement)
-  - §2.3: Universal asymmetry theorem (strict BT never symmetric for any p)
-  - §3: p-selection problem — why p=3 (minimal symmetric), p=5/7 trade-off analysis
-  - Appendix A: FAQ — one-liner for every anticipated question
-- **FAQ standalone:** 0.9.md created — quick reference for all p=2 vs p=3 questions
-- **All documentation finalized:** PROJECT STATE, SPRINT, CHANGELOG, DECISIONS updated
-- **p=2 vs p=3 vs p=5 exhaustive verification complete** (all 2^n leaf patterns enumerated)
-- **Project CLOSED** — all phases complete, ready for handoff
+- **General-p tree module:** 0.10.py created — parameterized run_trial/run_experiment for arbitrary prime p
+  - Added: barrier_formula(p,d), has_ties(p), is_symmetric(p), exhaustive_barrier_verify(p,d), overhead_ratio(p,p_ref,d)
+  - All tests pass for p=2,3,5,7
+- **p=5 validation:** MC experiments d=2-4, both bits, 500 trials
+  - Perfect symmetry at all 24 data points
+  - d=4: ZERO errors at all p_err <= 0.40 (625 leaves, B=81)
+  - Exhaustive verification at d=1 (32 patterns): B(b0)=B(b1)=3
+- **p=7 validation:** MC experiments d=2-3, both bits, 500 trials
+  - Perfect symmetry at all 16 data points
+  - d=3: 1 error at p_err=0.40, zero at p_err <= 0.35 (343 leaves, B=64)
+  - Exhaustive verification at d=1 (128 patterns): B(b0)=B(b1)=4
+- **p=2 asymmetry re-verified:** Exhaustive d=1-3 confirms B(b0)=2^d, B(b1)=1 (regular p-ary)
+- **0.8.md updated:** §3.3.1 added with computational validation tables, §3.4 updated with p=2 asymmetry note
+- Barrier formula B(d)=ceil(p/2)^d confirmed for all tested primes
 
 ### Files Changed
-- ultrametric_v2/0.8.md — EDIT (FAQ appendix added, ~25000 bytes)
-- ultrametric_v2/0.9.md — CREATE (standalone FAQ)
-- ultrametric_v2/PROJECT STATE.md — EDIT (final closure status)
-- ultrametric_v2/SPRINT.md — EDIT (marked closed)
+- ultrametric_v2/0.10.py — CREATE (general-p tree module)
+- ultrametric_v2/0.10_run_p5.py — CREATE (p=5 experiment runner)
+- ultrametric_v2/0.10_p5_results.json — CREATE (p=5 experiment data)
+- ultrametric_v2/0.10_run_p7.py — CREATE (p=7 experiment runner)
+- ultrametric_v2/0.10_p7_results.json — CREATE (p=7 experiment data)
+- ultrametric_v2/0.10_p2_exhaustive.json — CREATE (p=2 exhaustive data)
+- ultrametric_v2/0.8.md — EDIT (§3.3.1 added, §3.4 updated)
+- ultrametric_v2/SPRINT.md — EDIT (Sprint 2 tasks 2.1-2.6 marked complete)
+- ultrametric_v2/PROJECT STATE.md — EDIT (updated status, new results tables)
 - ultrametric_v2/CHANGELOG.md — EDIT (this entry)
-- ultrametric_v2/DECISIONS.md — EDIT (final decisions)
-- ultrametric_v2/LEARNINGS.md — EDIT (final session lessons)
-- ultrametric_v2/BACKLOG.md — EDIT (closed items marked)
-- ultrametric_v2/README.md — EDIT (project status)
+
+## [0.5.0] — 2026-05-16 (Session 5 — CLOSURE)
+- Companion paper finalized, FAQ standalone, project closed
 
 ## [0.4.0] — 2026-05-15
-- Phase 6: Outreach whitepaper (0.7.md), companion paper v1-v3
+- Phase 6: Outreach whitepaper, companion paper v1-v3
 
 ## [0.3.0] — 2026-05-15
-- Phase 4: Physical platform scoping (0.6.md)
+- Phase 4: Physical platform scoping
 
 ## [0.2.0] — 2026-05-15
 - Phase 2 completion (d=7), Phase 3 barrier verified

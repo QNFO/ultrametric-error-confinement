@@ -1,0 +1,38 @@
+{
+  "p2_d1": {
+    "p": 2,
+    "d": 1,
+    "leaves": 2,
+    "patterns": 4,
+    "barrier_b0": 2,
+    "barrier_b1": 1,
+    "symmetric": false,
+    "tie_free": false,
+    "theoretical_barrier": 1,
+    "matches_theory": false
+  },
+  "p2_d2": {
+    "p": 2,
+    "d": 2,
+    "leaves": 4,
+    "patterns": 16,
+    "barrier_b0": 4,
+    "barrier_b1": 1,
+    "symmetric": false,
+    "tie_free": false,
+    "theoretical_barrier": 1,
+    "matches_theory": false
+  },
+  "p2_d3": {
+    "p": 2,
+    "d": 3,
+    "leaves": 8,
+    "patterns": 256,
+    "barrier_b0": 8,
+    "barrier_b1": 1,
+    "symmetric": false,
+    "tie_free": false,
+    "theoretical_barrier": 1,
+    "matches_theory": false
+  }
+}

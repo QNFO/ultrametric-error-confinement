@@ -1,24 +1,25 @@
-'# PROJECT STATE -- Ultrametric Error Confinement v2 (CLOSED)
+# PROJECT STATE -- Ultrametric Error Confinement v2 (ACTIVE)
 
 **Last Updated:** 2026-05-16
-**Active Branch:** feature/tree-distance-cophenetic (renamed from feature/ultrametric-v2-ternary-tree)
-**Project Status:** CLOSED — all phases complete, companion paper finalized
+**Active Branch:** feature/tree-distance-cophenetic
+**Project Status:** ACTIVE — Sprint 2 in progress, general-p validation underway
 
 ## Phase Status
 
 | Phase | Status | Key File |
 |:------|:-------|:---------|
 | 0 Setup | COMPLETE | 7 mandatory docs |
-| 1 Tree Code | COMPLETE | 0.1.py |
-| 2 Experiments d=2..8 | COMPLETE | 0.2_results.json |
-| 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py |
+| 1 Tree Code | COMPLETE | 0.1.py (p=3), 0.10.py (general-p) |
+| 2 Experiments d=2..8 (p=3) | COMPLETE | 0.2_results.json |
+| 2b Experiments p=5,7 | COMPLETE | 0.10_p5_results.json, 0.10_p7_results.json |
+| 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py, 0.10_p2_exhaustive.json |
 | 4 Platform Scoping | COMPLETE | 0.6.md |
 | 5 Lean Formalization | DEFERRED (optional) | -- |
 | 6 Documentation/Outreach | COMPLETE | 0.7.md, 0.8.md, 0.9.md |
 
-## Definitive Results
+## Definitive Results (All CODE-EXECUTED, seed=42)
 
-### LER at p_err=0.40 (both bits, identical)
+### p=3 LER at p_err=0.40 (both bits, identical)
 | Depth | Leaves | Barrier | LER | CI Upper |
 |:------|:-------|:--------|:----|:---------|
 | 2 | 9 | 4 | 0.248 | 0.288 |
@@ -29,33 +30,52 @@
 | 7 | 2,187 | 128 | 0.000 | 0.0019 |
 | 8 | 6,561 | 256 | 0.000 | 0.0038 |
 
-### p=2 Asymmetry (Exhaustively Verified)
-- p=2 b=0: B(d) = 2^d (exponential)
-- p=2 b=1: B(d) = 2 (CONSTANT — internal tie-breaking collapses barrier)
-- p=3 both bits: B(d) = 2^d (symmetric, exponential)
+### p=5 LER at p_err=0.40 (both bits, identical, 500 trials)
+| Depth | Leaves | Barrier | LER | CI Upper |
+|:------|:-------|:--------|:----|:---------|
+| 2 | 25 | 9 | 0.190 | 0.227 |
+| 3 | 125 | 27 | 0.040 | 0.061 |
+| 4 | 625 | 81 | 0.000 | 0.0076 |
 
-### p-Selection Rationale (in 0.8.md and 0.9.md)
-- p must be prime (Bruhat-Tits tree over Q_p requires Z_p DVR)
-- Strict BT always asymmetric (Theorem 1, §2.3)
-- p=3: minimal symmetric (smallest odd prime, identical barrier exponent)
-- p=5/7: stronger barriers, exponentially more qubits (trade-off in §3.3)
+### p=7 LER at p_err=0.40 (both bits, identical, 500 trials)
+| Depth | Leaves | Barrier | LER | CI Upper |
+|:------|:-------|:--------|:----|:---------|
+| 2 | 49 | 16 | 0.126 | 0.158 |
+| 3 | 343 | 64 | 0.002 | 0.011 |
+
+### p=2 Asymmetry (Regular p-ary, Exhaustively Verified d=1-3)
+- p=2 b=0: B(d) = 2^d (exponential)
+- p=2 b=1: B(d) = 1 (CONSTANT at all depths — single error propagates)
+
+### Cross-p Comparison at d=3, p_err=0.40
+| p | Leaves | Barrier | LER | Overhead vs p=3 |
+|:--|:-------|:--------|:----|:----------------|
+| 3 | 27 | 8 | 0.182 | 1.0x (baseline) |
+| 5 | 125 | 27 | 0.040 | 4.6x |
+| 7 | 343 | 64 | 0.002 | 12.7x |
 
 ## Complete File Inventory
-0.1.py — Ternary tree module (258 lines)
-0.2_results.json — Complete experiment data (d=2..8, both bits, CIs)
-0.2_run_experiments.py — Experiment runner
-0.3_run_d6.py — d=6 extended runner
+0.1.py — Ternary tree module (p=3)
+0.10.py — General-p tree module (any prime p)
+0.2_results.json — p=3 experiment data (d=2..8, both bits, CIs)
+0.2_run_experiments.py — p=3 experiment runner
+0.3_run_d6.py — p=3 d=6 extended runner
 0.4_barrier_verify.py — Barrier proof (exhaustive + constructive)
-0.5_run_d7.py — d=7 runner (2000 trials)
-0.6.md — Physical platform scoping (5 platforms, neutral atoms primary)
-0.7.md — Outreach whitepaper (2-page summary for experimentalists)
-0.8.md — DEFINITIVE COMPANION PAPER (8 sections, 11 refs, FAQ appendix)
-0.8_run_d8.py — d=8 runner (split-mode)
-0.9.md — Quick Reference FAQ (one-liner for every question)
+0.5_run_d7.py — p=3 d=7 runner
+0.6.md — Physical platform scoping
+0.7.md — Outreach whitepaper
+0.8.md — DEFINITIVE COMPANION PAPER (updated with p=5,7 data)
+0.8_run_d8.py — p=3 d=8 runner
+0.9.md — Quick Reference FAQ
+0.10_run_p5.py — p=5 experiment runner
+0.10_p5_results.json — p=5 experiment data
+0.10_run_p7.py — p=7 experiment runner
+0.10_p7_results.json — p=7 experiment data
+0.10_p2_exhaustive.json — p=2 exhaustive asymmetry data
 
-## Handoff Notes (For Next LLM Session)
-- This project is CLOSED. All deliverables complete.
-- Companion paper (0.8.md) is the definitive publication draft.
-- FAQ (0.9.md) answers all p=2 vs p=3 vs p=5 questions.
-- Original paper: ''Computational Validation of Ultrametric Error Confinement in Bruhat-Tits Tree Quantum Circuits'' (Zenodo, DOI: 10.5281/zenodo.20134944).
-- Next logical steps for a new session: publish companion to Zenodo, contact experimental groups (see 0.7.md), or initiate Phase 5 (Lean 4 formalization).
+## Next Actions (Ranked)
+- P1: Classical repetition code baseline comparison (Task 2.7)
+- P2: Publish companion to Zenodo
+- P3: Contact experimental groups (see 0.7.md)
+- P4: Run p=5 d=5 (3125 leaves, B=243)
+- P5: Lean 4 formalization

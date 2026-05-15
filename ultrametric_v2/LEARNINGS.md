@@ -49,3 +49,15 @@
 - **Issue:** Every prime p introduces even-count nodes somewhere (internal for p=2, root for p>=3).
 - **Solution:** Regular p-ary deviation (all nodes have p children) eliminates asymmetry for all odd p. Documented in 0.8.md §2.3.
 - **Cross-Project:** YES
+
+### L9: Regular p-ary p=2 is worse than strict BT p=2 for bit 1
+- **Category:** MATHEMATICAL INSIGHT
+- **Issue:** In strict BT (root p+1=3, internal p=2), B(b1)=2. In regular p-ary (all nodes p=2), B(b1)=1. A SINGLE leaf error propagates to flip the root.
+- **Solution:** Regular p-ary makes even primes worse while making odd primes perfect. This strengthens the case for odd p.
+- **Cross-Project:** YES
+
+### L10: PowerShell mangles escaped quotes in inline Python
+- **Category:** METHODOLOGY
+- **Issue:** Inline Python with escaped quotes (\\\") gets mangled by PowerShell, producing unterminated string errors.
+- **Solution:** Always write Python scripts to files first, then execute the file. Never use `python -c` for multi-line code on Windows.
+- **Cross-Project:** YES
