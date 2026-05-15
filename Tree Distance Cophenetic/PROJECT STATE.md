@@ -1,7 +1,7 @@
 # PROJECT STATE — Tree Distance Cophenetic
 
 **Last Updated:** 2026-05-15 (Session 2 — Final Synthesis)
-**Current Phase:** FINAL — All citations verified. Reader testing is the only remaining external task.
+**Current Phase:** FINAL — All citations verified. Reader testing executed (I8-I12 found and fixed). Publication-ready.
 **Active Branch:** `feature/tree-distance-cophenetic`
 
 ## Current State
@@ -9,7 +9,7 @@
 ### Definitive Document
 | File | Size | Status |
 |:-----|:-----|:-------|
-| **`0.8.md`** | 34,925 chars | **DEFINITIVE** — Publication draft with DOI (10.5281/zenodo.20200828), formal abstract, 7 sections. Reader-tested (v0.7.1), all math [CODE-EXECUTED], 5 citations [NEEDS-VERIFICATION]. Supersedes all prior versions. |
+| **`0.8.md`** | 34,925 chars | **DEFINITIVE** — Publication draft with DOI. All math [CODE-EXECUTED], 5 citations [VERIFIED], reader-tested (I8-I12 fixed). |
 
 ### Content Files (Superseded — Retained for Provenance)
 | File | Size | Status |
@@ -55,6 +55,6 @@
 
 ### Handoff Notes
 - **Read this first:** `0.8.md` — the definitive publication draft. All other content files are superseded.
-- **Only remaining work:** (1) Verify 5 citations via external search (Search Request Manifest in 0.8.md §7.2), (2) Reader test 0.8.md manually (protocol in §7.4), (3) Upload to Zenodo.
+- **Only remaining work:** (1) Reader test 0.8.md via fresh Claude session (optional — I8-I12 found and fixed in critical self-review 2026-05-15), (2) Upload to Zenodo (DOI assigned).
 - **Branch:** `feature/tree-distance-cophenetic` — all work committed.
 - **Next agent:** Minimal work remaining. The project is publication-ready pending citation verification.

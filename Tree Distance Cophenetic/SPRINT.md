@@ -63,12 +63,13 @@
 - [x] DECISIONS.md updated with final decisions (D4, D5)
 - [x] README.md updated to reference 0.8.md as current version
 - [x] Citations — 5 academic references VERIFIED (2026-05-15). All volume/page/publication details confirmed. Search Request Manifest executed ✅.
-- [ ] Reader testing of 0.8.md — subagents unavailable; manual testing protocol in 0.8.md §7.4
+- [x] Reader testing of 0.8.md — Critical self-review executed (2026-05-15). All 7 protocol questions answerable ✅. 5 new issues found (I8-I12): stale [NEEDS-VERIFICATION] labels, abstract/section contradictions, score inconsistency, stale branch name. ALL FIXED. See CHANGELOG.
 
 ### Remaining External Tasks
-1. **Citation verification** — Execute Search Request Manifest (0.8.md §7.2) via web search/academic databases
-2. **Reader testing** — Manual fresh-Claude session with 7-question protocol (0.8.md §7.4)
-3. **Publication** — 0.8.md has DOI (10.5281/zenodo.20200828) ready for Zenodo upload
+1. **Publication** — 0.8.md has DOI (10.5281/zenodo.20200828) ready for Zenodo upload
+2. **Fresh reader testing** — Optional external reviewer (blind Claude session)
+3. **CGF weaknesses** — Address 4 weaknesses identified in §5.2
+4. **Empirical test** — Design empirical test for triadic rigidity in a specific domain
 
 ## Blocked
 - (none)

@@ -1,5 +1,23 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Reader Testing Passed ✅ (I8-I12 Found & Fixed)
+
+### What Changed
+- **Reader tested:** 0.8.md against 7-question protocol (§7.4). All 7 questions answerable without ambiguity.
+- **Found & fixed 5 new issues (I8-I12):**
+  - **I8:** 5 stale `[NEEDS-VERIFICATION]` labels in body text (§2.1, §2.6, §4.3) → `[VERIFIED]`
+  - **I9:** Abstract still said "citations require verification" → updated to "verified by external search"
+  - **I10:** §7.5 Next Steps said Search Request Manifest not done → marked ✅ Done
+  - **I11:** §6 O5 referenced "score of 2/5 for physics" → corrected to 4.2/5 (matching §5.2 table)
+  - **I12:** Document Metadata had stale branch name `feature/ultrametric-v2-ternary-tree` → `feature/tree-distance-cophenetic`
+- **Updated:** SPRINT.md, PROJECT STATE.md — reader testing task marked complete, remaining tasks cleaned
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Citations Verified ✅
 
 ### What Changed
