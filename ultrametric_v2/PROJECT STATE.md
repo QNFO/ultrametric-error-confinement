@@ -15,6 +15,7 @@
 | 2c Classical Baseline | COMPLETE | 0.11_classical_repetition.py |
 | 2d Correlated Noise | COMPLETE | 0.12_correlated_noise.py |
 | 2e Multi-bit Encoding | COMPLETE | 0.13_multi_bit.py |
+| 2f q-ary Generalization | COMPLETE | 0.14_qary.py, 0.14_qary_results.json |
 | 3 Energy Barrier | COMPLETE | 0.4_barrier_verify.py, 0.10_p2_exhaustive.json |
 | 4 Platform Scoping | COMPLETE | 0.6.md |
 | 5 Lean Formalization | DEFERRED (optional) | -- |
@@ -26,6 +27,7 @@
 2. **Classical repetition outperforms tree at i.i.d. noise** (honest baseline, Task 2.7)
 3. **Tree outperforms classical under correlated noise** (Sprint 3 — first practical advantage)
 4. **Multi-bit encoding increases throughput** (9 bits at B=8 achieve 7.29x single-bit throughput)
+5. **q-ary scatter suppresses errors without extra qubits** (q=3: 48x LER reduction at d=3)
 
 ## Next Actions (Ranked)
 - P1: Publish companion to Zenodo (0.8.md ready, needs DOI)

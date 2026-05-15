@@ -1,5 +1,27 @@
 # CHANGELOG -- Ultrametric Error Confinement v2
 
+## [0.9.0] — 2026-05-16 (Session 6 — q-ary Generalization)
+
+### What Changed
+- **q-ary alphabet generalization:** 0.14_qary.py — plurality voting for q>2
+  - Random-scatter mechanism: errors divide across q-1 wrong symbols
+  - Adversarial barrier B_adv = ceil(p/2)^d (unchanged from binary)
+  - Random-scatter barrier B_rand = (ceil(p/2)*(q-1))^d
+  - **Massive LER reduction:** q=3 gives 4-48x reduction vs binary at zero qubit cost
+  - q=5 eliminates errors at all d=2-4 (500 trials)
+  - Physical significance: alkali/alkaline-earth atoms naturally support q=3-10+
+- **0.8.md §7.7 added** with q-ary results table and scatter mechanism explanation
+- **Sprint 4 complete:** All 4 tasks done
+
+### Files Changed
+- ultrametric_v2/0.14_qary.py — CREATE
+- ultrametric_v2/0.14_run_qary_comparison.py — CREATE
+- ultrametric_v2/0.14_qary_results.json — CREATE
+- ultrametric_v2/0.8.md — EDIT (§7.7 added)
+- ultrametric_v2/SPRINT.md — EDIT (Sprint 4 complete)
+- ultrametric_v2/PROJECT STATE.md — EDIT (Phase 2f added)
+- ultrametric_v2/CHANGELOG.md — EDIT (this entry)
+
 ## [0.8.0] — 2026-05-16 (Session 6 — Correlated Noise)
 
 ### What Changed
