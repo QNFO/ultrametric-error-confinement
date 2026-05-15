@@ -21,9 +21,10 @@
 ## In Progress
 - [x] Execute `0.3.py` for [CODE-EXECUTED] verification of all theorems ✅ (70+ checks passed)
 - [x] Math formatting audit of `0.3.md` ✅ (PASSED — zero bare Unicode math)
-- [x] **Created `0.4.md`** ✅ — Resolution-Dependence Bridge (tree as resolution ladder = ε) + Generative Mechanism (Autaxys as symmetry-breaking = how branches form)
-- [x] **Created `0.5.md`** ✅ — Methodology (5I Process application) + CGF Self-Evaluation (scored 4.0/5 overall)
-- [ ] Reader testing of `0.3.md` and `0.4.md` (subagents unavailable — manual testing questions prepared)
+- [x] **Created `0.4.md`** ✅ — Resolution-Dependence Bridge + Generative Mechanism
+- [x] **Created `0.5.md`** ✅ — Methodology (5I) + CGF Self-Evaluation (4.0/5)
+- [x] **Created `0.6.md`** ✅ — Linguistic Bridge, 7 Objections, Epistemological Limits, Cosmological Extension, Bounded Consilience
+- [ ] Reader testing of `0.3.md`–`0.6.md` (subagents unavailable — manual testing recommended)
 - [ ] Integrate all documents into unified framework
 
 ## Next Sprint Tasks (from review findings)
@@ -41,13 +42,13 @@
 ### MEDIUM Priority
 - [x] Integrate resolution-dependent time perspective ✅ (`0.4.md`)
 - [x] Framework positioning against alternatives ✅ (`0.5.md` §2.5 comparison table)
-- [ ] Linguistic bridge (noun/verb → tree topology/traversal)
-- [ ] Address objections and counterarguments
-- [ ] Bound consilience claims (isomorphism vs. analogy)
+- [x] Linguistic bridge (noun/verb → tree topology/traversal) ✅ (`0.6.md` §1)
+- [x] Address objections and counterarguments ✅ (`0.6.md` §2 — 7 objections)
+- [x] Bound consilience claims (isomorphism vs. analogy) ✅ (`0.6.md` §5 — L1-L8 hierarchy)
 
 ### LOW Priority
-- [ ] Epistemological limits section (Beyond the Tyranny of Math)
-- [ ] Cosmological extension
+- [x] Epistemological limits section ✅ (`0.6.md` §3)
+- [x] Cosmological extension ✅ (`0.6.md` §4)
 
 ## Blocked
 - (none — Python execution resolved this session)

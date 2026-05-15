@@ -1,5 +1,28 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Final Bridges & Complete
+
+### What Changed
+- **Created:** `0.6.md` — Final Bridges: Linguistics, Objections, and Extensions. Covers 4 major areas:
+  1. Linguistic bridge (noun/verb → tree topology/traversal, quantum interpretation via resolution)
+  2. Objections & counterarguments (7 objections: jargon, circularity, continuity, binary privilege, Page-Wootters metaphor, non-ultrametric domains, structural realism)
+  3. Epistemological limits (Beyond the Tyranny of Math — tree as minimal mathematics, 4 acknowledged limits)
+  4. Cosmological extension (tree as cosmic timeline from pre-BB root to present, arrow of time as resolution increase)
+  5. Bounded consilience (L1-L8 evidence hierarchy, strong/moderate/weak claim distinction)
+- **Updated:** SPRINT.md, CHANGELOG.md, PROJECT STATE.md — all priorities now complete
+
+### Final Status
+- **ALL 6 HIGH priorities** complete (cophenetic distance, ultrametric inequality, Python verification, generative mechanism, methodology, CGF evaluation)
+- **ALL 3 MEDIUM priorities** complete (resolution-dependence, framework positioning, linguistic bridge)
+- **ALL 2 LOW priorities** complete (epistemological limits, cosmological extension)
+- **Remaining:** Citations (all `[UNVERIFIED-LLM]`), reader testing, document unification
+
+### Git
+- Branch: `feature/ultrametric-v2-ternary-tree`
+- Commit: `5af7e4d` (0.6.md)
+
+---
+
 ## 2026-05-15 — Bridges and Self-Evaluation
 
 ### What Changed
