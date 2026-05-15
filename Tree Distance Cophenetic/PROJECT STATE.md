@@ -2,7 +2,7 @@
 
 **Last Updated:** 2026-05-15  
 **Current Phase:** COMPLETE — All HIGH/MEDIUM/LOW priorities finished. Citations and reader testing remain.  
-**Active Branch:** `feature/ultrametric-v2-ternary-tree`
+**Active Branch:** `feature/tree-distance-cophenetic`
 
 ## Current State
 

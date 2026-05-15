@@ -2,7 +2,7 @@
 
 **Sprint:** Mathematical formalization
 **Started:** 2026-05-15
-**Branch:** `feature/ultrametric-v2-ternary-tree`
+**Branch:** `feature/tree-distance-cophenetic`
 
 ## Completed
 - [x] Created all 7 mandatory project documentation files (first session)

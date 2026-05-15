@@ -27,7 +27,7 @@
 - **4 CGF weaknesses** need addressing (§V.2)
 
 ### Git
-- Branch: `feature/ultrametric-v2-ternary-tree`
+- Branch: `feature/tree-distance-cophenetic`
 - Commit: `[pending]`
 
 ---
@@ -50,7 +50,7 @@
 - **Remaining:** Citations (all `[UNVERIFIED-LLM]`), reader testing, document unification
 
 ### Git
-- Branch: `feature/ultrametric-v2-ternary-tree`
+- Branch: `feature/tree-distance-cophenetic`
 - Commit: `5af7e4d` (0.6.md)
 
 ---
@@ -69,7 +69,7 @@
 - CGF identifies 4 weaknesses: empirical deficit, physics minority position, citation gap, reader accessibility
 
 ### Git
-- Branch: `feature/ultrametric-v2-ternary-tree`
+- Branch: `feature/tree-distance-cophenetic`
 - Commits: `8f1132f` (0.4.md), `e2c9de4` (0.5.md)
 
 ---
@@ -89,7 +89,7 @@
 - **Cleaned:** Removed temporary audit scripts `_audit_math.py`, `_audit_math2.py`
 
 ### Git
-- Branch: `feature/ultrametric-v2-ternary-tree`
+- Branch: `feature/tree-distance-cophenetic`
 - Commits: `f405190` (0.3.py fix), `cce7f41` (0.3.md fixes)
 
 ---
@@ -111,7 +111,7 @@
 - `0.3.md` (new), `0.3.py` (new), `SPRINT.md` (edit), `CHANGELOG.md` (edit), `PROJECT STATE.md` (edit)
 
 ### Git
-- Branch: `feature/ultrametric-v2-ternary-tree`
+- Branch: `feature/tree-distance-cophenetic`
 - Commit: `7a7dc78`
 
 ---
