@@ -36,7 +36,7 @@
 - [x] Add concrete worked example (dendrogram with labeled items) ✅ (`0.3.md`)
 - [x] Write the ultrametric inequality explicitly ✅ (`0.3.md`)
 - [x] Write companion Python verification script ✅ (`0.3.py`)
-- [~] Add citations (Page & Wootters 1983, Wheeler & DeWitt, Sokal & Rohlf) — 5 refs in 0.8.md §7.1 flagged `[NEEDS-VERIFICATION]`. Search Request Manifest provided in §7.2. Requires external web/academic search.
+- [x] Add citations (Page & Wootters 1983, Wheeler & DeWitt, Sokal & Rohlf) — Verified 2026-05-15 ✅ All 5 refs confirmed: volume, page numbers, publication details accurate. Page ranges added for R3 (2885–2892) and R4 (1113–1148).
 - [x] Add generative mechanism section (connect tree to Autaxys) ✅ (`0.4.md`)
 - [x] Add methodology section (5I process) ✅ (`0.5.md`)
 - [x] Apply CGF self-evaluation ✅ (`0.5.md` — scored 4.0/5)
@@ -62,7 +62,7 @@
 - [x] LEARNINGS.md populated with project-specific lessons
 - [x] DECISIONS.md updated with final decisions (D4, D5)
 - [x] README.md updated to reference 0.8.md as current version
-- [~] Citations — 5 academic references still `[NEEDS-VERIFICATION]` (requires external search)
+- [x] Citations — 5 academic references VERIFIED (2026-05-15). All volume/page/publication details confirmed. Search Request Manifest executed ✅.
 - [ ] Reader testing of 0.8.md — subagents unavailable; manual testing protocol in 0.8.md §7.4
 
 ### Remaining External Tasks

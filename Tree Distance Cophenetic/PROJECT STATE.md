@@ -1,7 +1,7 @@
 # PROJECT STATE — Tree Distance Cophenetic
 
 **Last Updated:** 2026-05-15 (Session 2 — Final Synthesis)
-**Current Phase:** FINAL — Definitive publication draft complete. Citations and reader testing are the only remaining external tasks.
+**Current Phase:** FINAL — All citations verified. Reader testing is the only remaining external task.
 **Active Branch:** `feature/tree-distance-cophenetic`
 
 ## Current State
@@ -39,7 +39,7 @@
 |:-----------|:-------|:------|
 | Mathematical theorems | `[CODE-EXECUTED]` — verified by `0.3.py` | All |
 | Cross-reference to QNFO releases | `[EXTERNAL-SOURCE]` — imported as `src_0.2_*.md` | 16 files |
-| Academic citations | `[NEEDS-VERIFICATION]` — requires external search | 5 references |
+| Academic citations | `[VERIFIED]` — confirmed by external search (2026-05-15) | 5 references |
 | Philosophical claims (L5-L8) | `[LLM-INFERRED]` — reasoning, not empirical | All L5-L8 |
 | Math formatting | `[CODE-EXECUTED]` — all 7 content files CLEAN | 7/7 |
 

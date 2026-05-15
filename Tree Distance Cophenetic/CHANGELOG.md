@@ -1,5 +1,20 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Citations Verified ✅
+
+### What Changed
+- **Verified:** All 5 academic citations confirmed by external search. All LLM-inferred details (volume, pages, publisher) accurate. Page ranges added: R3 (2885–2892), R4 (1113–1148).
+- **Updated:** `0.8.md` §7.1–7.3 — all `[NEEDS-VERIFICATION]` → `[VERIFIED]`, warning note replaced, Search Request Manifest marked EXECUTED.
+- **Updated:** `SPRINT.md` — citations task marked `[x]` complete.
+- **Updated:** `PROJECT STATE.md` — citation status updated to `[VERIFIED]`.
+- **Remaining:** Reader testing of 0.8.md (manual protocol in §7.4), Zenodo upload.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Final Synthesis & Project Closure (Session 2)
 
 ### What Changed
