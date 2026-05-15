@@ -20,6 +20,22 @@
 - **Prevention:** Every formal proof project should include an "assumption audit" section.
 - **Cross-Project:** YES — applies to any formal verification of physical systems.
 
+### L4: Subagent output truncation at ~32K tokens — parent must complete long content
+
+- **Category:** METHODOLOGY
+- **Issue:** Subagent tasked with writing a ~3,000-word essay produced excellent content but the session terminated ("error" status) at ~32K tokens, cutting off mid-sentence in the penultimate section. The essay was structurally complete through Section 5.2 and required parent to finish Sections 5.2–6.
+- **Solution:** For long-form content generation via subagents, either (a) split into smaller sequential sections, or (b) expect the parent to complete truncated output. Subagents reliably produce ~2,000–2,500 words before hitting token limits.
+- **Prevention:** For content >2,000 words, use chain mode with smaller section-level tasks rather than a single large essay task.
+- **Cross-Project:** YES — applies to any subagent-based long-form writing.
+
+### L5: Avoid role-labeling collaborators — "formal verification specialist" reads as reductive
+
+- **Category:** METHODOLOGY
+- **Issue:** Subagent essay characterized Richard as a "formal verification specialist" and framed the exchange as "physicist vs. formal verification specialist." This is reductive, creates an us-vs-them dynamic, and would be inflammatory if read by the person so labeled.
+- **Solution:** Refer to people neutrally by name or not at all. Frame exchanges around the ideas, not the identities of participants. "The proposal received detailed technical feedback" is better than "a formal verification specialist reviewed it."
+- **Prevention:** When writing about collaborative exchanges where participants may read the output, audit all characterizations of people. If a label could rankle, remove it.
+- **Cross-Project:** YES — applies to all writing that references specific people, especially potential collaborators.
+
 ### L3: PowerShell `&&` does not work — use `;` or separate commands
 
 - **Category:** PYTHON
