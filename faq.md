@@ -1,0 +1,80 @@
+# faq.md — Quick Reference: Ultrametric Error Confinement FAQ
+
+**Purpose:** One-liner answers to every anticipated question about p=2 vs p=3 vs p=5.
+**Companion to:** companion-paper.md (Definitive Companion Paper)
+
+---
+
+## Q: Why \=3\$ specifically?
+
+\=3\$ is the smallest odd prime — all odd \$ are symmetric, but \=3\$ minimizes qubit overhead while preserving the identical \^d\$ barrier exponent as the original \=2\$ (bit 0).
+
+---
+
+## Q: Why not \=5\$ or \=7\True
+
+They work (verified exhaustively at \=1\$, symmetrically for both bits) and give stronger absolute barriers (\^d\$, \^d\$), but require 36× and 377× more qubits at \=7\$. Design trade-off for future investigation.
+
+---
+
+## Q: Why must \$ be prime?
+
+The Bruhat–Tits tree is defined over \$ℚ_p\$, which requires \$ℤ_p\$ to be a discrete valuation ring — true only for prime \$. Composite \$ produces zero divisors and fails the geometric construction.
+
+---
+
+## Q: Why deviate from strict \+1\$ root rule?
+
+The \+1\$ rule **always** introduces even-count nodes (root for \ \geq 3\$, internal for \=2\$), creating tie-breaking asymmetry. The deviation preserves all ultrametric properties while eliminating ties everywhere.
+
+---
+
+## Q: Is the strict Bruhat–Tits tree ever symmetric?
+
+**No.** For every prime \$, the strict construction has an even number of children at some level, requiring tie-breaking that favors one logical state.
+
+---
+
+## Q: Does \=3\$ weaken the barrier compared to \=2\True
+
+No. \{p=3}(d) = \lceil 3/2 \rceil^d = 2^d = B_{p=2,\,b=0}(d)\$. Identical exponent. The only difference: \=3\$ protects **both** bits equally.
+
+---
+
+## Q: Why does \=2\$ show zero errors at \ \geq 3\$ while \=3\$ doesn’t until \ \geq 7\True
+
+Because \=2\$ internal tie-breaking favors bit 0 — the original only tested bit 0. Bit 1 would see barrier=2 (constant) at all depths. \=3\$ tests both bits equally; the higher LER at low \$ is the price of genuine bidirectional protection. At \ \geq 7\$, both bits achieve zero errors.
+
+---
+
+## Q: What about \=11, 13, 17, \ldots\True
+
+Same pattern as \=5,7\$ — symmetric, stronger absolute barriers, exponentially more qubits. Diminishing returns: overhead grows as \^d\$ while barrier grows only as \$\lceil p/2 \rceil^d\$.
+
+---
+
+## Q: Can you just flip the tie-breaker for bit 1 in \=2\True
+
+That makes the decoder encoding-dependent — it needs to know what was encoded, which is circular. The ternary tree solves this cleanly with a uniform rule.
+
+---
+
+## Q: Was the original paper wrong?
+
+No. The original’s results are valid for what was tested (bit 0). The asymmetry was structurally unrecognized, not falsified. This companion identifies and resolves it.
+
+---
+
+## Q: What’s the near-term experimental path?
+
+Neutral atom tweezer arrays — \=3\$, 40 atoms, controlled error injection, fluorescence readout, classical majority vote. No ancilla qubits, no syndrome measurement, no real-time feedback. Feasible on **existing** hardware.
+
+---
+
+## Q: Where’s the code?
+
+All code available in the companion repository. Standard-library Python 3.10+, seed=42. Reproducible on any machine with no external dependencies.
+
+---
+
+*Cross-reference: See companion-paper.md §2–§3 for full theoretical rationale with exhaustive verification tables.*

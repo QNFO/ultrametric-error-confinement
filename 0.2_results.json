@@ -1,0 +1,1108 @@
+{
+  "d2_bit0": {
+    "depth": 2,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 3,
+        "n_trials": 500,
+        "ler": 0.006,
+        "ci_lower": 0.002042559297638913,
+        "ci_upper": 0.017490563810893606
+      },
+      {
+        "p_err": 0.15,
+        "errors": 7,
+        "n_trials": 500,
+        "ler": 0.014,
+        "ci_lower": 0.006797703071787358,
+        "ci_upper": 0.02861342614025071
+      },
+      {
+        "p_err": 0.2,
+        "errors": 18,
+        "n_trials": 500,
+        "ler": 0.036,
+        "ci_lower": 0.022890872735181415,
+        "ci_upper": 0.05618477326149691
+      },
+      {
+        "p_err": 0.25,
+        "errors": 36,
+        "n_trials": 500,
+        "ler": 0.072,
+        "ci_lower": 0.05245772605354006,
+        "ci_upper": 0.09806894740891321
+      },
+      {
+        "p_err": 0.3,
+        "errors": 52,
+        "n_trials": 500,
+        "ler": 0.104,
+        "ci_lower": 0.08019382152134363,
+        "ci_upper": 0.13384487635513181
+      },
+      {
+        "p_err": 0.35,
+        "errors": 88,
+        "n_trials": 500,
+        "ler": 0.176,
+        "ci_lower": 0.14512588004549448,
+        "ci_upper": 0.21181487276253086
+      },
+      {
+        "p_err": 0.4,
+        "errors": 124,
+        "n_trials": 500,
+        "ler": 0.248,
+        "ci_lower": 0.21216358811767894,
+        "ci_upper": 0.28767921962189635
+      }
+    ]
+  },
+  "d2_bit1": {
+    "depth": 2,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 3,
+        "n_trials": 500,
+        "ler": 0.006,
+        "ci_lower": 0.002042559297638913,
+        "ci_upper": 0.017490563810893606
+      },
+      {
+        "p_err": 0.15,
+        "errors": 7,
+        "n_trials": 500,
+        "ler": 0.014,
+        "ci_lower": 0.006797703071787358,
+        "ci_upper": 0.02861342614025071
+      },
+      {
+        "p_err": 0.2,
+        "errors": 18,
+        "n_trials": 500,
+        "ler": 0.036,
+        "ci_lower": 0.022890872735181415,
+        "ci_upper": 0.05618477326149691
+      },
+      {
+        "p_err": 0.25,
+        "errors": 36,
+        "n_trials": 500,
+        "ler": 0.072,
+        "ci_lower": 0.05245772605354006,
+        "ci_upper": 0.09806894740891321
+      },
+      {
+        "p_err": 0.3,
+        "errors": 52,
+        "n_trials": 500,
+        "ler": 0.104,
+        "ci_lower": 0.08019382152134363,
+        "ci_upper": 0.13384487635513181
+      },
+      {
+        "p_err": 0.35,
+        "errors": 88,
+        "n_trials": 500,
+        "ler": 0.176,
+        "ci_lower": 0.14512588004549448,
+        "ci_upper": 0.21181487276253086
+      },
+      {
+        "p_err": 0.4,
+        "errors": 124,
+        "n_trials": 500,
+        "ler": 0.248,
+        "ci_lower": 0.21216358811767894,
+        "ci_upper": 0.28767921962189635
+      }
+    ]
+  },
+  "d3_bit0": {
+    "depth": 3,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.2,
+        "errors": 2,
+        "n_trials": 500,
+        "ler": 0.004,
+        "ci_lower": 0.0010976075412372681,
+        "ci_upper": 0.014466014041418871
+      },
+      {
+        "p_err": 0.25,
+        "errors": 9,
+        "n_trials": 500,
+        "ler": 0.018,
+        "ci_lower": 0.009498085051756854,
+        "ci_upper": 0.03385204721203399
+      },
+      {
+        "p_err": 0.3,
+        "errors": 19,
+        "n_trials": 500,
+        "ler": 0.038,
+        "ci_lower": 0.024459922123289107,
+        "ci_upper": 0.0585852253992656
+      },
+      {
+        "p_err": 0.35,
+        "errors": 48,
+        "n_trials": 500,
+        "ler": 0.096,
+        "ci_lower": 0.07317313790557156,
+        "ci_upper": 0.12498755386739835
+      },
+      {
+        "p_err": 0.4,
+        "errors": 91,
+        "n_trials": 500,
+        "ler": 0.182,
+        "ci_lower": 0.15064591449727432,
+        "ci_upper": 0.21820334288838023
+      }
+    ]
+  },
+  "d3_bit1": {
+    "depth": 3,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.2,
+        "errors": 2,
+        "n_trials": 500,
+        "ler": 0.004,
+        "ci_lower": 0.0010976075412372681,
+        "ci_upper": 0.014466014041418871
+      },
+      {
+        "p_err": 0.25,
+        "errors": 9,
+        "n_trials": 500,
+        "ler": 0.018,
+        "ci_lower": 0.009498085051756854,
+        "ci_upper": 0.03385204721203399
+      },
+      {
+        "p_err": 0.3,
+        "errors": 19,
+        "n_trials": 500,
+        "ler": 0.038,
+        "ci_lower": 0.024459922123289107,
+        "ci_upper": 0.0585852253992656
+      },
+      {
+        "p_err": 0.35,
+        "errors": 48,
+        "n_trials": 500,
+        "ler": 0.096,
+        "ci_lower": 0.07317313790557156,
+        "ci_upper": 0.12498755386739835
+      },
+      {
+        "p_err": 0.4,
+        "errors": 91,
+        "n_trials": 500,
+        "ler": 0.182,
+        "ci_lower": 0.15064591449727432,
+        "ci_upper": 0.21820334288838023
+      }
+    ]
+  },
+  "d4_bit0": {
+    "depth": 4,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.35,
+        "errors": 15,
+        "n_trials": 500,
+        "ler": 0.03,
+        "ci_lower": 0.018263049234083527,
+        "ci_upper": 0.04890409218496563
+      },
+      {
+        "p_err": 0.4,
+        "errors": 53,
+        "n_trials": 500,
+        "ler": 0.106,
+        "ci_lower": 0.08195666053446124,
+        "ci_upper": 0.1360515388678906
+      }
+    ]
+  },
+  "d4_bit1": {
+    "depth": 4,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.35,
+        "errors": 15,
+        "n_trials": 500,
+        "ler": 0.03,
+        "ci_lower": 0.018263049234083527,
+        "ci_upper": 0.04890409218496563
+      },
+      {
+        "p_err": 0.4,
+        "errors": 53,
+        "n_trials": 500,
+        "ler": 0.106,
+        "ci_lower": 0.08195666053446124,
+        "ci_upper": 0.1360515388678906
+      }
+    ]
+  },
+  "d5_bit0": {
+    "depth": 5,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.35,
+        "errors": 1,
+        "n_trials": 500,
+        "ler": 0.002,
+        "ci_lower": 0.000353127309584542,
+        "ci_upper": 0.011240992747195207
+      },
+      {
+        "p_err": 0.4,
+        "errors": 5,
+        "n_trials": 500,
+        "ler": 0.01,
+        "ci_lower": 0.004278690781520357,
+        "ci_upper": 0.023193435378764938
+      }
+    ]
+  },
+  "d5_bit1": {
+    "depth": 5,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007624618530903363
+      },
+      {
+        "p_err": 0.35,
+        "errors": 1,
+        "n_trials": 500,
+        "ler": 0.002,
+        "ci_lower": 0.000353127309584542,
+        "ci_upper": 0.011240992747195207
+      },
+      {
+        "p_err": 0.4,
+        "errors": 5,
+        "n_trials": 500,
+        "ler": 0.01,
+        "ci_lower": 0.004278690781520357,
+        "ci_upper": 0.023193435378764938
+      }
+    ]
+  },
+  "d6_bit0": {
+    "depth": 6,
+    "logical_bit": 0,
+    "n_trials": 1000,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.4,
+        "errors": 2,
+        "n_trials": 1000,
+        "ler": 0.002,
+        "ci_lower": 0.000548632102457155,
+        "ci_upper": 0.007262958889587807
+      }
+    ]
+  },
+  "d6_bit1": {
+    "depth": 6,
+    "logical_bit": 1,
+    "n_trials": 1000,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.4,
+        "errors": 2,
+        "n_trials": 1000,
+        "ler": 0.002,
+        "ci_lower": 0.000548632102457155,
+        "ci_upper": 0.007262958889587807
+      }
+    ]
+  },
+  "d7_bit0": {
+    "depth": 7,
+    "logical_bit": 0,
+    "n_trials": 2000,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.4,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      }
+    ]
+  },
+  "d7_bit1": {
+    "depth": 7,
+    "logical_bit": 1,
+    "n_trials": 2000,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      },
+      {
+        "p_err": 0.4,
+        "errors": 0,
+        "n_trials": 2000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0019171176005129348
+      }
+    ]
+  },
+  "d8_bit0": {
+    "depth": 8,
+    "logical_bit": 0,
+    "n_trials": 1000,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.4,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      }
+    ]
+  },
+  "d8_bit1": {
+    "depth": 8,
+    "logical_bit": 1,
+    "n_trials": 1000,
+    "results": [
+      {
+        "p_err": 0.01,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      },
+      {
+        "p_err": 0.4,
+        "errors": 0,
+        "n_trials": 1000,
+        "ler": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003826898586390522
+      }
+    ]
+  }
+}

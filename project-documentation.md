@@ -1,0 +1,731 @@
+# Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture with Bidirectional Validation
+
+## Complete Project Documentation
+
+**Project Release: 1.0.0** | **Document Reference: 0.19** | **Date:** 2026-05-16
+
+**Companion Paper DOI:** [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437)  
+**Original Paper DOI (ref [1]):** [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944)  
+**Author:** Rowan Brad Quni-Gudzinas | **Repository:** [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement)  
+**Branch:** `feature/tree-distance-cophenetic-alt` | **Canonical Publication:** `companion-paper.md`  
+**This File:** `project-documentation.md` — Archival project documentation (not the paper itself).
+
+---
+
+## How to Cite
+
+**This document (Release 1.0.0, Document 0.19):**
+> Quni-Gudzinas, R. B. (2026). *Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture with Bidirectional Validation: Complete Project Documentation* (Release 1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437)
+
+**The companion paper (canonical publication, `companion-paper.md`):**
+> Quni-Gudzinas, R. B. (2026). *Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture with Bidirectional Validation*. Zenodo. [https://doi.org/10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437)
+
+**BibTeX (companion paper):**
+```bibtex
+@misc{qunigudzinas2026symmetric,
+  author = {Quni-Gudzinas, Rowan Brad},
+  title = {Symmetric Extension of Ultrametric Error Confinement —
+           Ternary Tree Architecture with Bidirectional Validation},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20208437},
+  note = {Companion to DOI:10.5281/zenodo.20134944}
+}
+```
+
+**The original paper (reference [1]):**
+> Quni-Gudzinas, R. B. (2026). *Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits*. Zenodo. [https://doi.org/10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944)
+
+---
+
+## Abstract
+
+**Keywords:** ultrametric error confinement, Bruhat–Tits tree, ternary tree architecture, $p$-adic quantum computation, hierarchical majority voting, passive geometric fault tolerance, neutral atom quantum computing, correlated noise, $q$-ary encoding
+
+**Motivation.** Quni-Gudzinas (2026) introduced the concept of passive error confinement via hierarchical majority voting on a Bruhat–Tits tree — a geometric structure derived from the $p$-adic numbers $\mathbb{Q}_p$, where the ultrametric distance naturally bounds error propagation. The original validation used a $p = 2$ (binary) tree: the root has $p+1 = 3$ children, while internal nodes have $p = 2$ children. Monte Carlo simulations reported zero logical errors at depths $d \geq 3$ for $p_{\text{err}} \leq 0.40$, but **only logical bit 0 was tested**.
+
+**Problem identified.** The $p = 2$ architecture contains a structural asymmetry. Internal nodes have 2 children (an even number), so majority-vote decoding requires a tie-breaking convention when the two children disagree. The convention "ties break to 0" systematically favors logical 0. When encoded as logical 1, a single leaf error anywhere in the tree is sufficient to flip the root — the energy barrier collapses to a constant $B_{p=2,\,b=1}(d) = 2$ at all depths. Logical 1 receives essentially no protection. The original paper's claims are valid only for the tested state; the error confinement was **unidirectional**, not bidirectional.
+
+**Solution.** We replace $p = 2$ with $p = 3$ (ternary tree), where every node — including the root — has exactly 3 children. Since 3 is odd, no ties occur anywhere: every internal node has a strict majority among its 3 children. Both logical states receive identical exponential protection:
+$$B_{p=3}(d) = \lceil 3/2 \rceil^d = 2^d = B_{p=2,\,b=0}(d)$$
+The symmetry fix does not weaken the barrier — it extends identical protection to both logical states. The only cost is a larger leaf count ($3^d$ vs. $3 \cdot 2^{d-1}$), which is the price of genuine bidirectional symmetry.
+
+**Why $p = 3$ specifically.** The Bruhat–Tits tree is defined over $\mathbb{Q}_p$, which requires $\mathbb{Z}_p$ to be a discrete valuation ring — true only when $p$ is prime. The strict $(p+1)$-regular construction is **never symmetric** for any prime (Theorem 1). Our regular $p$-ary deviation — giving every node $p$ children, root included — makes every odd prime symmetric. Among odd primes, $p = 3$ is the smallest, minimizing qubit overhead while preserving the identical barrier exponent $2^d$ as the original architecture (for its protected state).
+
+**Results.** We independently tested both logical bits across depths $d = 2$ through $d = 8$ using Monte Carlo simulation (Python 3.10+, standard library only, seed = 42). At $d = 7$ ($2{,}187$ leaves, barrier $128$), zero logical errors occurred across $36{,}000$ total trials at all $p_{\text{err}} \leq 0.40$ (Wilson 95% CI upper bound: $0.0019$). At $d = 8$ ($6{,}561$ leaves), zero errors across $18{,}000$ trials (CI upper: $0.0038$). Perfect symmetry was confirmed at all 63 data points: logical 0 and logical 1 produce identical logical error rates at every $(d, p_{\text{err}})$ combination tested.
+
+**Extensions.** The project continued through 7 sprints (28 tasks) and delivered 8 novel computational findings beyond the original paper:
+1. **$p = 2$ asymmetry exhaustively verified** through $d = 3$ (all 4,096 leaf patterns)
+2. **$p = 5$ and $p = 7$ validated as symmetric** alternatives, confirming the barrier formula $B(d) = \lceil p/2 \rceil^d$ for all tested odd primes
+3. **Classical repetition code outperforms the tree at i.i.d. noise** — an honest baseline establishing that the tree is not a superior error-correcting code for independent errors
+4. **The tree outperforms classical repetition under correlated (clustered) noise** — the first computational evidence of genuine practical advantage, stemming from hierarchical error containment within subtrees
+5. **Multi-bit encoding scales throughput** — partitioning the tree at split depth $k$ yields $p^k$ independent logical bits, achieving $7.29\times$ correct-bit throughput at 9 bits
+6. **$q$-ary alphabet generalization achieves $48\times$ LER reduction at zero additional qubit cost** — errors scatter across $q-1$ wrong symbols, exploiting existing atomic hyperfine levels
+7. **Balanced (uniform-depth) trees are optimal under i.i.d. noise** — dynamic restructuring provides no benefit
+8. **QEC concatenation is redundant** — the tree is already a hierarchical repetition code
+
+**Physical pathway.** The ternary tree architecture requires no ancilla qubits, no syndrome measurements, and no real-time feedback. A near-term demonstration uses depth $d = 3$, 40 atoms, and is feasible on existing neutral atom tweezer array platforms (Harvard/Lukin–Greiner, Caltech/Endres, Pasqal/Browaeys). A complete hardware prototype design specification is provided.
+
+**Computational footprint.** All results are `[CODE-EXECUTED]` and reproducible: ~260,000 Monte Carlo trials, 4,500+ lines of Python, 16 computational modules, 26 data and documentation files. No external dependencies beyond Python 3.10+ standard library.
+
+---
+
+## Table of Contents
+
+1. [Background: The Original $p = 2$ Validation and Its Asymmetry](#1-background)
+2. [Architecture: The Ternary ($p = 3$) Tree](#2-architecture)
+3. [Eight Novel Findings](#3-eight-novel-findings)
+4. [Complete Numerical Results](#4-complete-numerical-results)
+5. [Why the Tree Wins: Correlated Noise Analysis](#5-correlated-noise)
+6. [$q$-Ary Generalization: Error Suppression Through Symbol Scatter](#6-q-ary-generalization)
+7. [Classical Baseline Comparisons](#7-classical-baseline-comparisons)
+8. [Physical Implementation Pathway](#8-physical-implementation-pathway)
+9. [Computational Footprint](#9-computational-footprint)
+10. [Complete File Inventory](#10-complete-file-inventory)
+11. [Git History and Repository](#11-git-history-and-repository)
+12. [Next Steps](#12-next-steps)
+    - [Appendix A — Quick Reference Constants](#appendix-a--quick-reference-constants)
+    - [Appendix B — Theorem 1: Universal Bruhat–Tits Asymmetry](#appendix-b--theorem-1)
+    - [Appendix C — References](#appendix-c--references)
+
+---
+
+## 1. Background
+
+### 1.1 The Original Paper (Quni-Gudzinas, 2026)
+
+In 2026, Quni-Gudzinas published "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" on Zenodo (DOI: `10.5281/zenodo.20134944`). That paper — referred to throughout this document as **the original validation** or **paper [1]** — introduced a novel approach to quantum error mitigation: encoding a single logical bit across the leaves of a finite Bruhat–Tits tree and decoding via classical hierarchical majority vote.
+
+The Bruhat–Tits tree is a geometric object from $p$-adic mathematics. For a prime $p$, the Bruhat–Tits building for $\text{SL}(2, \mathbb{Q}_p)$ is an infinite $(p+1)$-regular tree. The original paper [1] used $p = 2$, producing a binary tree where the root has $p+1 = 3$ children and every internal node has $p = 2$ children. Leaves sit at depth $d$. The encoding is passive: set all leaves to the logical bit value. Decoding is classical post-processing: bottom-up majority vote.
+
+The key insight of [1] was that the **ultrametric** (non-Archimedean) geometry of the $p$-adic tree naturally bounds error propagation: errors in one subtree cannot "spread" to distant subtrees because the ultrametric distance enforces a strong triangle inequality $\text{dist}(x, z) \leq \max(\text{dist}(x, y), \text{dist}(y, z))$. This is in contrast to Euclidean (Archimedean) geometries where errors can accumulate additively across space.
+
+The original paper [1] reported zero logical errors at depths $d \geq 3$ for physical error rates $p_{\text{err}} \leq 0.40$, using 500 Monte Carlo trials per condition — but **only bit 0 was tested**.
+
+### 1.2 The Asymmetry Problem
+
+The $p = 2$ tree has an even number of children (2) at every internal node. Majority-vote decoding at a 2-child node inevitably encounters ties when the two children disagree. The original implementation broke ties to 0 by convention.
+
+This convention creates a structural asymmetry between logical states:
+
+**When encoded as logical 0** (all leaves set to 0):
+- 0 leaf errors → children are (0, 0) → no tie → output 0 ✓
+- 1 leaf error → children are (1, 0) or (0, 1) → **tie, breaks to 0** → output 0 ✓
+- 2 leaf errors → children are (1, 1) → no tie → output 1 ✗
+
+Flipping an internal node encoded as 0 requires **2 leaf errors**.
+
+**When encoded as logical 1** (all leaves set to 1):
+- 0 leaf errors → children are (1, 1) → no tie → output 1 ✓
+- 1 leaf error → children are (0, 1) or (1, 0) → **tie, breaks to 0** → output 0 ✗
+- 2 leaf errors → children are (0, 0) → no tie → output 0 ✗
+
+Flipping an internal node encoded as 1 requires only **1 leaf error**.
+
+This asymmetry propagates recursively through the tree. For bit 0: each internal node requires both children to flip → barrier $B(d) = 2^d$ (exponential). For bit 1: a single error at any leaf flips its parent internal node, and since the root has 3 children (odd), 2 of 3 internal nodes must flip → barrier $B(d) = 2$ (constant at all depths). **Logical 1 receives essentially no protection in the $p = 2$ architecture.**
+
+This was confirmed by exhaustive enumeration through $d = 3$ (4,096 leaf patterns), conducted as part of the present project (see Finding 1, §3.1).
+
+**Note on terminology.** §1.2 analyzes the STRICT Bruhat-Tits construction used in the original paper [1] — root has $p+1 = 3$ children, internal nodes have $p = 2$ children. §2 onward uses our REGULAR $p$-ary construction — ALL nodes have $p$ children, including the root. The strict BT is never symmetric for any prime $p$ (Theorem 1, Appendix B); the regular $p$-ary deviation eliminates this asymmetry for all odd $p$.
+
+### 1.3 What the Present Project Does
+
+This project — the **Symmetric Extension** — addresses the $p = 2$ asymmetry by switching to $p = 3$ (ternary tree, every node has exactly 3 children). Since 3 is odd, no ties occur anywhere. Both logical states receive identical exponential protection. The project:
+
+1. Validates bidirectional symmetry through $d = 8$ (Sprint 1)
+2. Generalizes to all odd primes $p = 5, 7$ (Sprint 2)
+3. Benchmarks against classical repetition codes (Sprints 2, 3, 5, 6)
+4. Extends to $q$-ary alphabets (Sprint 4)
+5. Tests dynamic restructuring and QEC concatenation (Sprints 5–6)
+6. Provides a complete hardware implementation pathway (Sprint 7)
+
+The definitive companion paper is `companion-paper.md`. The present document (`project-documentation.md`) serves as the **archival master**: a single, self-contained reference containing all results, all findings, all code, and all next steps.
+
+---
+
+## 2. Architecture
+
+### 2.1 Regular $p$-Ary Tree Construction
+
+The architecture uses a **regular $p$-ary tree**: every node has exactly $p$ children, including the root. This is a justified deviation from the strict Bruhat–Tits $(p+1)$-regular construction (where the root has $p+1$ children because, in the infinite tree, it has neighbors in all directions). In a finite encoding architecture, we select a subtree — the essential ultrametric properties are preserved for any rooted subtree.
+
+**Key properties:**
+
+| Property | Formula |
+|:---------|:--------|
+| Total leaves | $L(d) = p^d$ |
+| Total nodes | $N(d) = (p^{d+1} - 1)/(p - 1)$ |
+| Barrier (minimum leaf errors to flip root) | $B(d) = \lceil p/2 \rceil^d$ |
+| Tie-free guarantee | $p$ odd $\implies$ no ties at any node |
+| Symmetric protection | Both logical states receive identical $B(d)$ |
+
+**Barrier proof (constructive induction):**
+- **Base case ($d = 1$):** Root has $p$ leaf children. Majority requires $> p/2$ votes. Need $\lceil p/2 \rceil$ leaf errors to flip the majority.
+- **Inductive step:** At depth $d+1$, each of the root's $p$ children is the root of a subtree of depth $d$, requiring $B(d)$ errors to flip. The root flips when $\lceil p/2 \rceil$ subtrees flip. Total: $\lceil p/2 \rceil \cdot B(d) = \lceil p/2 \rceil \cdot \lceil p/2 \rceil^d = \lceil p/2 \rceil^{d+1}$.
+
+### 2.2 Encoding
+
+All leaves are set to the logical bit value $b \in \{0, 1\}$. This is a **passive encoding** — no entangling gates, no syndrome measurements, no real-time feedback. On neutral atom hardware, encoding requires either 0 or 1 global $\pi$-pulses (see §8).
+
+### 2.3 Decoding (Classical Post-Processing)
+
+Decoding proceeds bottom-up:
+1. Read out all leaf values (fluorescence imaging on neutral atoms)
+2. For each internal node at depth $d-1$: majority of its $p$ child values determines its value
+3. Continue upward until the root
+4. Root value = decoded logical bit
+
+Since $p$ is odd, every node has a strict majority — no tie-breaking is required.
+
+### 2.4 Noise Model
+
+I.i.d. bit-flip errors are applied to leaves with probability $p_{\text{err}}$. Internal nodes are not physical — only leaves correspond to atoms. Correlated noise models (two-stage with neighbor propagation) are implemented in `0.12_correlated_noise.py` (see §5).
+
+### 2.5 Barrier–Overhead Trade-off Across Odd Primes
+
+| $p$ | $B(3)$ | $L(3)$ | $B(5)$ | $L(5)$ | $B(7)$ | $L(7)$ | Overhead at $d=7$ |
+|:----|:------|:------|:------|:------|:------|:------|:------------------|
+| 3 | 8 | 27 | 32 | 243 | 128 | 2,187 | **1×** (baseline) |
+| 5 | 27 | 125 | 243 | 3,125 | 2,187 | 78,125 | **36×** |
+| 7 | 64 | 343 | 1,024 | 16,807 | 16,384 | 823,543 | **377×** |
+| 11 | 216 | 1,331 | 7,776 | 161,051 | 279,936 | 19,487,171 | **8,910×** |
+
+$p = 3$ is the **minimal symmetric** architecture. $p = 5$ gives a stronger absolute barrier ($3^d$ vs $2^d$) at the cost of exponentially more qubits. All odd primes are tie-free and symmetric.
+
+---
+
+## 3. Eight Novel Findings
+
+### Finding 1: $p = 2$ Asymmetry — Exhaustively Verified
+
+**Method:** All $2^n$ leaf patterns enumerated for $n = 3, 6, 12$ leaves (strict BT) and $n = 2, 4, 8$ (regular $p$-ary), covering $d = 1, 2, 3$. For each pattern, the minimum number of leaf errors required to flip the root was computed.
+
+**Strict Bruhat–Tits ($p = 2$, root degree 3, internal degree 2):**
+
+| Depth $d$ | Leaves | Patterns | $B_{b=0}(d)$ | $B_{b=1}(d)$ | Ratio |
+|:----------|:-------|:---------|:-------------|:-------------|:------|
+| 1 | 3 | 8 | 2 | 2 | 1:1 |
+| 2 | 6 | 64 | 4 | **2** | 2:1 |
+| 3 | 12 | 4,096 | 8 | **2** | **4:1** |
+
+**Regular $p$-ary ($p = 2$, all nodes have 2 children — even worse):**
+
+| Depth | Leaves | $B_{b=0}$ | $B_{b=1}$ |
+|:------|:-------|:----------|:----------|
+| 1 | 2 | 2 | **1** |
+| 2 | 4 | 4 | **1** |
+| 3 | 8 | 8 | **1** |
+
+In the regular $p$-ary construction, a **single** leaf error anywhere propagates to flip the root when encoded as logical 1. This is even more severe than the strict BT construction.
+
+### Finding 2: $p = 5$ and $p = 7$ Validated as Symmetric
+
+**Method:** Monte Carlo simulation (500 trials per condition, seed = 42), both logical bits independently.
+
+| $p$ | $d$ | Leaves | Barrier | LER at $p_{\text{err}}=0.40$ (both bits identical) |
+|:----|:----|:-------|:--------|:---------------------------------------------------|
+| 5 | 2 | 25 | 9 | 0.190 |
+| 5 | 3 | 125 | 27 | 0.040 |
+| 5 | 4 | 625 | 81 | **0.000** |
+| 7 | 2 | 49 | 16 | 0.126 |
+| 7 | 3 | 343 | 64 | 0.002 |
+
+Both bits produce identical LER at **all 40 data points** (24 for $p=5$, 16 for $p=7$). The barrier formula $B(d) = \lceil p/2 \rceil^d$ is confirmed for all tested primes.
+
+**Exhaustive verification ($d=1$):**
+- $p=5$ (32 patterns): $B(b0) = B(b1) = 3$ ✓
+- $p=7$ (128 patterns): $B(b0) = B(b1) = 4$ ✓
+
+### Finding 3: Classical Repetition Outperforms Tree at I.I.D. Noise
+
+**Method:** Compare LER at matched physical qubit count $N = p^d$. Classical code: $N$-bit repetition with majority vote. Barrier: $\lceil N/2 \rceil$. Tree barrier: $\lceil p/2 \rceil^d$.
+
+| $(p,d)$ | $N$ | Tree barrier | Classical barrier | LER winner at $p_{\text{err}}=0.40$ |
+|:--------|:----|:-------------|:------------------|:------------------------------------|
+| (3,2) | 9 | 4 | **5** | Tree (marginal — 0.248 vs 0.258) |
+| (3,3) | 27 | 8 | **14** | Classical (0.182 vs 0.164) |
+| (3,4) | 81 | 16 | **41** | Classical (0.106 vs 0.038) |
+| (3,5) | 243 | 32 | **122** | Classical (0.010 vs <0.002) |
+| (5,2) | 25 | 9 | **13** | Classical |
+| (5,3) | 125 | 27 | **63** | Classical |
+| (7,2) | 49 | 16 | **25** | Classical |
+
+The classical barrier scales as $N/2$ (linear in qubits), while the tree barrier scales as $\lceil p/2 \rceil^d$ (exponential in depth but sublinear in qubits since $N = p^d$). At matched $N$, the classical absolute barrier is always higher for $d \geq 3$.
+
+**Interpretation:** The tree is NOT a better error-correcting code for i.i.d. bit-flip noise. Its value lies in geometric structure, connection to $p$-adic mathematics, natural physical mapping, and — critically — advantage under correlated noise (Finding 4).
+
+### Finding 4: Tree Outperforms Classical Under Correlated Noise
+
+**This is the first computational evidence that the tree architecture provides genuine practical advantage over classical codes.**
+
+**Noise model:** Two-stage process — (1) i.i.d. flips with $p_{\text{base}}$, (2) for each flipped leaf, flip $k=2$ nearest DFS neighbors with probability $p_{\text{corr}}$.
+
+**Crossover points — $p_{\text{base}}$ where Tree LER $<$ Classical LER (1,000 trials):**
+
+| $(p,d)$ | $N$ | $p_{\text{corr}}=0.25$ | $p_{\text{corr}}=0.50$ | $p_{\text{corr}}=0.75$ |
+|:--------|:----|:----------------------|:----------------------|:----------------------|
+| (3,3) | 27 | — (CL wins) | $\geq 0.30$ | $\geq 0.25$ |
+| (3,4) | 81 | $\geq 0.35$ | $\geq 0.25$ | **$\geq 0.20$** |
+| (5,3) | 125 | $\geq 0.35$ | $\geq 0.30$ | **$\geq 0.20$** |
+
+**Three scaling trends:** Higher $p_{\text{corr}}$ → lower crossover $p_{\text{base}}$. Higher depth $d$ → lower crossover. Larger $p$ → lower crossover. At $p_{\text{corr}}=0.75$, the tree wins for all configurations at $p_{\text{base}} \geq 0.20$.
+
+**Mechanism:** Clustered errors in one subtree are contained by hierarchical voting — they affect only that subtree's vote, while the other $\lceil p/2 \rceil - 1$ sibling subtrees remain correct. In classical repetition, clustered errors in adjacent bits concentrate the error budget and efficiently flip the global majority.
+
+### Finding 5: Multi-Bit Encoding Scales Throughput
+
+**Method:** Partition the tree at split depth $k$. Each of the $p^k$ subtrees encodes one logical bit independently. Verified independence (max pairwise deviation $< 5 \times 10^{-5}$).
+
+**$p = 3$, $d = 5$ (243 leaves, 200 trials):**
+
+| Split $k$ | Logical bits | Leaves/bit | Barrier/bit | Correct bits/trial at $p_{\text{err}}=0.40$ |
+|:----------|:-------------|:-----------|:------------|:--------------------------------------------|
+| 0 (single) | 1 | 243 | 32 | 0.975 |
+| 1 | 3 | 81 | 16 | 2.71 |
+| 2 | 9 | 27 | 8 | **7.29** |
+
+Nine bits with $B=8$ per bit achieve $7.29\times$ the correct-bit throughput of single-bit encoding. The cost is weaker per-bit protection, but net information throughput increases substantially.
+
+### Finding 6: $q$-Ary Scatter — $48\times$ LER Reduction at Zero Qubit Cost
+
+**Method:** Generalize from binary $\{0, 1\}$ to $q$-ary $\{0, 1, \ldots, q-1\}$ symbols with plurality voting. Under $q > 2$, a flipped leaf scatters randomly across $q-1$ wrong symbols, making it harder for any single wrong symbol to achieve plurality.
+
+**$p = 3$, $p_{\text{err}} = 0.40$, 500 trials:**
+
+| $d$ | Leaves | $q=2$ | $q=3$ | $q=5$ | $q=10$ |
+|:----|:-------|:------|:------|:------|:-------|
+| 2 | 9 | 0.304 | **0.076** | 0.006 | 0.004 |
+| 3 | 27 | 0.194 | **0.004** | 0.000 | 0.000 |
+| 4 | 81 | 0.094 | **0.000** | 0.000 | 0.000 |
+
+At $q=3$, $d=3$: $48\times$ LER reduction vs binary. At $q=5$, zero errors at all tested depths.
+
+**Physical significance:** Alkali atoms (Rb, Cs) support $q = 3$–$5$ hyperfine levels; alkaline-earth atoms (Sr, Yb) support $q = 10+$ nuclear spin states. This capacity already exists in hardware — no additional atoms, gates, or control lines are required.
+
+**Mechanism:** The adversarial barrier $B_{\text{adv}} = \lceil p/2 \rceil^d$ (all errors target the same wrong symbol) is unchanged from binary. The random-scatter effective barrier is approximately $B_{\text{rand}} \approx (\lceil p/2 \rceil \cdot (q-1))^d$. For $q=3$, $d=3$: $B_{\text{rand}} \approx 4^3 = 64$ vs $B_{\text{adv}} = 2^3 = 8$ — an 8× increase.
+
+### Finding 7: Balanced Trees Optimal Under I.I.D. Noise
+
+**Method:** Compare unbalanced (variable depth per subtree) vs balanced (uniform depth) allocation at matched utility weights. Balanced $[2,2,2]$ (27 leaves) vs unbalanced $[3,2,1]$ (39 leaves).
+
+**Result:** Balanced is 36–45% more efficient in utility per leaf. The uniform hierarchical structure is naturally optimal for i.i.d. noise. Dynamic restructuring would only help under heterogeneous or correlated noise conditions where some subtrees experience systematically different error rates.
+
+### Finding 8: QEC Concatenation Is Redundant
+
+**Method:** Concatenate tree with inner $M$-bit repetition code at each leaf. Compare at matched total qubit counts.
+
+| Total qubits | Pure Tree | Tree+Rep (best) | Pure Rep | Winner |
+|:-------------|:----------|:----------------|:---------|:-------|
+| 27 | 0.182 | 0.182 | **0.164** | Rep |
+| 81 | 0.106 | 0.088 | **0.038** | Rep |
+| 243 | 0.010 | 0.014 | **0.000** | Rep |
+
+**Result:** The tree IS already a hierarchical repetition code. Concatenating a flat repetition code at the leaf level is redundant — splitting the qubit budget between tree depth and inner length is strictly worse than full allocation to either.
+
+---
+
+## 4. Complete Numerical Results
+
+### 4.1 $p = 3$ — All Depths, Both Bits
+
+| $d$ | Leaves | Barrier | LER at $p_{\text{err}}=0.40$ | Trials/bit | Wilson 95% CI |
+|:----|:-------|:--------|:----------------------------|:-----------|:--------------|
+| 2 | 9 | 4 | 0.248 | 500 | $[0.212, 0.288]$ |
+| 3 | 27 | 8 | 0.182 | 500 | $[0.151, 0.218]$ |
+| 4 | 81 | 16 | 0.106 | 500 | $[0.082, 0.136]$ |
+| 5 | 243 | 32 | 0.010 | 500 | $[0.004, 0.023]$ |
+| 6 | 729 | 64 | 0.002 | 1,000 | $[0.001, 0.007]$ |
+| 7 | 2,187 | 128 | **0.000** | 2,000 | $[0, 0.0019]$ |
+| 8 | 6,561 | 256 | **0.000** | 1,000 | $[0, 0.0038]$ |
+
+Both bits produce identical LER at all 63 data points.
+
+### 4.2 Zero-Error Thresholds ($p = 3$)
+
+| Depth | Trials/bit | Zero errors up to $p_{\text{err}}$ |
+|:------|:-----------|:------------------------------------|
+| 3 | 500 | 0.15 |
+| 4 | 500 | 0.30 |
+| 5 | 500 | 0.30 |
+| 6 | 1,000 | 0.35 |
+| 7 | 2,000 | **0.40** (full range) |
+| 8 | 1,000 | **0.40** (full range) |
+
+### 4.3 $p = 5$ Results (both bits identical, 500 trials)
+
+| $d$ | Leaves | Barrier | LER at $p_{\text{err}}=0.40$ |
+|:----|:-------|:--------|:---------------------------|
+| 2 | 25 | 9 | 0.190 |
+| 3 | 125 | 27 | 0.040 |
+| 4 | 625 | 81 | 0.000 |
+
+### 4.4 $p = 7$ Results (both bits identical, 500 trials)
+
+| $d$ | Leaves | Barrier | LER at $p_{\text{err}}=0.40$ |
+|:----|:-------|:--------|:---------------------------|
+| 2 | 49 | 16 | 0.126 |
+| 3 | 343 | 64 | 0.002 |
+
+### 4.5 Cross-$p$ Comparison at $d = 3$, $p_{\text{err}} = 0.40$
+
+| $p$ | Leaves | Barrier | LER | Overhead vs $p=3$ |
+|:----|:-------|:--------|:----|:------------------|
+| 3 | 27 | 8 | 0.182 | 1.0× |
+| 5 | 125 | 27 | 0.040 | 4.6× |
+| 7 | 343 | 64 | 0.002 | 12.7× |
+
+### 4.6 $q$-Ary LER ($p = 3$, $p_{\text{err}} = 0.40$, 500 trials)
+
+| $d$ | $q=2$ | $q=3$ | $q=5$ | $q=10$ |
+|:----|:------|:------|:------|:-------|
+| 2 | 0.304 | 0.076 | 0.006 | 0.004 |
+| 3 | 0.194 | 0.004 | 0.000 | 0.000 |
+| 4 | 0.094 | 0.000 | 0.000 | 0.000 |
+
+### 4.7 $p = 2$ Asymmetry — Exhaustive Enumeration
+
+| Construction | $d$ | Leaves | $B_{b=0}$ | $B_{b=1}$ |
+|:-------------|:----|:-------|:----------|:----------|
+| Strict BT | 1 | 3 | 2 | 2 |
+| Strict BT | 2 | 6 | 4 | **2** |
+| Strict BT | 3 | 12 | 8 | **2** |
+| Regular $p$-ary | 1 | 2 | 2 | **1** |
+| Regular $p$-ary | 2 | 4 | 4 | **1** |
+| Regular $p$-ary | 3 | 8 | 8 | **1** |
+
+### 4.8 Correlated Noise — Crossover Thresholds
+
+| $(p,d)$ | $N$ | $p_{\text{corr}}=0.25$ | $p_{\text{corr}}=0.50$ | $p_{\text{corr}}=0.75$ |
+|:--------|:----|:----------------------|:----------------------|:----------------------|
+| (3,3) | 27 | — | $\geq 0.30$ | $\geq 0.25$ |
+| (3,4) | 81 | $\geq 0.35$ | $\geq 0.25$ | $\geq 0.20$ |
+| (5,3) | 125 | $\geq 0.35$ | $\geq 0.30$ | $\geq 0.20$ |
+
+### 4.9 QEC Concatenation at $p_{\text{err}} = 0.40$
+
+| Total qubits | Best tree | Best Tree+Rep | Pure Rep | Winner |
+|:-------------|:----------|:--------------|:---------|:-------|
+| 27 | 0.182 | 0.182 | **0.164** | Rep |
+| 81 | 0.106 | 0.088 | **0.038** | Rep |
+| 243 | 0.010 | 0.014 | **0.000** | Rep |
+
+---
+
+## 5. Correlated Noise — Why the Tree Wins
+
+### 5.1 The Model
+
+Two-stage process implemented in `0.12_correlated_noise.py`:
+1. **Stage 1:** Each leaf flips independently with probability $p_{\text{base}}$
+2. **Stage 2:** For each flipped leaf, flip up to $k = 2$ nearest neighbors in DFS leaf order with probability $p_{\text{corr}}$
+
+This models physical crosstalk, environmental fluctuations, and Rydberg-mediated error propagation in neutral atom arrays.
+
+### 5.2 Why Hierarchical Voting Contains Clustered Errors
+
+In the tree, clustered errors in one subtree affect only that subtree's majority vote. The other $\lceil p/2 \rceil - 1$ sibling subtrees (at any level of the hierarchy) remain correct if they receive no errors. The root only flips when a majority of its children are flipped — and clustered errors typically affect only one child's subtree.
+
+In classical repetition, clustered errors in adjacent bits concentrate the error budget in one region. If $k$ adjacent bits all flip, they contribute $k$ votes toward the wrong outcome, efficiently moving the global majority.
+
+### 5.3 Scaling Trends
+
+All three architectural parameters amplify the tree's advantage:
+
+| Parameter | Effect on tree advantage |
+|:----------|:------------------------|
+| $p_{\text{corr}} \uparrow$ | More errors cluster → stronger containment advantage |
+| $d \uparrow$ | Deeper hierarchy → more containment levels |
+| $p \uparrow$ | More sibling subtrees → stricter majority requirement, each subtree's correctness more valuable |
+
+---
+
+## 6. $q$-Ary Generalization: Error Suppression Through Symbol Scatter
+
+### 6.1 The Insight
+
+Binary encoding ($q = 2$) is the worst-case scenario: every flipped leaf always targets the one wrong symbol. In a $q$-ary alphabet ($q > 2$), a flipped leaf scatters randomly across $q-1$ wrong symbols. The probability that any specific wrong symbol receives a flip is only $1/(q-1)$.
+
+### 6.2 Adversarial vs Random-Scatter Barrier
+
+- **Adversarial barrier** (worst case, all errors target same wrong symbol): $B_{\text{adv}} = \lceil p/2 \rceil^d$ — unchanged from binary
+- **Random-scatter barrier** (heuristic, errors divide evenly): $B_{\text{rand}} \approx (\lceil p/2 \rceil \cdot (q-1))^d$
+
+For $q=3$, $d=3$: $B_{\text{rand}} \approx 4^3 = 64$ vs $B_{\text{adv}} = 8$ — an 8× effective barrier increase.
+
+### 6.3 Physical Implementation
+
+No additional hardware is required. The encoding exploits existing atomic internal structure:
+
+| Atomic species | Available levels | Approximate $q$ |
+|:---------------|:-----------------|:----------------|
+| $^{87}$Rb | $F=1,2$ hyperfine | $q=3$–$5$ |
+| $^{133}$Cs | $F=3,4$ hyperfine | $q=5$–$7$ |
+| $^{87}$Sr | $I=9/2$ nuclear spin | $q=10+$ |
+| $^{171}$Yb | $I=1/2$ nuclear spin | $q=10+$ |
+
+The scatter mechanism converts this existing physical capacity into error suppression without increasing qubit count, gate count, or control complexity.
+
+---
+
+## 7. Classical Baseline Comparisons
+
+### 7.1 Honest Baseline Principle
+
+Throughout this project, we have deliberately sought out results that challenge the tree architecture. Six negative or bounding results emerged:
+
+1. **Classical repetition beats tree at i.i.d.** (§4.9) — the tree is not a better error-correcting code for independent errors
+2. **$p=2$ regular $p$-ary is worse than strict BT** (§4.7) — $B(b1)=1$ instead of $B(b1)=2$
+3. **Balanced trees optimal under i.i.d.** (Finding 7) — dynamic restructuring provides no benefit
+4. **QEC concatenation redundant** (Finding 8) — the tree IS a hierarchical repetition code
+5. **Multi-bit trade-off** (Finding 5) — higher throughput comes at weaker per-bit protection
+6. **Barrier fraction decays with depth** — $B/L = (2/3)^d$ for $p=3$, asymptotically zero
+
+### 7.2 Where the Tree Actually Wins
+
+The tree architecture provides genuine advantage in two specific regimes:
+
+1. **Correlated noise** (§5): Errors that cluster spatially — the dominant noise mode in neutral atom arrays with Rydberg-mediated interactions. The hierarchical structure contains clustered errors within subtrees.
+2. **$q$-ary encoding** (§6): Exploits existing atomic internal structure for error suppression at zero additional qubit cost.
+
+Additionally, the tree provides theoretical value: a concrete computational application of $p$-adic geometry, connecting quantum error mitigation to ultrametric analysis and Bruhat–Tits buildings.
+
+---
+
+## 8. Physical Implementation Pathway
+
+### 8.1 Platform: Neutral Atom Tweezer Arrays (PRIMARY)
+
+Detailed platform scoping is provided in `platform-scoping.md`. Neutral atoms are recommended based on:
+
+| Criterion | Assessment |
+|:----------|:-----------|
+| Geometry | ★★★★★ — Arbitrary 2D/3D atom positioning enables exact tree layout |
+| Coupling | ★★★★ — Rydberg-mediated, tunable range |
+| Noise | ★★★★ — Dominant errors are atom loss (detectable) and spontaneous emission |
+| Scale | ★★★★ — Demonstrated 256+ (Harvard), 200+ (Caltech), 100+ (Pasqal) |
+| Maturity | ★★★★ — Multiple commercial platforms, active academic groups |
+
+### 8.2 Near-Term Demonstration: $d = 3$, 40 Atoms
+
+The complete hardware specification is provided in `hardware-specs.md`. Key parameters:
+
+| Parameter | Value |
+|:----------|:------|
+| Atoms required | 40 (27 leaves + 13 internal nodes) |
+| Tree depth | $d = 3$ |
+| Barrier | $2^3 = 8$ |
+| Expected LER at $p_{\text{err}} = 0.40$ | $0.182$ (both bits) |
+| Symmetry metric | $|\text{LER}(b=0) - \text{LER}(b=1)| < 0.02$ |
+| Hardware modifications | **None required** |
+| Ancilla qubits | **None** |
+| Syndrome measurements | **None** |
+| Real-time feedback | **None** |
+| Runtime estimate | 2–4 hours (8,000 total trials) |
+
+### 8.3 Protocol (4 Steps)
+
+1. **Arrange:** 40 atoms in tree geometry (hexagonal close-packed 2D, or linear 1D chain in DFS order)
+2. **Encode:** 0 or 1 global $\pi$-pulse to set all atoms to $|0\rangle$ or $|1\rangle$
+3. **Inject errors:** $X$-rotation by $\theta = 2\arcsin(\sqrt{p_{\text{err}}})$ on randomly selected leaves, or direct targeted $X$-gates
+4. **Read out and post-process:** Fluorescence imaging → classical hierarchical majority vote (4 computation steps, no quantum gates)
+
+### 8.4 Scaling Roadmap
+
+| Stage | Depth | Atoms | Barrier | Platform | Timeline |
+|:------|:------|:------|:--------|:---------|:---------|
+| Stage 1 | $d=3$ | 40 | 8 | Existing hardware | 2026 |
+| Stage 2 | $d=5$ | 364 | 32 | Demonstrated scale (256+ atoms) | 2027 |
+| Stage 3 | $d=7$ | 3,280 | 128 | Frontier (3D tweezers) | 2029–30 |
+
+---
+
+## 9. Computational Footprint
+
+### 9.1 Code
+
+| Metric | Value |
+|:-------|:------|
+| Python modules | 16 files |
+| Total lines of Python | ~4,500 |
+| External dependencies | **None** (Python 3.10+ standard library only) |
+| Key imports | `random`, `math`, `itertools`, `json`, `dataclasses`, `typing`, `collections` |
+| Random seed | 42 (all experiments) |
+| Reproducibility | Any machine with Python 3.10+; no `pip install` required |
+
+### 9.2 Experiments
+
+| Category | Trial count |
+|:---------|:------------|
+| $p=3$ MC ($d=2..8$) | ~108,000 |
+| $p=5$ MC ($d=2..4$) | ~27,000 |
+| $p=7$ MC ($d=2..3$) | ~18,000 |
+| Classical baseline | ~56,000 |
+| Correlated noise comparison | ~84,000 |
+| $q$-ary comparison | ~48,000 |
+| QEC concatenation | ~40,000 |
+| Other (multi-bit, exhaustive, etc.) | ~19,000 |
+| **Total** | **~260,000** |
+
+### 9.3 Largest Single Experiment
+
+| Parameter | Value |
+|:----------|:------|
+| Architecture | $p=3$, $d=8$ |
+| Leaves per trial | 6,561 |
+| Total nodes per trial | 9,841 |
+| Trials | 1,000 per bit × 2 bits = 2,000 |
+| Leaf evaluations | ~13.1 million |
+| Majority vote operations | ~19.7 million |
+| Runtime | ~430 seconds (split-mode runner) |
+
+---
+
+## 10. Complete File Inventory
+
+### Core Python Modules
+
+| # | File | Lines | Purpose |
+|:--|:-----|:------|:-------|
+| 1 | `0.1.py` | 258 | Ternary tree module ($p=3$ specific) |
+| 2 | `0.10.py` | 399 | General-$p$ tree module (any prime) |
+| 3 | `0.11_classical_repetition.py` | 185 | Classical $N$-bit repetition code |
+| 4 | `0.12_correlated_noise.py` | 376 | Two-stage correlated noise model |
+| 5 | `0.13_multi_bit.py` | 341 | Multi-bit encoding via subtree partitioning |
+| 6 | `0.14_qary.py` | 343 | $q$-ary alphabet generalization |
+| 7 | `0.15_unbalanced.py` | 264 | Dynamic tree restructuring |
+| 8 | `0.16_qec_concatenation.py` | 185 | QEC concatenation at leaf level |
+
+### Experiment Runners & Data Files
+
+| # | File | Purpose |
+|:--|:-----|:--------|
+| 9–18 | `0.2_run_experiments.py` through `0.14_run_qary_comparison.py` | 10 runner scripts |
+| 19–25 | `0.2_results.json` through `0.16_qec_results.json` | 7 JSON data files |
+
+### Documentation
+
+| # | File | Purpose |
+|:--|:-----|:--------|
+| 26 | `platform-scoping.md` | Physical platform scoping (5 platforms) |
+| 27 | `outreach-whitepaper.md` | Outreach whitepaper (2 pages) |
+| 28 | `companion-paper.md` | **Definitive companion paper** (8 sections + FAQ) |
+| 29 | `faq.md` | Quick Reference FAQ (standalone) |
+| 30 | `hardware-specs.md` | Hardware prototype design specification |
+| 31 | `progress-report.md` | Full 7-sprint progress narrative |
+| 32 | `project-documentation.md` | **This file** — Archival master document |
+| 33 | `README.md` | Project identity and status |
+| 34 | `PROJECT STATE.md` | Comprehensive handoff for next session |
+| 35 | `SPRINT.md` | Sprint status — 28 tasks across 7 sprints |
+| 36 | `CHANGELOG.md` | Versioned change log |
+| 37 | `BACKLOG.md` | Excruciatingly specific next steps |
+| 38 | `LEARNINGS.md` | 10 cross-project lessons |
+| 39 | `DECISIONS.md` | 6 architecture decisions with rationale |
+| 40 | `.gitignore` | Python exclusions |
+
+---
+
+## 11. Git History and Repository
+
+**Repository:** [github.com/QNFO/ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement)  
+**Branch:** `feature/tree-distance-cophenetic-alt` (clean, files at root)  
+**Companion Paper (canonical):** `companion-paper.md` — [DOI: 10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437)  
+**This Document:** `project-documentation.md` — Archival project documentation (not the paper itself)  
+**Latest Commit:** `90fb2ab` (renamed from `feature/ultrametric-v2-ternary-tree`)
+
+| Commit | Abbreviated Message |
+|:-------|:--------------------|
+| `90fb2ab` | Documentation rewrite + GitHub integration |
+| `52d5ac9` | Full documentation master file created |
+| `2ec36cc` | **PROJECT COMPLETE** — Final documentation package |
+| `0b5fc7c` | Sprint 6-7 deliverables (hardware specs, QEC concatenation) |
+| `4984213` | Sprint 6 — QEC concatenation |
+| `297a9fa` | Sprint 4 — $q$-ary generalization |
+| `4c7ea2f` | Documentation update — Sprint 3 complete |
+| `6569174` | Multi-bit encoding — Sprint 3 |
+| `5f749a6` | Correlated noise — Sprint 3 |
+| `375b134` | Sprint 2 complete — Classical baseline |
+| `d8b3cea` | Sprint 2 — General-$p$ validation |
+| `d656536` | **FINAL CLOSURE** (original project, Sprint 1) |
+
+---
+
+## 12. Next Steps
+
+Complete details with exact parameters, templates, and contact information are in `BACKLOG.md`. Summary:
+
+| Phase | Priority | Description |
+|:------|:---------|:------------|
+| **A** | CRITICAL | **Zenodo publication** — Upload `companion-paper.md` with specified metadata, assign DOI, cross-reference paper [1] |
+| **B** | HIGH | **Experimental outreach** — Contact 4 neutral atom labs (Harvard, Caltech, Pasqal, Innsbruck) with email templates, whitepaper, and hardware specification |
+| **C** | MEDIUM | **Computational extensions** — $p=5$, $d=5$ run; multi-bit with correlated noise; $p=7$, $d=4$ run (exact parameters specified) |
+| **D** | LOW | **Lean 4 formalization** — 3 theorems with proof strategies, file structures, and collaborator wishlist; requires Go/No-Go decision |
+| **E** | MEDIUM | **Documentation** — Git tag `v2.0.0`, clean temporary files, export cross-project learnings |
+
+---
+
+## Appendix A — Quick Reference Constants
+
+| Constant | Value |
+|:---------|:------|
+| $p=2$ (strict BT) barrier for bit 0 at $d=7$ | 128 |
+| $p=2$ (strict BT) barrier for bit 1 at $d=7$ | 2 |
+| $p=2$ (regular $p$-ary) barrier for bit 1 at any $d$ | 1 |
+| $p=3$ barrier at $d=7$ | 128 |
+| $p=3$ leaves at $d=7$ | 2,187 |
+| $p=5$ overhead vs $p=3$ at $d=7$ | 36× (78,125 vs 2,187) |
+| $p=7$ overhead vs $p=3$ at $d=7$ | 377× (823,543 vs 2,187) |
+| $p=11$ overhead vs $p=3$ at $d=7$ | 8,910× |
+| Near-term demonstration atoms | 40 ($d=3$) |
+| Barrier formula | $B(d) = \lceil p/2 \rceil^d$ |
+| Wilson 95% CI for zero errors at $n=2,000$ | $[0, 0.0019]$ |
+| Original paper [1] DOI | `10.5281/zenodo.20134944` |
+| Random seed | 42 |
+| Python version | 3.10+ |
+| Total MC trials | ~260,000 |
+| Total project files | 40 |
+
+---
+
+## Appendix B — Theorem 1: Universal Bruhat–Tits Asymmetry
+
+**Statement:** For every prime $p$, the strict Bruhat–Tits rooted tree contains nodes with an even number of children, at which majority-vote tie-breaking is required.
+
+**Proof:**
+
+The strict Bruhat–Tits tree for $\text{SL}(2, \mathbb{Q}_p)$ is an infinite $(p+1)$-regular tree — every vertex has exactly $p+1$ neighbors. When rooted at an arbitrary vertex to create a finite encoding architecture:
+
+- The **root** has all $p+1$ neighbors as children (since it has no "upward" neighbor).
+- **Internal nodes** at depth $\geq 1$ have exactly $p$ children (one neighbor is "up" toward the root, the other $p$ are "down" toward leaves).
+
+**Case 1:** $p = 2$. Internal nodes have $p = 2$ children → even. Ties occur at every internal node.
+
+**Case 2:** $p \geq 3$ (odd primes). $p$ is odd $\implies p+1$ is even → the root has an even number of children. Ties occur at the root.
+
+In both cases, the strict construction inevitably produces nodes with an even number of children. $\square$
+
+**Corollary:** The location of the asymmetry alternates with $p$:
+- $p = 2$: asymmetry at **internal nodes**
+- $p = 3, 5, 7, \ldots$: asymmetry at the **root**
+
+There is **no prime $p$** for which the strict Bruhat–Tits construction yields a tie-free tree. This motivates the regular $p$-ary deviation used throughout this project.
+
+---
+
+## Appendix C — References
+
+[1] R. B. Quni-Gudzinas, "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits," Zenodo, 2026. DOI: [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944).
+
+[2] F. Bruhat and J. Tits, "Groupes réductifs sur un corps local," *Publications Mathématiques de l'IHÉS*, vol. 41, pp. 5–251, 1972. (Original Bruhat–Tits tree construction.)
+
+[3] J.-P. Serre, *Trees*. Springer, 1980. (Standard reference on trees and buildings, including the Bruhat–Tits tree as a special case.)
+
+[4] R. B. Quni-Gudzinas, *The Thermodynamic Imperative: Quantitative Analysis of the Cooling Gap Limiting Dilution-Refrigerated Quantum Architectures*. Zenodo, 2025. DOI: [10.5281/zenodo.17928156](https://doi.org/10.5281/zenodo.17928156).
+
+[5] R. B. Quni-Gudzinas, "A 4-Kelvin Topological Quantum Processor Using Twisted Bi-2212 High-Temperature Superconductors," Zenodo, 2025. $[\text{VERIFY DOI — candidates: 10.5281/zenodo.17777649 or 10.5281/zenodo.17899087}]$
+
+[6] N. Koblitz, *$p$-adic Numbers, $p$-adic Analysis, and Zeta-Functions*, 2nd ed. Springer, 1984.
+
+
+---
+
+*All quantitative results [CODE-EXECUTED] (Python 3.10+, standard library, seed = 42). Platform assessments [LLM-INFERRED] — verify with target experimental groups before citing. This document is the archival master for the Ultrametric Error Confinement v2 project. For session handoff, see `PROJECT STATE.md`. For excruciatingly specific next steps, see `BACKLOG.md`.*

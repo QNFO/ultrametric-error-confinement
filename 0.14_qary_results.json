@@ -1,0 +1,800 @@
+{
+  "d2": {
+    "q2": {
+      "p": 3,
+      "q": 2,
+      "depth": 2,
+      "leaves": 9,
+      "barrier_adversarial": 4,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.462
+        },
+        {
+          "p_err": 0.1,
+          "errors": 1,
+          "n_trials": 500,
+          "ler": 0.002,
+          "avg_flips": 0.928
+        },
+        {
+          "p_err": 0.15,
+          "errors": 7,
+          "n_trials": 500,
+          "ler": 0.014,
+          "avg_flips": 1.36
+        },
+        {
+          "p_err": 0.2,
+          "errors": 15,
+          "n_trials": 500,
+          "ler": 0.03,
+          "avg_flips": 1.788
+        },
+        {
+          "p_err": 0.25,
+          "errors": 37,
+          "n_trials": 500,
+          "ler": 0.074,
+          "avg_flips": 2.276
+        },
+        {
+          "p_err": 0.3,
+          "errors": 63,
+          "n_trials": 500,
+          "ler": 0.126,
+          "avg_flips": 2.712
+        },
+        {
+          "p_err": 0.35,
+          "errors": 99,
+          "n_trials": 500,
+          "ler": 0.198,
+          "avg_flips": 3.192
+        },
+        {
+          "p_err": 0.4,
+          "errors": 152,
+          "n_trials": 500,
+          "ler": 0.304,
+          "avg_flips": 3.614
+        }
+      ]
+    },
+    "q3": {
+      "p": 3,
+      "q": 3,
+      "depth": 2,
+      "leaves": 9,
+      "barrier_adversarial": 4,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.462
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.928
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.36
+        },
+        {
+          "p_err": 0.2,
+          "errors": 1,
+          "n_trials": 500,
+          "ler": 0.002,
+          "avg_flips": 1.788
+        },
+        {
+          "p_err": 0.25,
+          "errors": 4,
+          "n_trials": 500,
+          "ler": 0.008,
+          "avg_flips": 2.276
+        },
+        {
+          "p_err": 0.3,
+          "errors": 10,
+          "n_trials": 500,
+          "ler": 0.02,
+          "avg_flips": 2.712
+        },
+        {
+          "p_err": 0.35,
+          "errors": 19,
+          "n_trials": 500,
+          "ler": 0.038,
+          "avg_flips": 3.192
+        },
+        {
+          "p_err": 0.4,
+          "errors": 38,
+          "n_trials": 500,
+          "ler": 0.076,
+          "avg_flips": 3.614
+        }
+      ]
+    },
+    "q5": {
+      "p": 3,
+      "q": 5,
+      "depth": 2,
+      "leaves": 9,
+      "barrier_adversarial": 4,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.462
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.928
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.36
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.788
+        },
+        {
+          "p_err": 0.25,
+          "errors": 1,
+          "n_trials": 500,
+          "ler": 0.002,
+          "avg_flips": 2.276
+        },
+        {
+          "p_err": 0.3,
+          "errors": 2,
+          "n_trials": 500,
+          "ler": 0.004,
+          "avg_flips": 2.712
+        },
+        {
+          "p_err": 0.35,
+          "errors": 2,
+          "n_trials": 500,
+          "ler": 0.004,
+          "avg_flips": 3.192
+        },
+        {
+          "p_err": 0.4,
+          "errors": 3,
+          "n_trials": 500,
+          "ler": 0.006,
+          "avg_flips": 3.614
+        }
+      ]
+    },
+    "q10": {
+      "p": 3,
+      "q": 10,
+      "depth": 2,
+      "leaves": 9,
+      "barrier_adversarial": 4,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.462
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 0.914
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.346
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.776
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 2.252
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 2.69
+        },
+        {
+          "p_err": 0.35,
+          "errors": 1,
+          "n_trials": 500,
+          "ler": 0.002,
+          "avg_flips": 3.204
+        },
+        {
+          "p_err": 0.4,
+          "errors": 2,
+          "n_trials": 500,
+          "ler": 0.004,
+          "avg_flips": 3.624
+        }
+      ]
+    }
+  },
+  "d3": {
+    "q2": {
+      "p": 3,
+      "q": 2,
+      "depth": 3,
+      "leaves": 27,
+      "barrier_adversarial": 8,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.314
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 2.69
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.04
+        },
+        {
+          "p_err": 0.2,
+          "errors": 2,
+          "n_trials": 500,
+          "ler": 0.004,
+          "avg_flips": 5.414
+        },
+        {
+          "p_err": 0.25,
+          "errors": 5,
+          "n_trials": 500,
+          "ler": 0.01,
+          "avg_flips": 6.766
+        },
+        {
+          "p_err": 0.3,
+          "errors": 21,
+          "n_trials": 500,
+          "ler": 0.042,
+          "avg_flips": 8.102
+        },
+        {
+          "p_err": 0.35,
+          "errors": 47,
+          "n_trials": 500,
+          "ler": 0.094,
+          "avg_flips": 9.398
+        },
+        {
+          "p_err": 0.4,
+          "errors": 97,
+          "n_trials": 500,
+          "ler": 0.194,
+          "avg_flips": 10.704
+        }
+      ]
+    },
+    "q3": {
+      "p": 3,
+      "q": 3,
+      "depth": 3,
+      "leaves": 27,
+      "barrier_adversarial": 8,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.314
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 2.69
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.04
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 5.414
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 6.766
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.102
+        },
+        {
+          "p_err": 0.35,
+          "errors": 1,
+          "n_trials": 500,
+          "ler": 0.002,
+          "avg_flips": 9.398
+        },
+        {
+          "p_err": 0.4,
+          "errors": 2,
+          "n_trials": 500,
+          "ler": 0.004,
+          "avg_flips": 10.704
+        }
+      ]
+    },
+    "q5": {
+      "p": 3,
+      "q": 5,
+      "depth": 3,
+      "leaves": 27,
+      "barrier_adversarial": 8,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.314
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 2.69
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.04
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 5.414
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 6.766
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.102
+        },
+        {
+          "p_err": 0.35,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 9.398
+        },
+        {
+          "p_err": 0.4,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 10.704
+        }
+      ]
+    },
+    "q10": {
+      "p": 3,
+      "q": 10,
+      "depth": 3,
+      "leaves": 27,
+      "barrier_adversarial": 8,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 1.318
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 2.678
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 3.982
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 5.416
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 6.814
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.116
+        },
+        {
+          "p_err": 0.35,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 9.45
+        },
+        {
+          "p_err": 0.4,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 10.672
+        }
+      ]
+    }
+  },
+  "d4": {
+    "q2": {
+      "p": 3,
+      "q": 2,
+      "depth": 4,
+      "leaves": 81,
+      "barrier_adversarial": 16,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.138
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.15
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 12.178
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 16.202
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 20.228
+        },
+        {
+          "p_err": 0.3,
+          "errors": 3,
+          "n_trials": 500,
+          "ler": 0.006,
+          "avg_flips": 24.174
+        },
+        {
+          "p_err": 0.35,
+          "errors": 15,
+          "n_trials": 500,
+          "ler": 0.03,
+          "avg_flips": 28.18
+        },
+        {
+          "p_err": 0.4,
+          "errors": 47,
+          "n_trials": 500,
+          "ler": 0.094,
+          "avg_flips": 32.438
+        }
+      ]
+    },
+    "q3": {
+      "p": 3,
+      "q": 3,
+      "depth": 4,
+      "leaves": 81,
+      "barrier_adversarial": 16,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.138
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.15
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 12.178
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 16.202
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 20.228
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 24.174
+        },
+        {
+          "p_err": 0.35,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 28.18
+        },
+        {
+          "p_err": 0.4,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 32.438
+        }
+      ]
+    },
+    "q5": {
+      "p": 3,
+      "q": 5,
+      "depth": 4,
+      "leaves": 81,
+      "barrier_adversarial": 16,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.138
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.15
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 12.178
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 16.202
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 20.228
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 24.174
+        },
+        {
+          "p_err": 0.35,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 28.18
+        },
+        {
+          "p_err": 0.4,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 32.438
+        }
+      ]
+    },
+    "q10": {
+      "p": 3,
+      "q": 10,
+      "depth": 4,
+      "leaves": 81,
+      "barrier_adversarial": 16,
+      "n_trials": 500,
+      "results": [
+        {
+          "p_err": 0.05,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 4.126
+        },
+        {
+          "p_err": 0.1,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 8.124
+        },
+        {
+          "p_err": 0.15,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 12.088
+        },
+        {
+          "p_err": 0.2,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 16.26
+        },
+        {
+          "p_err": 0.25,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 20.314
+        },
+        {
+          "p_err": 0.3,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 24.266
+        },
+        {
+          "p_err": 0.35,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 28.204
+        },
+        {
+          "p_err": 0.4,
+          "errors": 0,
+          "n_trials": 500,
+          "ler": 0.0,
+          "avg_flips": 32.408
+        }
+      ]
+    }
+  }
+}

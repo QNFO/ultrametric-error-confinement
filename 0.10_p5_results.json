@@ -1,0 +1,446 @@
+{
+  "p5_d2_bit0": {
+    "depth": 2,
+    "p": 5,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "barrier": 9,
+    "leaves": 25,
+    "results": [
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.25,
+        "errors": 1,
+        "n_trials": 500,
+        "ler": 0.002,
+        "ci_lower": 0.9887590072528046,
+        "ci_upper": 0.9996468726904154
+      },
+      {
+        "p_err": 0.3,
+        "errors": 14,
+        "n_trials": 500,
+        "ler": 0.028,
+        "ci_lower": 0.9535531794154484,
+        "ci_upper": 0.9832491806913788
+      },
+      {
+        "p_err": 0.35,
+        "errors": 45,
+        "n_trials": 500,
+        "ler": 0.09,
+        "ci_lower": 0.8816900083946269,
+        "ci_upper": 0.9320578044100325
+      },
+      {
+        "p_err": 0.4,
+        "errors": 95,
+        "n_trials": 500,
+        "ler": 0.19,
+        "ci_lower": 0.7732995724391238,
+        "ci_upper": 0.8419731640717161
+      }
+    ]
+  },
+  "p5_d2_bit1": {
+    "depth": 2,
+    "p": 5,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "barrier": 9,
+    "leaves": 25,
+    "results": [
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.25,
+        "errors": 1,
+        "n_trials": 500,
+        "ler": 0.002,
+        "ci_lower": 0.9887590072528046,
+        "ci_upper": 0.9996468726904154
+      },
+      {
+        "p_err": 0.3,
+        "errors": 14,
+        "n_trials": 500,
+        "ler": 0.028,
+        "ci_lower": 0.9535531794154484,
+        "ci_upper": 0.9832491806913788
+      },
+      {
+        "p_err": 0.35,
+        "errors": 45,
+        "n_trials": 500,
+        "ler": 0.09,
+        "ci_lower": 0.8816900083946269,
+        "ci_upper": 0.9320578044100325
+      },
+      {
+        "p_err": 0.4,
+        "errors": 95,
+        "n_trials": 500,
+        "ler": 0.19,
+        "ci_lower": 0.7732995724391238,
+        "ci_upper": 0.8419731640717161
+      }
+    ]
+  },
+  "p5_d3_bit0": {
+    "depth": 3,
+    "p": 5,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "barrier": 27,
+    "leaves": 125,
+    "results": [
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.35,
+        "errors": 2,
+        "n_trials": 500,
+        "ler": 0.004,
+        "ci_lower": 0.9855339859585811,
+        "ci_upper": 0.9989023924587627
+      },
+      {
+        "p_err": 0.4,
+        "errors": 20,
+        "n_trials": 500,
+        "ler": 0.04,
+        "ci_lower": 0.9390259449029252,
+        "ci_upper": 0.9739594060486436
+      }
+    ]
+  },
+  "p5_d3_bit1": {
+    "depth": 3,
+    "p": 5,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "barrier": 27,
+    "leaves": 125,
+    "results": [
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.35,
+        "errors": 2,
+        "n_trials": 500,
+        "ler": 0.004,
+        "ci_lower": 0.9855339859585811,
+        "ci_upper": 0.9989023924587627
+      },
+      {
+        "p_err": 0.4,
+        "errors": 20,
+        "n_trials": 500,
+        "ler": 0.04,
+        "ci_lower": 0.9390259449029252,
+        "ci_upper": 0.9739594060486436
+      }
+    ]
+  },
+  "p5_d4_bit0": {
+    "depth": 4,
+    "p": 5,
+    "logical_bit": 0,
+    "n_trials": 500,
+    "barrier": 81,
+    "leaves": 625,
+    "results": [
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.4,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      }
+    ]
+  },
+  "p5_d4_bit1": {
+    "depth": 4,
+    "p": 5,
+    "logical_bit": 1,
+    "n_trials": 500,
+    "barrier": 81,
+    "leaves": 625,
+    "results": [
+      {
+        "p_err": 0.05,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.1,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.15,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.2,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.25,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.3,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.35,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      },
+      {
+        "p_err": 0.4,
+        "errors": 0,
+        "n_trials": 500,
+        "ler": 0.0,
+        "ci_lower": 0.9923753814690964,
+        "ci_upper": 0.9999999999999999
+      }
+    ]
+  }
+}
