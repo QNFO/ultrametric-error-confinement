@@ -11,7 +11,7 @@
 - [ ] **Fresh-Claude reader test** — Blind testing with 7-question protocol (`0.8.md` §7.4). Critical self-review found I8-I12; blind test may catch more.
 
 ### MEDIUM Priority
-- [ ] **Empirical test design** — Pick one domain (phylogenetics, social networks, linguistics) and design a falsifiable test for triadic rigidity. Include: hypothesis, data source, methodology, success/failure criteria.
+- [x] **Empirical test design** — 0.9.md + 0.9.py (2026-05-15). Three test proposals (A/B/C). Test B prototype executed: TRI cleanly separates hierarchical (1.000) from non-hierarchical (0.135) structures. All permutation tests $p < 0.001$.
 - [ ] **CGF weakness mitigation** (§5.2): Draft plan for addressing empirical deficit (what data would test triadic rigidity?), physics minority position (engage with alternatives?), reader accessibility (glossary?).
 
 ### LOW Priority

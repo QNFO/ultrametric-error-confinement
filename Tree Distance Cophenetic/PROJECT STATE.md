@@ -1,7 +1,7 @@
 # PROJECT STATE — Tree Distance Cophenetic
 
 **Last Updated:** 2026-05-15 (Session 2 — Final Synthesis)
-**Current Phase:** Sprint 2 — Publication & Empirical Grounding. Sprint 1 complete (all deliverables verified). Zenodo upload and empirical test design are the next active tasks.
+**Current Phase:** Sprint 2 — Publication & Empirical Grounding. Task 3 (empirical test design) complete. Tasks 4-7 and blocked tasks (1-2) remain.
 **Active Branch:** `feature/tree-distance-cophenetic`
 
 ## Current State

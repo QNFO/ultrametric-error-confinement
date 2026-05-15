@@ -1,5 +1,19 @@
 # CHANGELOG — Tree Distance Cophenetic
 
+## 2026-05-15 — Empirical Test Design (Sprint 2, Task 3)
+
+### What Changed
+- **Created:** `0.9.md` — Empirical Test Design document: 3 tests (A: Phylogenetic sanity check, B: Hierarchy detection benchmark, C: Resolution-dependence). Full methodology, success criteria, failure modes.
+- **Created:** `0.9.py` — Python prototype implementing Test B: generates 4 synthetic datasets (tree, Gaussian mixture, Euclidean, random graph), computes Triadic Rigidity Index (TRI) for all ~20k triples, permutation tests with Cohen's d.
+- **Results:** TRI cleanly separates hierarchical (1.000) from non-hierarchical (0.135) structures. All permutation tests $p < 0.001$. Noise tolerance shown to be monotonic.
+- **Updated:** SPRINT.md (Task 3 marked complete), PROJECT STATE.md, CHANGELOG.md.
+
+### Git
+- Branch: `feature/tree-distance-cophenetic`
+- Commit: `[pending]`
+
+---
+
 ## 2026-05-15 — Sprint 2 Begins: Publication & Empirical Grounding
 
 ### What Changed
