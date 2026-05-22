@@ -9,10 +9,10 @@ Artifact complete. Ready for deploy.
 - [x] Build interactive artifact
 - [x] Add .nojekyll file
 - [x] Add README.md
-- [ ] Deploy to GitHub Pages
-- [ ] Verify live URL
-- [ ] Report to QWAV agent
+- [x] Deploy to GitHub Pages
+- [x] Verify live URL
+- [x] Report to QWAV agent
 
 ## Next Action
 
-Deploy to GitHub Pages.
+None. All tasks complete.
