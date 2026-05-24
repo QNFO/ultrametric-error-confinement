@@ -1,19 +1,17 @@
-# PROJECT STATE -- ultrametric-error-confinement-demo
+# ⚠️ DEPRECATED -- Migrated to GitHub-Native Features
 
-**Project:** ultrametric-error-confinement-demo
-**Description:** Interactive Bruhat-Tits tree simulation -- error suppression demo
-**Type:** QWAV Spinoff -- Interactive Artifact (D13)
-**Status:** BUILT -- Ready for deploy
-**Created:** 2026-05-22
+**This file is superseded by GitHub-native project management tools.**
 
-## Current Status
+All QNFO repos now use GitHub-native features for project management:
+- **Wiki** for persistent documentation (charter, learnings, DoD, state)
+- **Issues** for backlog, risks, and tasks with priority labels
+- **Projects** for sprint/kanban tracking
+- **Discussions** for decisions and announcements
+- **Releases** for versioned changelogs
 
-Artifact is built (index.html + .nojekyll). Single HTML file, vanilla JS.
-Ready for GitHub Pages deployment.
+See the [QWAV Wiki](https://github.com/QNFO/QWAV/wiki) for the reference implementation.
+See the [QNFO org Projects](https://github.com/orgs/QNFO/projects) for cross-project tracking.
 
-## Next Steps
+**This file will not be updated. Do not edit.**
 
-1. Push to GitHub under QNFO org
-2. Enable GitHub Pages in repo settings
-3. Verify live URL
-4. Report back to QWAV agent with URL
+*Migrated 2026-05-24 during org-wide PM file deprecation.*
